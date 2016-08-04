@@ -1,0 +1,14 @@
+65 d1ztxe1 Probab=7.10    E-value=2e+02  Score=10.72  Aligned_columns=18  Identities=17%
+
+Q ss_pred             CCCCCCEEECCCCCCEEE
+Q ss_conf             113882132276653231
+Q batch____       380 LSANPYTVAKDEKEARII  397 (427)
+Q Consensus       380 Ls~NP~~~~~~~~~~~~i  397 (427)
+                      +.+||+.++....+..+|
+T Consensus        57 IT~NPivta~~~n~~v~I   74 (101)
+T d1ztxe1          57 VTVNPFVSVATANAKVLI   74 (101)
+T ss_dssp             SSSSCEECCSSSSEEEEE
+T ss_pred             EECCCEEEECCCCCEEEE
+T ss_conf             823840342057760799
+
+

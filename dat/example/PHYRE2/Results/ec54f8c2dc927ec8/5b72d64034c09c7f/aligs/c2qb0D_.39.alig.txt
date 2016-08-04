@@ -1,0 +1,14 @@
+39 c2qb0D_ Probab=9.86    E-value=1.5e+02  Score=11.44  Aligned_columns=24  Identities=21%
+
+Q ss_pred             CEEEEEECCCCCCEEEEEEECCCCCCC
+Q ss_conf             649998056887589999831578731
+Q batch____       308 GLPVFCDVNSPLDYVTVGVKENYGGKE  334 (427)
+Q Consensus       308 g~~Vy~D~ya~~dY~~vG~K~~~G~~~  334 (427)
+                      ++++|.|   +.-|.|+||-|.+...+
+T Consensus        93 r~~~Y~D---s~G~~TIGyGH~i~~~~  116 (241)
+T c2qb0D_          93 RLKIYKD---TEGYYTIGIGHLLTKSP  116 (241)
+T ss_dssp             EEEEEEC---SSSCEEEETTEEEESCC
+T ss_pred             CCCEEEC---CCCCEEEEEEEEECCCC
+T ss_conf             3212247---89950243410105663
+
+

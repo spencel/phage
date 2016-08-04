@@ -1,0 +1,14 @@
+92 c2d49A_ Probab=5.53    E-value=2.4e+02  Score=10.18  Aligned_columns=21  Identities=24%
+
+Q ss_pred             HHHHCCCCCCEECCCCCEEEE
+Q ss_conf             331001233100147712566
+Q batch____        89 SKTQTLAVGDYFKYQNVVYKA  109 (427)
+Q Consensus        89 ~~~~~~~~Gd~fk~~~~vy~v  109 (427)
+                      .++++|..||+-.+++.+|++
+T Consensus         8 ~~~~vY~~Gd~V~~~g~~y~A   28 (53)
+T c2d49A_           8 SSSSVYTNGGTVSYNGRNYTA   28 (53)
+T ss_dssp             CTTSCBCTTCEEEETTEEEEC
+T ss_pred             CCCCEECCCCEEEECCEEEEE
+T ss_conf             865604578889988907998
+
+

@@ -1,0 +1,619 @@
+# Description | Job id | Hit | Confidence (%) | Sequence identity (%) | Alignment coverage (%) | Hit info 1 | Hit info 2 | Hit info 3
+	760732.3	Acinetobacter_phage_Acj61.	 | 7af0e00ca26cc98f | c1yueA_ | 100.0 | 56 | 96 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	10677.1	Enterobacteria_phage_Mu	 | 8eaac23babf1a968 | d2ft1a1 | 81.2 | 15 | 28 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1177632	Salmonella_phage_SSU5	 | 1f9a901b0cef4f37 | c1f00I_ | 99.6 | 20 | 54 |1.90 | PDB header:cell adhesion | Chain: I: PDB Molecule:intimin;
+	279281.3	Bacteriophage_phi_AT3	 | 18e50ea864651030 | c3jvoA_ | 99.9 | 9 | 76 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	10754.1	Enterobacteria_phage_P22	 | 41fe022ba4275148 | c5f15A_ | 98.1 | 10 | 97 |3.20 | PDB header:transferase | Chain: A: PDB Molecule:4-amino-4-deoxy-l-arabinose (l-ara4n) transferase;
+	1432658	1432658.3.Enterococcus_phage_IME-EF4.18505678	 | c656d3ba10aa90d9 | d2pbka1 | 93.8 | 16 | 49 | Herpes virus serine proteinase, assemblin | Herpes virus serine proteinase, assemblin | Herpes virus serine proteinase, assemblin
+	754038.3	Synechococcus_phage_S-CAM8_strain_S-CAM8_06008BI06	 | a2008a41b22364a9 | c5e7tA_ | 36.4 | 22 | 26 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:minor structural protein 4;
+	1458669	1458669.3.Acinetobacter_phage_IME_AB3.18504987	 | 1e37b9fa805d4b94 | c3k5bB_ | 60.7 | 18 | 38 |3.10 | PDB header:hydrolase | Chain: B: PDB Molecule:v-type atp synthase, subunit (vapc-therm);
+	1162304	Clostridium_phage_phiCP7R	 | f311b4d080c846aa | c2lv4A_ | 62.0 | 44 | 35 |UNK | PDB header:protein binding | Chain: A: PDB Molecule:putative outer membrane or exported protein;
+	293178.2	T4-like_viruses_Enterobacteria_phage_JS98	 | 048984d2ff2540f7 | d1paza_ | 18.1 | 33 | 36 | Cupredoxin-like | Cupredoxins | Plastocyanin/azurin-like
+	151536.1	Bacteriophage_bIL286	 | 7f57316b0b9bced3 | c3jvoA_ | 99.8 | 20 | 80 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	10724.1	Bacteriophage_SPP1	 | 2c720d2b3aa26f7d | c3rl0j_ | 66.7 | 44 | 41 |3.80 | PDB header:membrane protein/exocytosis | Chain: J: PDB Molecule:syntaxin-1a;
+	632112.2	Myoviridae_Lactobacillus_phage_Lb338-1	 | e916da52d028975a | c3htrB_ | 22.3 | 17 | 58 |2.06 | PDB header:structural genomics, unknown function | Chain: B: PDB Molecule:uncharacterized prc-barrel domain protein;
+	697227.5	Enterobacteria_phage_IME08	 | 28a6d160ae20c0fd | d1mk0a_ | 99.8 | 26 | 39 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	1567025	1567025.3.Salmonella_phage_HB-2014.24725689	 | 0149fb028208873d | d1z2ua1 | 63.8 | 23 | 43 | UBC-like | UBC-like | UBC-related
+	1327939	Mycobacterium_phage_Murphy	 | 7a757654e1e3adc9 | c2oinD_ | 7.2 | 86 | 10 |2.50 | PDB header:hydrolase | Chain: D: PDB Molecule:ns4a peptide;
+	205879.1	Mycobacteriophage_Omega	 | cfa48b44ae35c411 | d2ft1a1 | 100.0 | 22 | 65 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1561065.5	1561065.5.Paracoccus_phage_vB_PmaS_IMEP1.23681324	 | 15fab3323ff59dfc | d1u7pa_ | 28.0 | 40 | 9 | HAD-like | HAD-like | Magnesium-dependent phosphatase-1, Mdp1
+	1391179	Mycobacterium_phage_Bruin	 | 93a9c21bf4478c50 | c3ia0c_ | 21.2 | 44 | 26 |2.50 | PDB header:structural protein | Chain: C: PDB Molecule:ethanolamine utilization protein euts;
+	151535.1	Bacteriophage_bIL285	 | 16a12eb58eb72127 | c1ga8A_ | 89.6 | 14 | 30 |2.00 | PDB header:transferase | Chain: A: PDB Molecule:galactosyl transferase lgtc;
+	1391431	Mycobacterium_phage_Conspiracy	 | e125310f5fec1506 | d1xn8a_ | 89.9 | 22 | 73 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	373405.2	Siphoviridae_Mycobacterium_phage_Che12	 | 19fde029add45cbe | d1wgra_ | 41.5 | 19 | 50 | beta-Grasp (ubiquitin-like) | Ubiquitin-like | Ras-binding domain, RBD
+	1486472	1486472.4.Mycobacterium_phage_Gaia.23679512_capsid_only	 | 380b54a9b7fa6982 | c1mhmA_ | 63.5 | 14 | 22 |2.30 | PDB header:lyase | Chain: A: PDB Molecule:s-adenosylmethionine decarboxylase;
+	136084.1	Roseophage_SIO1	 | 8e464049942c1cd5 | c2yukA_ | 16.6 | 48 | 16 |UNK | PDB header:transferase | Chain: A: PDB Molecule:myeloid/lymphoid or mixed-lineage leukemia
+	555603.2	Siphoviridae_Mycobacterium_phage_Solon	 | b7bdf85f285d0580 | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	173707.1	Temperate_phage_PhiNIH1.1	 | 27c9e24a962b4be6 | c3sukB_ | 16.6 | 36 | 11 |1.34 | PDB header:unknown function | Chain: B: PDB Molecule:cerato-platanin-like protein;
+	1032892	Mycobacterium_phage_HelDan	 | 511c96113ff325db | c4fwvA_ | 33.3 | 35 | 42 |2.40 | PDB header:hydrolase | Chain: A: PDB Molecule:ttc1975 peptidase;
+	329254.2	Siphoviridae_Xanthomonas_phage_OP1	 | 9ff0ddfc3ef80f4d | c3jvoA_ | 100.0 | 26 | 93 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	407392.2	Myoviridae_Thermus_phage_phiYS40	 | 3254d0097d6e950f | c4cgkA_ | 97.0 | 13 | 38 |2.55 | PDB header:cell cycle | Chain: A: PDB Molecule:secreted 45 kda protein;
+	1503929	1503929.3.Aurantimonas_phage_AmM-1_DNA.24625410	 | f8dae36898f4ec09 | c2outA_ | 86.9 | 39 | 46 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1211642	Caulobacter_phage_CcrMagneto	 | 39bd46138b1dc9a4 | d1lf6a2 | 33.2 | 21 | 52 | Supersandwich | Galactose mutarotase-like | Bacterial glucoamylase N-terminal domain-like
+	28358.2	Siphoviridae_Corynebacterium_phage_BFK20	 | 97de2e02204c473e | c2mmvA_ | 22.0 | 33 | 29 |UNK | PDB header:cell cycle | Chain: A: PDB Molecule:cell division protein zapa;
+	1458859	1458859.3.Shewanella_sp._phage_1/4.22110507	 | baa68314313545e0 | d1qm4a2 | 31.2 | 29 | 30 | S-adenosylmethionine synthetase | S-adenosylmethionine synthetase | S-adenosylmethionine synthetase
+	1195069	Mycobacteriophage_ElTiger69	 | 55ff0edc7932ed8e | d1qb3a_ | 52.5 | 25 | 18 | Cell cycle regulatory proteins | Cell cycle regulatory proteins | Cell cycle regulatory proteins
+	1434319	1434319.3.Staphylococcus_phage_vB_SepS_SEP9.18504245	 | e8e2e36678f2b9ec | c3i3vC_ | 21.6 | 17 | 29 |2.30 | PDB header:transport protein | Chain: C: PDB Molecule:probable secreted solute-binding lipoprotein;
+	1073766	Enterococcus_phage_SAP6	 | fdab419e43956457 | c3vopC_ | 44.5 | 30 | 9 |2.20 | PDB header:viral protein | Chain: C: PDB Molecule:protein a27;
+	1445860	1445860.3.Salmonella_phage_STP4-a.23681181	 | 5b72d64034c09c7f | c1yueA_ | 100.0 | 70 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1325372	Edwardsiella_phage_PEi21	 | 21e7fbd76cf53cb9 | c2muaA_ | 62.9 | 58 | 24 |UNK | PDB header:immune system | Chain: A: PDB Molecule:ring-infected erythrocyte surface antigen;
+	173443.1	Salmonella_typhimurium_bacteriophage_ST64T	 | 5119f12987332708 | c3fmtF_ | 56.9 | 27 | 11 |2.98 | PDB header:replication inhibitor/dna | Chain: F: PDB Molecule:protein seqa;
+	1076136	Mycobacterium_phage_Perseus	 | cba42b76cb910b45 | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	1273740	Bacillus_phage_Curly	 | 2785b4a672b15d45 | c4oydB_ | 59.0 | 42 | 47 |1.80 | PDB header:viral protein/inhibitor | Chain: B: PDB Molecule:computationally designed inhibitor;
+	431891.2	unclassified_Lambda-like_viruses_Burkholderia_phage_phi644-2	 | d4b1b547005e67f1 | c3anwA_ | 22.3 | 28 | 45 |2.65 | PDB header:replication | Chain: A: PDB Molecule:putative uncharacterized protein;
+	10704.2	Siphoviridae_Rhizobium_phage_16-3	 | df2da9002aee77b7 | d2ft1a1 | 100.0 | 18 | 68 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1225789	Enterobacteria_phage_SfI	 | e121dd02834c7c02 | c3u1wB_ | 32.7 | 20 | 43 |2.00 | PDB header:metal binding protein | Chain: B: PDB Molecule:hypothetical periplasmic protein;
+	72638.1	Streptococcus_thermophilus_bacteriophage_Sfi19	 | 9c3933ce18db7dc3 | c3jvoA_ | 99.9 | 20 | 86 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1233488	Vibrio_phage_vpms1	 | f6de27b03dc4db8b | c4hrvB_ | 23.5 | 23 | 58 |1.89 | PDB header:lipid binding protein | Chain: B: PDB Molecule:putative lipoprotein gna1162;
+	1165702	Staphylococcus_phage_phi7401PVL_DNA	 | 8a60187861deda50 | c3jvoA_ | 99.0 | 17 | 77 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1391429	Mycobacterium_phage_Artemis2UCLA	 | 652adb865559961e | d1fiua_ | 23.4 | 13 | 44 | Restriction endonuclease-like | Restriction endonuclease-like | Restriction endonuclease NgoIV
+	227940.1	Bacteriophage_L-413C	 | fe0a0a0997e36d40 | d1elra_ | 97.9 | 15 | 50 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	1357732	Anabaena_phage_A-4L	 | 5271e164990258b0 | c2marA_ | 44.6 | 14 | 34 |UNK | PDB header:unknown function | Chain: A: PDB Molecule:sxp/ral-2 family protein;
+	1340825	Mycobacterium_phage_Trouble	 | 32ab1c2745ff889f | c4qkvB_ | 44.8 | 38 | 26 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	1273738	Escherichia_phage_PBECO_4	 | 37a62dc41b08a832 | c2efrB_ | 56.1 | 10 | 41 |1.80 | PDB header:contractile protein | Chain: B: PDB Molecule:general control protein gcn4 and tropomyosin 1 alpha chain;
+	1540097	1540097.3.Escherichia_phage_Pollock.24724603	 | 670aff29548aad79 | d1n3ka_ | 78.0 | 20 | 16 | DEATH domain | DEATH domain | DEATH effector domain, DED
+	1176425	Mycobacterium_phage_ICleared	 | dea97c263d3a7398 | d1lv3a_ | 18.5 | 63 | 10 | Glucocorticoid receptor-like (DNA-binding domain) | Glucocorticoid receptor-like (DNA-binding domain) | Hypothetical zinc finger protein YacG
+	1093672	Pseudomonas_phage_JBD26	 | 3974e3b75cbb7acd | d2outa2 | 97.8 | 38 | 57 | GINS/PriA/YqbF domain | PriA/YqbF domain | YqbF N-terminal domain-like
+	1567466	1567466.3.Mycobacterium_phage_Alvin.23681603	 | ce379fb682faa559 | c2joaA_ | 17.7 | 22 | 4 |UNK | PDB header:protein binding | Chain: A: PDB Molecule:serine protease htra1;
+	1327774	Mycobacterium_phage_Phrux	 | 17dca11ef78b770c | c2oinD_ | 7.2 | 86 | 10 |2.50 | PDB header:hydrolase | Chain: D: PDB Molecule:ns4a peptide;
+	1161901	Bacillus_phage_PBC1	 | 713d03432108cf56 | c3v67B_ | 76.5 | 50 | 15 |2.30 | PDB header:signaling protein | Chain: B: PDB Molecule:sensor protein cpxa;
+	320849.3	Bacteriophage_92	 | 801001b5636fd30e | c2outA_ | 97.3 | 20 | 45 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	10665.1	Enterobacteria_phage_T4	 | 568d53e66c6ee46e | c1yueA_ | 100.0 | 25 | 82 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	445685.6	Synechococcus_phage_S-SSM5	 | 2c90f164bf40cd44 | d2ay0a1 | 51.6 | 44 | 29 | Ribbon-helix-helix | Ribbon-helix-helix | PutA pre-N-terminal region-like
+	238854.4	Bacteriophage_S-PM2	 | 55122f9653b77eee | c3tbmA_ | 22.6 | 42 | 20 |1.80 | PDB header:metal binding protein | Chain: A: PDB Molecule:putative uncharacterized protein;
+	458639.2	Myoviridae_Bacillus_phage_0305phi8-36	 | 8bf04e8fdfaa68aa | d2fsqa1 | 36.6 | 22 | 23 | LigT-like | LigT-like | Atu0111-like
+	255431.1	Bacteriophage_phiKO2	 | 2a14d9c8616b2af7 | c4ue9B_ | 28.0 | 67 | 5 |2.15 | PDB header:translation | Chain: B: PDB Molecule:eukaryotic translation initiation factor 4e transporter;
+	374525.2	Siphoviridae_Lactococcus_phage_ul36.k1	 | e0ca3650a0abc0e0 | c2kbzA_ | 97.6 | 20 | 81 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:15 protein (bacteriophage spp1 complete
+	1486423	1486423.3.Lactoccocus_phage_WP-2.19488307	 | 5d7a8e9c0c9a0c9d | d1uyla_ | 10.1 | 33 | 23 | ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase | ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase | Heat shock protein 90, HSP90, N-terminal domain
+	633135.2	Streptococcus_phage_Abc2	 | 799b759a0b014a92 | c3jvoA_ | 99.9 | 17 | 86 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1458862	1458862.3.Shewanella_sp._phage_1/44.22112607	 | 6abf26b8195e7218 | d2chha1 | 36.9 | 26 | 53 | Calcium-mediated lectin | Calcium-mediated lectin | Calcium-mediated lectin
+	292029.3	Bacteriophage_G1	 | be5b941567c6aced | c1wrgA_ | 18.3 | 38 | 15 |UNK | PDB header:membrane protein | Chain: A: PDB Molecule:light-harvesting protein b-880, beta chain;
+	508419.3	Lactobacillus_phage_c5	 | 91af8265d9dd9ad0 | c3p9aI_ | 73.7 | 30 | 65 |1.75 | PDB header:dna binding protein | Chain: I: PDB Molecule:dna-packaging protein gp3;
+	1481112	1481112.3.Serratia_phage_PS2.19485064	 | 9bbed7b42d6d88a8 | c1yueA_ | 100.0 | 44 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	55884.1	Shigella_phage_SfV	 | 8d15b26523cf4202 | d2ft1a1 | 100.0 | 15 | 70 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	406340.2	P2-like_viruses_Ralstonia_phage_phiRSA1	 | 138f33db16eadbb1 | d1elra_ | 96.9 | 17 | 56 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	1206558	Yersinia_phage_phiR1-RT	 | ff055e7d3d4df2da | c3r3pB_ | 99.1 | 29 | 20 |2.20 | PDB header:hydrolase | Chain: B: PDB Molecule:mobile intron protein;
+	431893.2	P2-like_viruses_Burkholderia_phage_phiE202	 | bf27c87a570cba5f | c1ei3E_ | 60.4 | 8 | 27 |5.50 | PDB header:blood clotting | Chain: E: PDB Molecule:fibrinogen;
+	1282994	Burkholderia_phage_ST79	 | fe800509e1ab418f | d1elra_ | 96.9 | 12 | 52 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	320845.3	Bacteriophage_55	 | 3893aa4df5b4d1e0 | c2a8vA_ | 97.3 | 26 | 30 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	103216.1	Bacteriophage_WPhi	 | a443c4ce2735f874 | d2ft1a1 | 94.7 | 11 | 87 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1399915	Pectobacterium_phage_PM1	 | 0ddf8db9e64ead7b | c2csdB_ | 44.8 | 18 | 38 |2.90 | PDB header:isomerase | Chain: B: PDB Molecule:topoisomerase v;
+	1458857	1458857.3.Listeria_phage_LP-114.19736281	 | e2248e9ec1cf97a2 | d1erna2 | 93.4 | 20 | 92 | Immunoglobulin-like beta-sandwich | Fibronectin type III | Fibronectin type III
+	1498204	1498204.3.Mycobacterium_phage_Pinto.19686348	 | 088d2b65517c907a | d1fyja_ | 52.8 | 29 | 51 | S15/NS1 RNA-binding domain | S15/NS1 RNA-binding domain | a tRNA synthase domain
+	403905.2	Siphoviridae_Streptococcus_phage_P9	 | f7f2a465cdae8bc4 | c2kbzA_ | 97.9 | 17 | 80 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:15 protein (bacteriophage spp1 complete
+	857312.3	Brochothrix_phage_A9	 | a7c2b8df094bada9 | d1ukfa_ | 20.2 | 36 | 16 | Cysteine proteinases | Cysteine proteinases | Avirulence protein Avrpph3
+	1235659	Staphylococcus_phage_vB_SauM_Remus	 | fff7442e26bbfe3e | c2wssT_ | 25.8 | 41 | 20 |3.20 | PDB header:hydrolase | Chain: T: PDB Molecule:atp synthase subunit b, mitochondrial;
+	1194642	Mycobacterium_phage_Nepal	 | 913ff03b6b8949df | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	1168594	Mycobacterium_phage_Avani	 | 1a88aeee4f757d71 | d2k49a2 | 24.7 | 35 | 34 | YegP-like | YegP-like | YegP-like
+	114416.1	Lactococcus_lactis_bacteriophage_ul36	 | ddb2345ade8f3d78 | c4bmlA_ | 81.7 | 17 | 54 |4.70 | PDB header:virus | Chain: A: PDB Molecule:major capsid protein;
+	40523.2	unclassified_SPO1-like_viruses_Listeria_phage_A511	 | 797eda6be10f5ec5 | 
+	1486658	1486658.3.Bacillus_phage_Evoli.19525424	 | ca174d15a5e2e83c | c2yewG_ | 13.3 | 54 | 32 |5.00 | PDB header:virus | Chain: G: PDB Molecule:capsid protein;
+	1486421	1486421.3.Listeria_phage_LMSP-25.19685114	 | 3ca03b3a124767c5 | c3sjaG_ | 8.8 | 21 | 20 |3.00 | PDB header:hydrolase/transport protein | Chain: G: PDB Molecule:golgi to er traffic protein 1;
+	665033.2	Escherichia_phage_D108	 | 5dffa13a0f303999 | c2outA_ | 100.0 | 24 | 76 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	540066.2	Siphoviridae_Mycobacterium_phage_KBG	 | 2282dc3831fcf893 | d1fyja_ | 49.4 | 29 | 51 | S15/NS1 RNA-binding domain | S15/NS1 RNA-binding domain | a tRNA synthase domain
+	934027.3	Campylobacter_phage_NCTC12673	 | fec2ef0ab2fedbd2 | c4dvyP_ | 51.7 | 36 | 43 |3.30 | PDB header:oncoprotein | Chain: P: PDB Molecule:cytotoxicity-associated immunodominant antigen;
+	1327938	Mycobacterium_phage_ArcherS7	 | 3dd8924d5ddb848a | c2wshC_ | 51.7 | 17 | 21 |1.90 | PDB header:hydrolase | Chain: C: PDB Molecule:endonuclease ii;
+	10747.1	Streptococcus_phage_Cp-1	 | 86d32d120097d88f | c4acrA_ | 30.1 | 27 | 51 |2.55 | PDB header:membrane protein | Chain: A: PDB Molecule:glypican-1;
+	1197935	Enterobacteriaphage_UAB_Phi87	 | e616bc4436afadd1 | c2vqkA_ | 23.3 | 37 | 23 |4.2  | PDB header:membrane protein | Chain: A: PDB Molecule:uncharacterized protein cgl0972;
+	1231048	Pseudomonas_phage_vB_PaeM_C2-10_Ab1	 | a962d2734bbd0d4f | c2ebbA_ | 63.0 | 36 | 22 |1.60 | PDB header:lyase | Chain: A: PDB Molecule:pterin-4-alpha-carbinolamine dehydratase;
+	1495285	1495285.3.Escherichia_phage_e11/2.19485325	 | 7735166482e4318b | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	221915.7	Staphylococcus_phage_K	 | 420a3a14ed3d4451 | c1wrgA_ | 18.3 | 38 | 15 |UNK | PDB header:membrane protein | Chain: A: PDB Molecule:light-harvesting protein b-880, beta chain;
+	221915.9	Staphylococcus_phage_K,_complete_genome	 | be878689efb9cd4d | c1wrgA_ | 18.3 | 38 | 15 |UNK | PDB header:membrane protein | Chain: A: PDB Molecule:light-harvesting protein b-880, beta chain;
+	1262514	Pseudomonas_phage_MPK6	 | 4e949ab43758084e | c3j4bB_ | 100.0 | 22 | 94 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	424947.3	Salmonella_phage_SETP7	 | 41f43406414063d4 | c3qc7A_ | 97.5 | 64 | 89 |1.52 | PDB header:viral protein | Chain: A: PDB Molecule:head fiber protein;
+	120574.1	Streptococcus_pneumoniae_bacteriophage_MM1	 | b042f4774a796d46 | c4bmlA_ | 67.0 | 17 | 52 |4.70 | PDB header:virus | Chain: A: PDB Molecule:major capsid protein;
+	186152.1	Staphylococcus_aureus_phage_phi_12	 | cc2eaeff08cde324 | c2kz4A_ | 99.7 | 12 | 98 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:putative head-tail adaptor;
+	1536611	1536611.3.Yersinia_phage_vB_YenP_AP5.22112024	 | c39ba23a205a5ae2 | d1b4ua_ | 18.6 | 47 | 35 | LigA subunit of an aromatic-ring-opening dioxygenase LigAB | LigA subunit of an aromatic-ring-opening dioxygenase LigAB | LigA subunit of an aromatic-ring-opening dioxygenase LigAB
+	646413.2	Siphoviridae_Streptococcus_phage_5093	 | 269a569ac43f0f8f | d1xn8a_ | 97.1 | 14 | 74 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	1204516	Aeromonas_phage_CC2	 | 0428f24bbee23231 | d1wxxa1 | 11.9 | 58 | 4 | PUA domain-like | PUA domain-like | Hypothetical RNA methyltransferase domain (HRMD)
+	1296662	Brevibacillus_phage_Davies	 | 8fd2e8425f0b2e4d | c1jeqA_ | 90.4 | 25 | 64 |2.70 | PDB header:dna binding protein | Chain: A: PDB Molecule:ku70;
+	1340821	Mycobacteriophage_Velveteen	 | 077e26d21c989eb3 | c3jvoA_ | 87.3 | 13 | 69 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1383054	Mycobacteriophage_Wheeler	 | 84dd3924a536ca66 | c2joaA_ | 17.5 | 22 | 4 |UNK | PDB header:protein binding | Chain: A: PDB Molecule:serine protease htra1;
+	1129192	Bacillus_phage_BCP8-2	 | 8f039e119ded6fd4 | 
+	35345.1	Lactococcus_lactis_bacteriophage_TP901-1	 | 7721a575ecd67194 | c2outA_ | 95.0 | 39 | 56 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	103807.1	Bacteriophage_P27	 | 3bd0002bfb7d3572 | d2ft1a1 | 100.0 | 21 | 72 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	43685.1	Bacteriophage_r1t	 | 7bdf417095f7bab4 | d2ft1a1 | 100.0 | 19 | 97 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	388452.2	Podoviridae_Lactococcus_phage_KSY1	 | df8b0f8378f8f764 | c1qw1A_ | 48.1 | 32 | 25 |UNK | PDB header:gene regulation | Chain: A: PDB Molecule:diphtheria toxin repressor;
+	1555238	1555238.3.Escherichia_phage_vB_EcoM-VpaE1.24722075	 | da8188d9206155af | d1z2ua1 | 63.8 | 23 | 43 | UBC-like | UBC-like | UBC-related
+	1262513	Serratia_phage_phiMAM1	 | ac0cab2000095458 | d1n62a1 | 23.3 | 36 | 19 | CO dehydrogenase ISP C-domain like | CO dehydrogenase ISP C-domain like | CO dehydrogenase ISP C-domain like
+	1527513	1527513.3.Mycobacterium_phage_Minerva.23678714	 | e070b0be560b4623 | c4hg6A_ | 99.9 | 20 | 76 |3.25 | PDB header:transferase | Chain: A: PDB Molecule:cellulose synthase subunit a;
+	1049283	Acinetobacter_phage_ZZ1	 | 5d2040b9bcede164 | 
+	39103.3	Lactobacillus_phage_PL-1	 | 86264e5480786630 | d2ft1a1 | 100.0 | 17 | 53 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1458724	1458724.3.Mycobacterium_phage_Alsfro.18938453	 | 1e66fae0b589c091 | c3he4A_ | 34.3 | 56 | 20 |2.46 | PDB header:de novo protein | Chain: A: PDB Molecule:synzip6;
+	700939.3	Enterobacteria_phage_vB_EcoM-VR7	 | 0fce118b0a24a2b3 | c3si5X_ | 62.2 | 58 | 11 |2.20 | PDB header:cell cycle | Chain: X: PDB Molecule:protein casc5;
+	1141139	Enterobacteria_phage_vB_EcoP_ACG-C91	 | 4160322cfc5815df | c3j4bB_ | 100.0 | 20 | 75 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	1195086	Staphylococcus_phage_SA13	 | 05c9c3761d52dc99 | c2outA_ | 97.3 | 20 | 45 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1225794	Lactobacillus_phage_ATCC_8014-B1	 | e42baf145c4d3f86 | c2mh4A_ | 99.6 | 19 | 96 |UNK | PDB header:unknown function | Chain: A: PDB Molecule:ligb-like protein;
+	1340713	Mycobacterium_phage_Wanda	 | 55a257ea37905895 | c4hg6A_ | 99.9 | 20 | 76 |3.25 | PDB header:transferase | Chain: A: PDB Molecule:cellulose synthase subunit a;
+	764561.3	Brochothrix_phage_NF5	 | cd1807524251b7be | c2l04A_ | 99.6 | 38 | 93 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:major tail protein v;
+	1327934	Cronobacter_phage_CR8	 | 91f08a1ae78b7841 | c3jyw8_ | 31.7 | 23 | 22 |8.90 | PDB header:ribosome | Chain: 8: PDB Molecule:60s ribosomal protein lp0;
+	910475.3	Burkholderia_phage_KS14	 | c95ff78b44d6237a | c1ei3C_ | 58.4 | 12 | 28 |5.50 | PDB header:blood clotting | Chain: C: PDB Molecule:fibrinogen;
+	663557.2	Mycobacterium_phage_Peaches	 | 0f51f744abebc069 | d1lv3a_ | 18.5 | 63 | 10 | Glucocorticoid receptor-like (DNA-binding domain) | Glucocorticoid receptor-like (DNA-binding domain) | Hypothetical zinc finger protein YacG
+	754046.3	Sulfitobacter_phage_phiCB2047-B	 | f2072cefd81223ab | c2m86A_ | 46.8 | 35 | 10 |UNK | PDB header:protein binding/signaling protein | Chain: A: PDB Molecule:mco-pmi;
+	1445715	1445715.3.Mycobacterium_phage_Obama12.18503767	 | 004dfa4de5cb8204 | d1lv3a_ | 15.7 | 63 | 10 | Glucocorticoid receptor-like (DNA-binding domain) | Glucocorticoid receptor-like (DNA-binding domain) | Hypothetical zinc finger protein YacG
+	1262539	Vibrio_phage_VH7D	 | 787485075c94164d | c2k89A_ | 42.7 | 20 | 14 |UNK | PDB header:protein binding | Chain: A: PDB Molecule:phospholipase a-2-activating protein;
+	186153.1	Staphylococcus_aureus_phage_phi_13	 | afc73d8d062d0794 | d2ft1a1 | 100.0 | 14 | 67 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	491003.2	Siphoviridae_Enterobacteria_phage_EPS7	 | 8fc3722d0ef2f551 | c3njqB_ | 93.6 | 15 | 32 |2.00 | PDB header:viral protein/inhibitor | Chain: B: PDB Molecule:orf 17;
+	321023.5	Aeromonas_phage_31	 | 17416f8aeb22ad08 | d1ogpa1 | 51.5 | 28 | 65 | Immunoglobulin-like beta-sandwich | E set domains | Molybdenum-containing oxidoreductases-like dimerisation domain
+	347962.3	Bacillus_phage_Gamma	 | 1fa93cde66c04d69 | c3jvoA_ | 99.9 | 21 | 84 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1429768	1429768.3.Erwinia_phage_Ea35-70.18502255	 | 6de026ed09c44029 | d2q9oa2 | 69.7 | 20 | 50 | Cupredoxin-like | Cupredoxins | Multidomain cupredoxins
+	1458711	1458711.3.Mycobacterium_phage_Hawkeye.19527199	 | 9554bf13acaef2ff | c4asnC_ | 32.9 | 31 | 34 |3.50 | PDB header:transcription | Chain: C: PDB Molecule:tubr;
+	10713.3	Enterobacteria_phage_phi80	 | 56e142217ab8eba3 | c2lsmA_ | 99.6 | 43 | 39 |UNK | PDB header:chaperone | Chain: A: PDB Molecule:dna-packaging protein fi;
+	320848.3	Bacteriophage_88	 | 4ce6af1f4da3c786 | c2outA_ | 97.3 | 20 | 45 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1211643	Caulobacter_phage_CcrRogue	 | 3f0d8d6366d8f269 | d1j20a2 | 48.9 | 56 | 10 | Argininosuccinate synthetase, C-terminal domain | Argininosuccinate synthetase, C-terminal domain | Argininosuccinate synthetase, C-terminal domain
+	444862.6	Prochlorococcus_phage_P-RSM4	 | d442ab156c68b369 | c3c5pF_ | 71.7 | 33 | 29 |2.90 | PDB header:structural genomics, unknown function | Chain: F: PDB Molecule:protein bas0735 of unknown function;
+	348137.2	Siphoviridae_Burkholderia_phage_Bcep176	 | e12f6d47a4ac0181 | c4jcsA_ | 100.0 | 13 | 96 |1.77 | PDB header:lyase | Chain: A: PDB Molecule:enoyl-coa hydratase/isomerase;
+	445683.6	Synechococcus_phage_S-ShM2	 | 0ee5c801008b9d92 | c3j9qc_ | 67.3 | 9 | 79 |3.50 | PDB header:structural protein | Chain: C: PDB Molecule:sheath;
+	1414742	1414742.3.Arthrobacter_phage_vB_ArS-ArV2.17776868	 | 4034fff73b16f0bf | d1ghha_ | 38.9 | 15 | 30 | DNA damage-inducible protein DinI | DNA damage-inducible protein DinI | DNA damage-inducible protein DinI
+	754059.3	Synechococcus_phage_S-CBP4	 | dbfd3b4712bf2437 | c4a1dE_ | 8.9 | 39 | 32 |3.52 | PDB header:ribosome | Chain: E: PDB Molecule:rpl6;
+	1445714	1445714.3.Mycobacterium_phage_Nyxis.18502875	 | fefc16cae744ca7c | d1lv3a_ | 17.6 | 63 | 10 | Glucocorticoid receptor-like (DNA-binding domain) | Glucocorticoid receptor-like (DNA-binding domain) | Hypothetical zinc finger protein YacG
+	1087482	Salmonella_phage_S16	 | 8fadd503d915686d | c1yueA_ | 100.0 | 70 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1357669	Mycobacterium_phage_DrDrey	 | 0f2ee981abccd9a4 | c2qv1D_ | 7.3 | 86 | 10 |2.40 | PDB header:hydrolase | Chain: D: PDB Molecule:peptide;
+	448384.2	T4-like_viruses_Enterobacteria_phage_Phi1	 | 370ffbdce3fd4a21 | c4uznA_ | 28.6 | 32 | 19 |2.46 | PDB header:hydrolase | Chain: A: PDB Molecule:endo-beta-1,4-glucanase (celulase b);
+	869662.3	Synechococcus_phage_S-RIM2_R1_1999	 | 46c72c452920859d | c3sjaG_ | 50.1 | 25 | 52 |3.00 | PDB header:hydrolase/transport protein | Chain: G: PDB Molecule:golgi to er traffic protein 1;
+	347966.2	Siphoviridae_Bacillus_phage_Cherry	 | 6fb49349be701e33 | c3jvoA_ | 99.9 | 21 | 84 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1458714	1458714.3.Mycobacterium_phage_Seabiscuit.19488385	 | 7e68ed3f5eae43f0 | c3he4A_ | 39.6 | 47 | 23 |2.46 | PDB header:de novo protein | Chain: A: PDB Molecule:synzip6;
+	1206557	Yersinia_phage_phiR201	 | cbfa1efcaeb270df | c4v194_ | 42.5 | 59 | 31 |3.40 | PDB header:ribosome | Chain: 4: PDB Molecule:mitoribosomal protein bl31m, mrpl55;
+	335797.2	unclassified_Lambda-like_viruses_Burkholderia_phage_KS9	 | a8c2215e4be53076 | c3jvoA_ | 99.9 | 27 | 85 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	205876.1	Mycobacteriophage_Che9d	 | 6d459b0f01e85ccc | d2k49a2 | 24.8 | 35 | 34 | YegP-like | YegP-like | YegP-like
+	1109711	Nocardia_phage_NBR1	 | 6939f5c2d4664f5e | d1r11a3 | 22.0 | 45 | 25 | MutS N-terminal domain-like | tRNA-intron endonuclease N-terminal domain-like | tRNA-intron endonuclease N-terminal domain-like
+	320842.3	Bacteriophage_96	 | 088ba43c1207750a | d1qled_ | 6.7 | 18 | 56 | Single transmembrane helix | Bacterial aa3 type cytochrome c oxidase subunit IV | Bacterial aa3 type cytochrome c oxidase subunit IV
+	1161931	Agrobacterium_phage_7-7-1,	 | 864c3b73b6546ac0 | d2gysa3 | 46.8 | 27 | 26 | Immunoglobulin-like beta-sandwich | Fibronectin type III | Fibronectin type III
+	1204525	Streptomyces_phage_SV1	 | fa01ea15c43a7713 | c4ce5A_ | 28.9 | 32 | 57 |1.63 | PDB header:transferase | Chain: A: PDB Molecule:at-omegata;
+	10717.1	Bacteriophage_phi-105	 | 29651440e5bf7222 | d2ft1a1 | 100.0 | 18 | 68 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1327770	Mycobacterium_phage_HINdeR	 | a0822ead4e20a4b9 | d2gmha2 | 10.2 | 33 | 32 | FAD-linked reductases, C-terminal domain | FAD-linked reductases, C-terminal domain | Electron transfer flavoprotein-ubiquinone oxidoreductase-like
+	260121.2	Siphoviridae_Mycobacterium_phage_Bethlehem	 | b93c7f444cec099c | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	445686.6	Synechococcus_phage_S-SSM7	 | e007726f1dfee802 | c3tu3B_ | 49.9 | 17 | 20 |1.92 | PDB header:toxin/toxin chaperone | Chain: B: PDB Molecule:exou;
+	1430444	1430444.3.Escherichia_phage_vB_EcoM_JS09.19524747	 | c201f23b9cb6c574 | c2yy0D_ | 84.5 | 27 | 16 |2.40 | PDB header:transcription | Chain: D: PDB Molecule:c-myc-binding protein;
+	1416031	1416031.3.Escherichia_phage_bV_EcoS_AKS96.20283869	 | 387909c2f04114a6 | d1ldda_ | 36.4 | 26 | 37 | DNA/RNA-binding 3-helical bundle | "Winged helix" DNA-binding domain | SCF ubiquitin ligase complex WHB domain
+	1151014	Vibrio_phage_phi-A318	 | b122d19a2843dbeb | c3j4bB_ | 100.0 | 21 | 88 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	1429791	1429791.3.Mycobacterium_phage_BellusTerra.18502589	 | 581fe8edeb15f60a | d1lv3a_ | 17.6 | 63 | 10 | Glucocorticoid receptor-like (DNA-binding domain) | Glucocorticoid receptor-like (DNA-binding domain) | Hypothetical zinc finger protein YacG
+	384848.2	Siphoviridae_Corynebacterium_phage_P1201	 | b534daa86bc5feef | c2ld7A_ | 60.6 | 15 | 40 |UNK | PDB header:transcription | Chain: A: PDB Molecule:histone deacetylase complex subunit sap30;
+	540068.2	Siphoviridae_Mycobacterium_phage_Pukovnik	 | 306a64a8cda208c0 | d1us7b_ | 73.1 | 36 | 38 | Hsp90 co-chaperone CDC37 | Hsp90 co-chaperone CDC37 | Hsp90 co-chaperone CDC37
+	1239382	Stenotrophomonas_phage_IME15	 | 9978be366ec0adae | 
+	1536597	1536597.3.Enterobacteria_phage_J8-65.22277684	 | 81a4ee692d80052a | c3j4bB_ | 100.0 | 21 | 89 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	45406.2	T4-like_viruses_Enterobacteria_phage_RB32	 | dea1ea1d0d771dea | c1yueA_ | 100.0 | 96 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1327777	Mycobacterium_phage_SiSi	 | dfeff69b5d0fac94 | c3ci9B_ | 28.7 | 22 | 13 |1.80 | PDB header:transcription | Chain: B: PDB Molecule:heat shock factor-binding protein 1;
+	1391428	Enterobacteria_phage_4MG	 | 43338c4a10890dee | c4v19P_ | 52.9 | 45 | 13 |3.40 | PDB header:ribosome | Chain: P: PDB Molecule:mitoribosomal protein ul15m, mrpl15;
+	1150989	Vibrio_phage_pVp-1	 | 1834f1446b5f1550 | c3jvoA_ | 96.3 | 19 | 97 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	359961.2	Siphoviridae_Bacillus_phage_WBeta	 | 11ad388aa556989d | c3jvoA_ | 99.9 | 21 | 84 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	663241.2	Enterococcus_phage_phiEf11	 | 0c3cf8befe340fcc | c2kbzA_ | 96.6 | 20 | 80 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:15 protein (bacteriophage spp1 complete
+	1527525	1527524.6.Citrobacter_phage_Miller.22113503	 | f1f2b1c13869e759 | c3lkdB_ | 100.0 | 15 | 93 |2.25 | PDB header:transferase | Chain: B: PDB Molecule:type i restriction-modification system
+	225588.1	Bacteriophage_phi-BT1	 | 7e5c76dcc757978e | c3jvoA_ | 68.8 | 9 | 54 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1129146	Pseudomonas_phage_vB_PaeS_PMG1	 | 27195958e98a147a | c3pvzD_ | 22.5 | 18 | 34 |2.10 | PDB header:lyase | Chain: D: PDB Molecule:udp-n-acetylglucosamine 4,6-dehydratase;
+	926067.3	Aeromonas_phage_PX29	 | cafd6faa28e0ea2b | c1yueA_ | 100.0 | 35 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1235689	Pseudomonas_phage_AF	 | 822bdd81bb8c7949 | c3j4uJ_ | 100.0 | 38 | 97 |3.50 | PDB header:virus | Chain: J: PDB Molecule:cementing protein;
+	1162290	Cronobacter_phage_CR9	 | 65f73f5f12327bce | c3jsyA_ | 39.9 | 21 | 33 |1.60 | PDB header:ribosomal protein | Chain: A: PDB Molecule:acidic ribosomal protein p0 homolog;
+	1552735	1552735.3.Lactobacillus_phage_Ldl1.23681219	 | 76482c011a0efbf9 | c1u3eM_ | 100.0 | 30 | 82 |2.92 | PDB header:dna binding protein/dna | Chain: M: PDB Molecule:hnh homing endonuclease;
+	496874.2	Siphoviridae_Lactobacillus_phage_Lrm1	 | b61e2d292cd06ebf | c3jvoA_ | 97.7 | 11 | 63 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	197310.2	T4-like_viruses_Enterobacteria_phage_RB14	 | 12baa498b7d961bc | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	190478.1	Bacteriophage_phi3626	 | 7a225732e865c752 | c3jvoA_ | 99.9 | 13 | 91 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1458725	1458725.3.Mycobacterium_phage_Soto.22110639	 | 51bbd17926662917 | c2n12A_ | 51.9 | 24 | 12 |UNK | PDB header:motor protein,protein transport | Chain: A: PDB Molecule:unconventional myosin-vi;
+	516541.3	Staphylococcus_phage_A5W	 | 6058e753628fb14c | c1wrgA_ | 18.3 | 38 | 15 |UNK | PDB header:membrane protein | Chain: A: PDB Molecule:light-harvesting protein b-880, beta chain;
+	1204524	Streptomyces_phage_phiHau3	 | 0bffd0fa8e8c2c4c | d1xn8a_ | 85.9 | 23 | 59 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	714583.4	Salmonella_phage_ST160	 | 2e3c766cc8fdeefd | c3fmtF_ | 56.9 | 27 | 11 |2.98 | PDB header:replication inhibitor/dna | Chain: F: PDB Molecule:protein seqa;
+	1337877	Paenibacillus_phage_phiIBB_Pl23	 | 336e63104c5fcab4 | 
+	1458861	1458861.3.Shewanella_sp._phage_1/41.22112222	 | 3addd173fc61c080 | c2d1lA_ | 14.5 | 20 | 90 |1.85 | PDB header:protein binding | Chain: A: PDB Molecule:metastasis suppressor protein 1;
+	665032.2	Deftia_phage_phiW-14	 | 16945e7b92b0660c | c2yy0D_ | 74.5 | 11 | 16 |2.40 | PDB header:transcription | Chain: D: PDB Molecule:c-myc-binding protein;
+	1486469	1486469.3.Mycobacterium_phage_Damien.19686500	 | 353a7e4b708c10f1 | d1p9ba_ | 57.2 | 5 | 11 | P-loop containing nucleoside triphosphate hydrolases | P-loop containing nucleoside triphosphate hydrolases | Nitrogenase iron protein-like
+	1327773	Mycobacterium_phage_PattyP	 | b1bd31b70d3e0d2a | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	466051.2	Siphoviridae_Thermus_phage_P23-45	 | 51888abf7b2fd35e | c2jobA_ | 19.7 | 40 | 25 |UNK | PDB header:lipid binding protein | Chain: A: PDB Molecule:antilipopolysaccharide factor;
+	297254.3	Lactobacillus_phage_LL-Ku	 | 59e50f0951e7206f | c1ce9B_ | 51.0 | 63 | 36 |1.80 | PDB header:helix capping | Chain: B: PDB Molecule:protein (gcn4-pmse);
+	1486661	1486661.3.Bacillus_phage_Megatron.19525795	 | 4bc1054a6b8eb5aa | d2icya1 | 22.5 | 31 | 20 | Single-stranded left-handed beta-helix | Trimeric LpxA-like enzymes | GlmU C-terminal domain-like
+	1391433	Mycobacterium_phage_Zaka	 | feb410738f00f688 | d1fiua_ | 22.0 | 13 | 44 | Restriction endonuclease-like | Restriction endonuclease-like | Restriction endonuclease NgoIV
+	1229752	Campylobacter_phage_CP30A	 | 194c8471f0fac10d | c4hsuC_ | 41.0 | 54 | 4 |1.99 | PDB header:oxidoreductase | Chain: C: PDB Molecule:histone h3;
+	576789.2	T4-like_viruses_Enterobacteria_phage_JSE	 | 6179980a7dacfd21 | c3j21E_ | 15.3 | 32 | 34 |6.60 | PDB header:ribosome | Chain: E: PDB Molecule:50s ribosomal protein l5p;
+	423476.2	Siphoviridae_Streptococcus_phage_phi3396	 | 249a73c2e3334600 | c4ad7C_ | 52.0 | 20 | 50 |2.94 | PDB header:membrane protein | Chain: C: PDB Molecule:glypican-1;
+	320850.3	Bacteriophage_X2	 | 922ecc1e53eea207 | d1f45b_ | 12.0 | 50 | 15 | 4-helical cytokines | 4-helical cytokines | Long-chain cytokines
+	194701.2	P2-like_viruses_Enterobacteria_phage_Fels-2	 | 16746eef5c23ed61 | d1zata2 | 63.3 | 22 | 33 | L,D-transpeptidase pre-catalytic domain-like | L,D-transpeptidase pre-catalytic domain-like | L,D-transpeptidase pre-catalytic domain-like
+	320836.3	Bacteriophage_2638A	 | 70faa4c74a5ac14c | c3jvoA_ | 97.0 | 14 | 60 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	67571.2	Endosymbiont_phage_APSE-1	 | 2e8679879a877efb | c3iyiE_ | 100.0 | 13 | 98 |9.10 | PDB header:virus | Chain: E: PDB Molecule:p22 coat protein in procapsid shells;
+	1308897	Staphylococcus_phage_StauST398-5	 | f9fd40610f036270 | c2a8vA_ | 97.3 | 26 | 30 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	205869.1	Mycobacteriophage_CJW1	 | d3a357912ac4c0b4 | c2oinD_ | 7.2 | 86 | 10 |2.50 | PDB header:hydrolase | Chain: D: PDB Molecule:ns4a peptide;
+	1211641	Caulobacter_phage_CcrKarma	 | a52cb2b53272d828 | d1lf6a2 | 33.2 | 21 | 52 | Supersandwich | Galactose mutarotase-like | Bacterial glucoamylase N-terminal domain-like
+	382685.2	Siphoviridae_Lactococcus_phage_Q54	 | c3fe4bcabc53092f | d1uw4b_ | 15.5 | 23 | 37 | alpha-alpha superhelix | ARM repeat | MIF4G domain-like
+	397353.2	unclassified_Lambda-like_viruses_Pseudomonas_phage_MP22	 | c7503a2301e00524 | c2outA_ | 97.7 | 40 | 30 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	10679.1	Enterobacteria_phage_P2	 | f21f0dbeb7c8077c | d2ft1a1 | 92.6 | 10 | 87 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	50948.1	Enterobacteria_phage_RB49	 | c95e6d923fc7fd4b | c4xb6C_ | 8.1 | 60 | 18 |1.70 | PDB header:transferase | Chain: C: PDB Molecule:alpha-d-ribose 1-methylphosphonate 5-triphosphate synthase
+	540065.2	Siphoviridae_Mycobacterium_phage_Jasper	 | ee010264230ff171 | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	1204514	Vibriophage_phi-pp2	 | 14287419c406dbb6 | c1miyB_ | 100.0 | 26 | 98 |3.52 | PDB header:translation, transferase | Chain: B: PDB Molecule:trna cca-adding enzyme;
+	1126950	Bacillus_phage_BCP78	 | dd753d38a10be0ee | c2p58B_ | 28.2 | 32 | 20 |1.80 | PDB header:transport protein/chaperone | Chain: B: PDB Molecule:putative type iii secretion protein yscf;
+	1327936	Mycobacterium_phage_Gizmo	 | be991d14770d36e4 | d1m0da_ | 59.1 | 33 | 12 | Restriction endonuclease-like | Restriction endonuclease-like | Endonuclease I (Holliday junction resolvase)
+	1262515	Leuconostoc_phage_phiLN03	 | 18c93cce472a6b14 | c4gehB_ | 16.8 | 43 | 22 |1.95 | PDB header:protein binding/transferase | Chain: B: PDB Molecule:serine/threonine-protein kinase mst4;
+	1458846	1458846.3.Mycobacterium_phage_RhynO.18506345	 | c973155572dd01eb | d1cyga2 | 13.5 | 33 | 18 | Prealbumin-like | Starch-binding domain-like | Starch-binding domain
+	1168563	Stenotrophomonas_phage_Smp131	 | 2bc99bbc45854a48 | c2kckA_ | 52.7 | 12 | 48 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:tpr repeat;
+	1486425	1486425.3.Mycobacterium_phage_Kampy.19487566	 | b7d762a21231863c | d1lv3a_ | 17.6 | 63 | 10 | Glucocorticoid receptor-like (DNA-binding domain) | Glucocorticoid receptor-like (DNA-binding domain) | Hypothetical zinc finger protein YacG
+	1458860	1458860.3.Shewanella_sp._phage_1/40.22157587	 | 46ba7c97706eac02 | c4xrpA_ | 30.5 | 23 | 23 |3.30 | PDB header:protein binding | Chain: A: PDB Molecule:pnkp1;
+	515982.2	Siphoviridae_Mycobacterium_phage_BPs	 | bb6a6298ea003c96 | c2wsfH_ | 24.2 | 38 | 26 |3.50 | PDB header:photosynthesis | Chain: H: PDB Molecule:photosystem i reaction center subunit vi, chloroplastic;
+	1204522	Escherichia_phage_ECML-134	 | 7032b9e0469762f6 | d1mk0a_ | 99.9 | 26 | 39 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	181007.3	Bacteriophage_PSA	 | dc6dc9f3c2a1d213 | d1h1js_ | 95.9 | 41 | 84 | LEM/SAP HeH motif | SAP domain | SAP domain
+	462590.2	Siphoviridae_Pseudomonas_phage_YuA	 | ec85e53bfb56ac54 | d1w7ca1 | 53.1 | 40 | 5 | Supersandwich | Amine oxidase catalytic domain | Amine oxidase catalytic domain
+	1141132	Aeromonas_phage_phiAS7	 | 7ed346562f63eab0 | c2ziiA_ | 65.2 | 18 | 19 |3.05 | PDB header:protein transport | Chain: A: PDB Molecule:vacuolar protein sorting-associated protein 74;
+	1527469	1527469.3.Bacillus_phage_Bobb.20283482	 | 284aff76c1908c26 | c1deqF_ | 33.3 | 6 | 32 |3.50 | PDB header:blood clotting | Chain: F: PDB Molecule:fibrinogen (gamma chain);
+	1527770	1527770.3.Rhizobium_phage_vB_RleM_P10VF.22109633	 | 85c723f8638afe34 | 
+	445700.6	Prochlorococcus_phage_P-HM1	 | 352db9a1da37c5e6 | c2mkdA_ | 18.4 | 26 | 36 |UNK | PDB header:dna binding protein | Chain: A: PDB Molecule:zinc finger protein 346;
+	1147094	Enterobacteria_phage_vB_KleM-RaK2	 | 526c258423c8721e | c1ywlA_ | 97.2 | 30 | 16 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:hypothetical upf0213 protein ef2693;
+	475178.2	Siphoviridae_Lactococcus_phage_1706	 | a81bc571c90d139e | d2icsa1 | 23.1 | 28 | 28 | Composite domain of metallo-dependent hydrolases | Composite domain of metallo-dependent hydrolases | Adenine deaminase
+	66284.3	Shigella_phage_SfII	 | c71ebc03b5251425 | c3u1wB_ | 41.7 | 20 | 43 |2.00 | PDB header:metal binding protein | Chain: B: PDB Molecule:hypothetical periplasmic protein;
+	279383.3	Bacteriophage_phi_JL001	 | ffc91cc282f748c2 | d1ahsa_ | 40.5 | 31 | 15 | Viral protein domain | Viral protein domain | Top domain of virus capsid protein
+	382359.2	Myoviridae_Synechococcus_phage_syn9	 | d1c5d068c9d2b055 | d1ef4a_ | 47.7 | 86 | 10 | DNA/RNA-binding 3-helical bundle | RNA polymerase subunit RPB10 | RNA polymerase subunit RPB10
+	268746.6	Prochlorococcus_phage_P-SSM2	 | d58b7b5403f12fc6 | c3bvcA_ | 100.0 | 27 | 95 |2.75 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:uncharacterized protein ism_01780;
+	1340820	Mycobacterium_phage_Jabbawokkie	 | 54fee6a97135895a | d2k49a2 | 24.7 | 35 | 34 | YegP-like | YegP-like | YegP-like
+	1527519	1527519.3.Escherichia_phage_Av-05.22475545	 | e798de9b7570ab2f | c4nz3A_ | 43.1 | 25 | 45 |2.11 | PDB header:hydrolase | Chain: A: PDB Molecule:deacetylase da1;
+	1097754	Mycobacterium_phage_Saintus	 | 338021933f4ffea6 | d1xn8a_ | 95.4 | 22 | 73 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	10753.2	Phi29-like_viruses_Bacillus_phage_Nf	 | c585c4a33f95c78d | c3qc7A_ | 100.0 | 53 | 51 |1.52 | PDB header:viral protein | Chain: A: PDB Molecule:head fiber protein;
+	546182.2	Siphoviridae_Mycobacterium_phage_Boomer	 | e145e0f1fa8a976e | c3jvoA_ | 93.0 | 17 | 53 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1141134	Salmonella_phage_SPN19	 | 743f304646290093 | d1c5ea_ | 97.6 | 27 | 55 | beta-clip | Head decoration protein D (gpD, major capsid protein D) | Head decoration protein D (gpD, major capsid protein D)
+	40631.1	Bacteriophage_N15	 | f3c77bb6db68870b | c3bqwA_ | 100.0 | 43 | 99 |2.20 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:putative capsid protein of prophage;
+	984175.3	Cronobacter_phage_ENT39118	 | ad66c98e0d8ee3f9 | c2lfpA_ | 98.5 | 18 | 93 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:bacteriophage spp1 complete nucleotide sequence;
+	470314.2	Siphoviridae_Xanthomonas_phage_Xop411	 | b0132e1138a61b46 | c3jvoA_ | 100.0 | 19 | 94 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1327965	Pseudomonas_phage_CHA_P1	 | 3bd5bdef25974da9 | d2q7sa1 | 53.6 | 20 | 36 | Phosphorylase/hydrolase-like | Zn-dependent exopeptidases | FGase-like
+	1091556	Pseudomonas_phage_LPB1	 | e6d919c77e4f259d | c2outA_ | 97.8 | 31 | 67 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1327775	Mycobacterium_phage_SDcharge11	 | b4fb09d47b234632 | c2n12A_ | 51.9 | 24 | 12 |UNK | PDB header:motor protein,protein transport | Chain: A: PDB Molecule:unconventional myosin-vi;
+	1211640	Caulobacter_phage_CcrColossus	 | e8d4502c6c1f1190 | c3j4uJ_ | 99.2 | 21 | 84 |3.50 | PDB header:virus | Chain: J: PDB Molecule:cementing protein;
+	348058.2	P22-like_viruses_Salmonella_phage_epsilon34	 | cd84c84fbbe8a83f | c3fmtF_ | 58.6 | 27 | 11 |2.98 | PDB header:replication inhibitor/dna | Chain: F: PDB Molecule:protein seqa;
+	200913.2	P22-like_viruses_Salmonella_phage_P22-pbi	 | 1a341e27f7097aaf | c5fj8N_ | 12.4 | 27 | 20 |3.90 | PDB header:transcription | Chain: N: PDB Molecule:dna-directed rna polymerase iii subunit rpc4;
+	373403.2	Siphoviridae_Mycobacterium_phage_244	 | 42fcd36308794ae9 | c2oinD_ | 7.2 | 86 | 10 |2.50 | PDB header:hydrolase | Chain: D: PDB Molecule:ns4a peptide;
+	376758.2	Siphoviridae_Propionibacterium_phage_PA6	 | 19e805b9550fc431 | c4hzvA_ | 47.5 | 22 | 20 |1.80 | PDB header:hydrolase | Chain: A: PDB Molecule:neuraminidase;
+	1347760	Staphylococcus_phage_SA12	 | ed6e1bb63feea7f1 | c2outA_ | 97.0 | 20 | 52 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	306323.3	Streptococcus_thermophilus_bacteriophage_2972	 | 46c6a840ecbfddce | c3bqwA_ | 100.0 | 14 | 96 |2.20 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:putative capsid protein of prophage;
+	1340819	Mycobacterium_phage_Catdawg	 | 26a310240cc0fb68 | c1fpn4_ | 14.0 | 33 | 17 |2.60 | PDB header:virus | Chain: 4: PDB Molecule:coat protein vp4;
+	260149.5	Aeromonas_phage_65	 | 57539ef6c0167ac3 | c4dexB_ | 77.2 | 15 | 5 |2.00 | PDB header:transport protein | Chain: B: PDB Molecule:voltage-dependent n-type calcium channel subunit alpha-1b;
+	205872.1	Mycobacteriophage_Che9c	 | af90ed3faec63f51 | d1ok0a_ | 15.1 | 29 | 17 | alpha-Amylase inhibitor tendamistat | alpha-Amylase inhibitor tendamistat | alpha-Amylase inhibitor tendamistat
+	1239383	Staphylococcus_phage_JD007	 | 6dc53c728c6b5c2a | 
+	31754.1	Lactococcus_phage_BK5-T	 | 8d490acc727b5aeb | c3jvoA_ | 99.8 | 15 | 83 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1458863	1458863.3.Shewanella_sp._phage_3/49.22112813	 | 290310dd6a79acea | c1u3eM_ | 97.9 | 22 | 37 |2.92 | PDB header:dna binding protein/dna | Chain: M: PDB Molecule:hnh homing endonuclease;
+	279006.3	Acinetobacter_phage_133	 | 2adc325a1a80573f | c3r3pB_ | 99.3 | 36 | 20 |2.20 | PDB header:hydrolase | Chain: B: PDB Molecule:mobile intron protein;
+	431892.2	P2-like_viruses_Burkholderia_phage_phiE12-2	 | 12148153f229ef58 | c1ei3C_ | 57.1 | 9 | 37 |5.50 | PDB header:blood clotting | Chain: C: PDB Molecule:fibrinogen;
+	1161906	Weissella_phage_phiYS61	 | 6e6180bfb95ca304 | c2l04A_ | 97.3 | 25 | 16 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:major tail protein v;
+	359962.2	Siphoviridae_Bacillus_phage_Gamma_isolate_d'Herelle	 | 8c65e2b1cd78535c | c3jvoA_ | 99.9 | 21 | 84 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	561996.2	Siphoviridae_Mycobacterium_phage_Brujita	 | 2b89796783f147ab | d1e8ca1 | 19.8 | 60 | 9 | MurF and HprK N-domain-like | MurE/MurF N-terminal domain | MurE/MurF N-terminal domain
+	66711.4	Enterobacteria_phage_AR1_DNA	 | 424cd7b53455dd21 | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	12407.1	Bacteriophage_PSP3	 | a37d48a45af55181 | d1elra_ | 97.2 | 15 | 49 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	1458726	1458726.3.Mycobacterium_phage_20ES.18505437	 | 016aae714d3c5790 | c1us7B_ | 67.9 | 32 | 36 |2.3  | PDB header:chaperone | Chain: B: PDB Molecule:hsp90 co-chaperone cdc37;
+	1173747	Listeria_phage_LP-037	 | 0c937b943d5426cc | d1erna2 | 95.2 | 22 | 75 | Immunoglobulin-like beta-sandwich | Fibronectin type III | Fibronectin type III
+	1541825	1541825.3.Shigella_phage_Shf125875.22277427	 | 89cb1417fcc05d92 | c2kkmA_ | 25.7 | 13 | 75 |UNK | PDB header:translation | Chain: A: PDB Molecule:translation machinery-associated protein 16;
+	1357713	Bacillus_phage_phiCM3	 | 79f0933f4521b60b | c2kz4A_ | 100.0 | 24 | 95 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:putative head-tail adaptor;
+	760939.3	Acinetobacter_phage_Acj9	 | 142886154fbe73c6 | c1yueA_ | 100.0 | 54 | 99 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	505291.2	unclassified_Lambda-like_viruses_Pseudomonas_phage_MP29	 | 7a495a7bcad78c40 | c2outA_ | 97.9 | 35 | 66 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1173764	Listeria_phage_LP-048	 | 4abc41b2c721477b | c2a8vA_ | 24.4 | 26 | 25 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	437329.2	Siphoviridae_Burkholderia_phage_BcepGomr	 | c9244561b1307910 | d1xnta_ | 16.5 | 42 | 15 | Galactose-binding domain-like | Galactose-binding domain-like | N-terminal domain of xrcc1
+	1089114	Mycobacterium_phage_Avrafan	 | d4a8f74df4c802cf | c2wsfH_ | 24.2 | 38 | 26 |3.50 | PDB header:photosynthesis | Chain: H: PDB Molecule:photosystem i reaction center subunit vi, chloroplastic;
+	1327764	Mycobacterium_phage_Dumbo	 | 8993ca0d2da7e1c0 | c2oinD_ | 7.2 | 86 | 10 |2.50 | PDB header:hydrolase | Chain: D: PDB Molecule:ns4a peptide;
+	977927.3	Enterobacteria_phage_SPC35	 | e4e353ab76dbb1ef | d1z1za1 | 76.1 | 25 | 59 | Phage tail protein-like | Phage tail protein-like | Lambda phage gpU-like
+	910474.3	Burkholderia_phage_KL3	 | 4e12a990264d7e83 | c1deqF_ | 58.3 | 8 | 35 |3.50 | PDB header:blood clotting | Chain: F: PDB Molecule:fibrinogen (gamma chain);
+	627087.2	Siphoviridae_Enterococcus_phage_EFAP-1	 | 1ad7dfb9f2c1aaaf | d1iega_ | 93.3 | 9 | 43 | Herpes virus serine proteinase, assemblin | Herpes virus serine proteinase, assemblin | Herpes virus serine proteinase, assemblin
+	31535.1	Pseudomonas_phage_D3	 | 6e6d989a8249fcb5 | d2ft1a1 | 100.0 | 50 | 71 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	454798.3	Salmonella_phage_Det7	 | 84369cda8a167894 | c2xv9A_ | 18.4 | 41 | 28 |UNK | PDB header:lipid binding protein | Chain: A: PDB Molecule:aba-1a1 repeat unit;
+	146269.2	Siphoviridae_Lactobacillus_phage_Lc-Nu	 | ed89b532a1aac3e1 | c3jvoA_ | 99.9 | 9 | 84 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	493906.2	K139-like_phages_Vibrio_phage_kappa	 | 51364c23ae054b88 | d1elra_ | 96.0 | 19 | 57 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	1141141	Enterobacteria_phage_vB_EcoM_ACG-C40	 | 83b888bcb942c2ad | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	172667.1	Bacteriophage_PY54	 | 816b5c54cbb9b9a7 | c5ag8A_ | 9.9 | 32 | 34 |1.90 | PDB header:hydrolase | Chain: A: PDB Molecule:gingipain r2;
+	1527463	1527463.3.Mycobacterium_phage_Cerasum.23680664	 | d428ecccf7665949 | c3jvoA_ | 87.3 | 13 | 69 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1430411	1430411.3.Mycobacterium_phage_HufflyPuff.17777642	 | da82cf04a3ad8258 | c3ia0c_ | 21.2 | 44 | 26 |2.50 | PDB header:structural protein | Chain: C: PDB Molecule:ethanolamine utilization protein euts;
+	1262519	Leuconostoc_phage_phiLN34	 | 3dce87cc1c217b64 | c4pqzA_ | 29.5 | 26 | 35 |2.30 | PDB header:transcription | Chain: A: PDB Molecule:transcriptional protein swt1;
+	1340534	Salmonella_phage_Jersey	 | 0f4d7186594581d1 | c3qc7A_ | 95.9 | 38 | 65 |1.52 | PDB header:viral protein | Chain: A: PDB Molecule:head fiber protein;
+	1429759	1429759.3.Mycobacterium_phage_EagleEye.18502781	 | 418be80cecb1bb5b | c1us7B_ | 42.0 | 18 | 35 |2.3  | PDB header:chaperone | Chain: B: PDB Molecule:hsp90 co-chaperone cdc37;
+	1486428	1486428.3.Enterococcus_phage_EFC-1.22277941	 | 830cd15ad9b81941 | c2kbzA_ | 96.4 | 22 | 77 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:15 protein (bacteriophage spp1 complete
+	1527493	1527493.3.Mycobacterium_phage_Sparky.23680174	 | f45955ff268a13ca | c3jvoA_ | 82.8 | 15 | 45 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1229755	Vibrio_phage_vB_VpaS_MAR10	 | 496ffde0ff09a69e | c1fuiB_ | 78.0 | 36 | 24 |2.50 | PDB header:isomerase | Chain: B: PDB Molecule:l-fucose isomerase;
+	1455075	1455075.3.Citrobacter_phage_CR44b.18500431	 | 5ae9704c545963ae | c3j7wF_ | 100.0 | 70 | 86 |3.50 | PDB header:virus | Chain: F: PDB Molecule:major capsid protein 10a;
+	1415146	1415146.3.Phage_Prado.17778247	 | 0a258c651d90720a | c4bgaB_ | 52.9 | 46 | 35 |2.60 | PDB header:transferase | Chain: B: PDB Molecule:predicted molecular chaperone distantly related to
+	762660.3	Acinetobacter_phage_Ac42	 | b01567aab087a6a0 | c1yueA_ | 100.0 | 54 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	330395.2	unclassified_SPO1-like_viruses_Listeria_phage_P100	 | 9b629408f7299e50 | c2a8vA_ | 25.8 | 26 | 27 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1161903	Pseudomonas_phage_MP42	 | 369f2bed353274ce | c2outA_ | 97.8 | 35 | 49 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	115991.8	Enterobacteria_phage_RB43	 | d44914d9c7200dd2 | c1yueA_ | 100.0 | 46 | 92 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	722418.3	Campylobacter_phage_CPt10	 | 9115830e60369fc4 | c4m00A_ | 99.0 | 10 | 39 |2.05 | PDB header:cell adhesion | Chain: A: PDB Molecule:serine-rich adhesin for platelets;
+	1125653	Salmonella_phage_SPN1S	 | c726ad9113901a72 | c3j4uJ_ | 100.0 | 38 | 99 |3.50 | PDB header:virus | Chain: J: PDB Molecule:cementing protein;
+	546183.2	Siphoviridae_Mycobacterium_phage_Kostya	 | ec1e5ac487b1e589 | c3ia0c_ | 21.2 | 44 | 26 |2.50 | PDB header:structural protein | Chain: C: PDB Molecule:ethanolamine utilization protein euts;
+	294382.3	Bacillus_clarkii_bacteriophage_BCJA1c	 | ad93af92744c92f5 | d1u5la_ | 19.0 | 21 | 31 | Prion-like | Prion-like | Prion-like
+	1086749	Mycobacterium_phage_Dreamboat	 | 01f85202bf4e6685 | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	1273711	Synechococcus_phage_S-CBP1	 | 85e4ff7bfdc1eeea | 
+	482822.2	Lambda-like_viruses_Enterobacteria_phage_DE3	 | ac65e422564e7fba | c2lsmA_ | 99.8 | 100 | 45 |UNK | PDB header:chaperone | Chain: A: PDB Molecule:dna-packaging protein fi;
+	1541883	1541883.3.Escherichia_phage_vB_EcoM-ep3.22112965	 | 951a1e37e53cc225 | c2a8vA_ | 95.6 | 26 | 42 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1500713	1500713.3.Vibrio_phage_X29.19686476	 | 12a330ef427f252a | c2a8vA_ | 94.5 | 21 | 40 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1161930	Leuconostoc_phage_Lmd1	 | 3d92ad4fc8b3ddf8 | c5bu3A_ | 15.7 | 45 | 10 |1.90 | PDB header:lyase | Chain: A: PDB Molecule:pyri4;
+	1458855	1458855.3.Listeria_phage_LP-083-2.19735667	 | 9b2d404ca3d97495 | d2b1ya1 | 9.6 | 8 | 8 | Atu1913-like | Atu1913-like | Atu1913-like
+	1327772	Mycobacterium_phage_Jobu08	 | 915836db0a4d33cb | c4fwvA_ | 57.5 | 52 | 40 |2.40 | PDB header:hydrolase | Chain: A: PDB Molecule:ttc1975 peptidase;
+	563121.2	Siphoviridae_Mycobacterium_phage_Konstantine	 | 8b26e34c6a09751d | d1xm0a1 | 63.4 | 24 | 43 | Mss4-like | Mss4-like | SelR domain
+	370623.2	Siphoviridae_Streptomyces_phage_mu1/6	 | 01e0cfd2ec66f42c | c4pwuC_ | 11.9 | 33 | 13 |2.45 | PDB header:signaling protein | Chain: C: PDB Molecule:modulator protein mzra;
+	1217810	Pectobacterium_phage_PP1	 | ad15635dd7dc313b | c3j4bB_ | 100.0 | 18 | 75 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	12417.1	Lactobacillus_bacteriophage_phi_adh	 | 18bcfc5526095a23 | d2ft1a1 | 100.0 | 15 | 69 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1308896	Staphylococcus_phage_StauST398-4	 | 221c7356fc3c85d3 | c2a8vA_ | 96.7 | 24 | 34 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1307804	Escherichia_phage_Lw1	 | 9b4f39eb3effce4d | c1yueA_ | 100.0 | 46 | 94 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	329381.8	Enterobacteria_phage_RB16	 | 6243ecc4f4c53f57 | d1mk0a_ | 99.9 | 27 | 41 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	1262522	Leuconostoc_phage_P793	 | e889632d2553a8d4 | c5bu3A_ | 16.8 | 45 | 10 |1.90 | PDB header:lyase | Chain: A: PDB Molecule:pyri4;
+	1089119	Mycobacterium_phage_Courthouse	 | e810796711044cf7 | c4gf5S_ | 100.0 | 27 | 94 |2.20 | PDB header:transferase | Chain: S: PDB Molecule:cals11;
+	1536604	1536604.3.Leuconostoc_phage_Ln-8.24724438	 | 57f5b516fc795387 | c4pqzA_ | 29.4 | 26 | 35 |2.30 | PDB header:transcription | Chain: A: PDB Molecule:transcriptional protein swt1;
+	864178.3	Clostridium_phage_phiCD6356	 | 411fd2ee2c61a978 | c3jvoA_ | 96.9 | 11 | 55 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1468169	1468169.3.Mycobacterium_phage_Lamina13.19487760	 | 58c65597998de7e5 | d2ft1a1 | 100.0 | 18 | 95 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1108865	Salmonella_phage_PhiSH19	 | 174602b76281151f | c4cgkA_ | 71.4 | 7 | 69 |2.55 | PDB header:cell cycle | Chain: A: PDB Molecule:secreted 45 kda protein;
+	445696.6	Prochlorococcus_phage_P-HM2	 | fc5a05c42801dfc0 | c3l9aX_ | 12.8 | 67 | 20 |1.30 | PDB header:structural genomics, unknown function | Chain: X: PDB Molecule:uncharacterized protein;
+	1406788	1406788.3.Bacillus_phage_Riggi.17959328	 | 5b739789896c2b64 | c2gfgB_ | 17.1 | 44 | 35 |2.12 | PDB header:unknown function | Chain: B: PDB Molecule:bh2851;
+	1536605	1536605.3.Leuconostoc_phage_Ln-9.24723701	 | 917dd0643727bba2 | c4pqzA_ | 28.2 | 26 | 35 |2.30 | PDB header:transcription | Chain: A: PDB Molecule:transcriptional protein swt1;
+	499235.2	Myoviridae_Halomonas_phage_phiHAP-1	 | ae5e027a69cf21f7 | d1k0ha_ | 91.3 | 15 | 74 | Phage tail proteins | Phage tail proteins | gpFII-like
+	1002725	Shigella_phage_Shfl2	 | f8c3838d2330b777 | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1527512	1527512.3.Mycobacterium_phage_Squirty.23679063	 | 2d23a9fe7ca3bab4 | c3jvoA_ | 93.0 | 17 | 53 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	10761.1	Enterobacteria_phage_Sf6	 | 9c4d1bde1f97eb0b | c3iyiE_ | 100.0 | 13 | 98 |9.10 | PDB header:virus | Chain: E: PDB Molecule:p22 coat protein in procapsid shells;
+	1204540	Enterococcus_phage_EfaCPT1	 | b041692f262b18b4 | c3jvoA_ | 99.9 | 11 | 86 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1245814	Mycobacterium_phage_First	 | 440d9cf876aacbfb | c1us7B_ | 67.9 | 32 | 36 |2.3  | PDB header:chaperone | Chain: B: PDB Molecule:hsp90 co-chaperone cdc37;
+	1173135	Enterococcus_phage_BC-611_DNA	 | 852ba14793e230d9 | c2l04A_ | 99.7 | 27 | 59 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:major tail protein v;
+	1028375	Staphylococcus_phage_ISP	 | dbcb960cd762d719 | c1wrgA_ | 18.3 | 38 | 15 |UNK | PDB header:membrane protein | Chain: A: PDB Molecule:light-harvesting protein b-880, beta chain;
+	1277886	Bacillus_phage_BPS10C	 | 26deb7a8775378ff | c4cgkA_ | 69.7 | 10 | 72 |2.55 | PDB header:cell cycle | Chain: A: PDB Molecule:secreted 45 kda protein;
+	1128071	Clostridium_phage_phi24R	 | bb2a52c7919e7f20 | c3kwlA_ | 44.7 | 17 | 39 |1.94 | PDB header:unknown function | Chain: A: PDB Molecule:uncharacterized protein;
+	340054.2	Podoviridae_Bacteriophage_APSE-2	 | 8f4ec5043df03c60 | c3iyiE_ | 100.0 | 14 | 98 |9.10 | PDB header:virus | Chain: E: PDB Molecule:p22 coat protein in procapsid shells;
+	10742.1	Enterobacteria_phage_HK022	 | 4a436c307a140da9 | c3jvoA_ | 100.0 | 96 | 87 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1415146	1415145.6.Phage_Paz.17777812	 | 7cdc699930eb9458 | d1l8fa_ | 26.7 | 29 | 44 | Double psi beta-barrel | Barwin-like endoglucanases | Eng V-like
+	444859.6	Synechococcus_phage_S-SM1	 | 8b6cd2b53eed6960 | c2rbfB_ | 28.6 | 38 | 29 |2.25 | PDB header:oxidoreductase/dna | Chain: B: PDB Molecule:bifunctional protein puta;
+	1327759	Streptomyces_phage_Sujidade	 | 67fd2ca1a95e60b0 | c3jvoA_ | 86.9 | 16 | 45 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1472912	1472912.3.Nitrincola_phage_1M3-16.19527085	 | ba996d83e5a59a06 | c4cgkA_ | 82.8 | 10 | 77 |2.55 | PDB header:cell cycle | Chain: A: PDB Molecule:secreted 45 kda protein;
+	1197953	Staphylococcus_phage_vB_SepiS-phiIPLA7	 | 1764fdd94fa4c7b9 | c2outA_ | 97.0 | 32 | 38 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1305710	Mycobacterium_phage_vB_MapS_FF47	 | 2b241a8c16be9286 | c2i9bF_ | 26.5 | 44 | 16 |2.80 | PDB header:hydrolase | Chain: F: PDB Molecule:urokinase plasminogen activator surface receptor;
+	1481224	1481224.3.Pseudomonas_phage_JD024.19684915	 | 79999a40f44e33a0 | c2outA_ | 98.0 | 33 | 63 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1204526	Streptomyce_phage_TG1	 | f10087e27a78580a | c3jvoA_ | 89.5 | 11 | 54 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	12345.1	Bacillus_phage_GA-1	 | fbe82ef8c683ca7e | d1pbya4 | 34.7 | 27 | 6 | Immunoglobulin-like beta-sandwich | E set domains | Quinohemoprotein amine dehydrogenase A chain, domains 4 and 5
+	1113547	Salmonella_phage_9NA	 | 6fec680ecf53de53 | c3bjqA_ | 100.0 | 23 | 97 |2.05 | PDB header:viral protein | Chain: A: PDB Molecule:phage-related protein;
+	1279082	Pseudomonas_phage_PPpW-3_DNA	 | bbe3a61cf4274650 | d2j01i2 | 90.0 | 46 | 26 | MbtH/L9 domain-like | L9 N-domain-like | Ribosomal protein L9 N-domain
+	57477.3	Bacillus_phage_Bastille	 | 2bf325417804dfee | c2yewG_ | 13.3 | 54 | 32 |5.00 | PDB header:virus | Chain: G: PDB Molecule:capsid protein;
+	1498173	1498172.5.Escherichia_phage_ECBP5.24620943	 | 0c407a6c44c45ec6 | c3j4bB_ | 100.0 | 25 | 88 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	298338.3	Lactobacillus_plantarum_bacteriophage_LP65	 | 9813adef58c7bcc1 | c1deqF_ | 36.7 | 5 | 33 |3.50 | PDB header:blood clotting | Chain: F: PDB Molecule:fibrinogen (gamma chain);
+	1161934	Mycobacterium_phage_Tiger	 | 3e817a1a338f9edb | d1xn8a_ | 89.9 | 22 | 73 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	445688.6	Prochlorococcus_phage_P-SSM7	 | d2c93371a103c94a | c4upaA_ | 100.0 | 19 | 98 |2.90 | PDB header:ligase | Chain: A: PDB Molecule:lysine--trna ligase;
+	1327766	Mycobacterium_phage_Newman	 | 1c66c2262596ec8e | c2n12A_ | 51.9 | 24 | 12 |UNK | PDB header:motor protein,protein transport | Chain: A: PDB Molecule:unconventional myosin-vi;
+	221029.1	Salmonella_typhimurium_bacteriophage_ST104	 | b048c7ab3d7203fb | c3fmtF_ | 58.6 | 27 | 11 |2.98 | PDB header:replication inhibitor/dna | Chain: F: PDB Molecule:protein seqa;
+	320841.3	Bacteriophage_EW	 | e7ea51b43f141cb2 | c2outA_ | 97.4 | 33 | 41 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1540095	1540095.3.Citrobacter_phage_Moon.24721793	 | d7e29c8c474a7e86 | c1yueA_ | 100.0 | 85 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1262518	Leuconostoc_phage_phiLN25	 | f9116c608e2f9a18 | c4pqzA_ | 29.6 | 26 | 35 |2.30 | PDB header:transcription | Chain: A: PDB Molecule:transcriptional protein swt1;
+	175950.1	Salmonella_typhimurium_phage_ST64B	 | 0391f4e70b541d3a | d2ft1a1 | 100.0 | 19 | 73 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	709484.3	Enterobacteria_phage_CC31	 | dcf700dcecb480d2 | c1yueA_ | 100.0 | 80 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	644563.2	Vibrio_phage_N4	 | 4942d9904ccde25d | c3j4bB_ | 100.0 | 63 | 92 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	1222338	Enterobacteria_phage_GEC-3S	 | c92a867ece83f259 | d2pp6a1 | 17.9 | 50 | 28 | Phage tail proteins | Phage tail proteins | gpFII-like
+	260120.2	Siphoviridae_Mycobacterium_phage_U2	 | 68c7dfa3fb006500 | c5fwhA_ | 24.9 | 36 | 15 |2.06 | PDB header:structural protein | Chain: A: PDB Molecule:essc;
+	1498228	1498228.4.Rhizobium_phage_vB_RleM_PPF1.22109380	 | 857d5f65601d975b | c2lsmA_ | 78.3 | 37 | 61 |UNK | PDB header:chaperone | Chain: A: PDB Molecule:dna-packaging protein fi;
+	1340822	Mycobacteriophage_Daenerys	 | 6f5c87d59a5717b9 | c4ba6A_ | 21.8 | 53 | 7 |1.42 | PDB header:carbohydrate-binding protein | Chain: A: PDB Molecule:endoglucanase cel5a;
+	1262516	Leuconostoc_phage_phiLN04	 | 1368c87c6c87b90c | c5bu3A_ | 15.7 | 45 | 10 |1.90 | PDB header:lyase | Chain: A: PDB Molecule:pyri4;
+	565140.2	Siphoviridae_Bacillus_phage_TP21-L	 | b6fcc9d45124297b | c4bmlA_ | 100.0 | 14 | 97 |4.70 | PDB header:virus | Chain: A: PDB Molecule:major capsid protein;
+	503388.2	Podoviridae_Lactococcus_phage_asccphi28	 | 2b27b0a006b3587f | d1k8ke_ | 38.7 | 43 | 11 | Arp2/3 complex 21 kDa subunit ARPC3 | Arp2/3 complex 21 kDa subunit ARPC3 | Arp2/3 complex 21 kDa subunit ARPC3
+	338473.2	unclassified_Picovirinae_Actinomyces_phage_Av-1	 | 9b4929e83beb5f76 | c4ep0E_ | 100.0 | 20 | 94 |4.00 | PDB header:structural protein, viral protein | Chain: E: PDB Molecule:major tail protein;
+	1486657	1486657.3.Bacillus_phage_CAM003.19526382	 | 7be3787ed7b0c45b | c2yewG_ | 13.8 | 54 | 32 |5.00 | PDB header:virus | Chain: G: PDB Molecule:capsid protein;
+	1486473	1486473.3.Mycobacterium_phage_OkiRoe.19686118	 | 83003fed67191ed9 | c2m0nA_ | 60.7 | 27 | 43 |UNK | PDB header:unknown function | Chain: A: PDB Molecule:putative uncharacterized protein;
+	1327036	Mycobacterium_phage_WIVsmall	 | a8109d9852fcd20a | c4iozC_ | 72.4 | 26 | 34 |2.60 | PDB header:signaling protein | Chain: C: PDB Molecule:stromal interaction molecule 1;
+	320840.3	Bacteriophage_37	 | 1a6d2a3061661615 | c2outA_ | 97.0 | 32 | 38 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1316739	Pseudoalteromonas_phage_RIO-1	 | 4758e30fb55b1685 | c2jd3B_ | 46.2 | 24 | 14 |2.8  | PDB header:dna binding protein | Chain: B: PDB Molecule:stbb protein;
+	268747.4	Prochlorococcus_phage_P-SSM4	 | e9927d3f187845b8 | c2z2uA_ | 40.9 | 20 | 6 |2.40 | PDB header:metal binding protein | Chain: A: PDB Molecule:upf0026 protein mj0257;
+	35241.1	Bacteriophage_Tuc2009	 | 086b5936ffc64dcf | d2ft1a1 | 100.0 | 21 | 96 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	929814.4	Salmonella_phage_RE-2010	 | 6fb283b1b50105f5 | d1elra_ | 97.1 | 16 | 56 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	504501.3	Propionibacterium_phage_PAD20_endogenous_virus	 | ee71e400fbff610b | c4hzvA_ | 48.7 | 22 | 19 |1.80 | PDB header:hydrolase | Chain: A: PDB Molecule:neuraminidase;
+	1079894	Mycobacterium_phage_Redi	 | b08f0864e14dd0bf | c4fczB_ | 30.1 | 34 | 33 |2.60 | PDB header:transport protein | Chain: B: PDB Molecule:toluene-tolerance protein;
+	387910.2	Siphoviridae_Staphylococcus_aureus_phage_phiNM4	 | d528123669df200a | d1qled_ | 6.7 | 18 | 57 | Single transmembrane helix | Bacterial aa3 type cytochrome c oxidase subunit IV | Bacterial aa3 type cytochrome c oxidase subunit IV
+	1093100	Pseudomonas_phage_F_HA0480sp/Pa1651	 | ffac88c1646fe378 | c2outA_ | 97.7 | 40 | 30 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1486660	1486660.3.Bacillus_phage_Hoody_T.19525140	 | 15eda87d3fd6abae | d1edqa1 | 91.0 | 21 | 18 | Immunoglobulin-like beta-sandwich | E set domains | E-set domains of sugar-utilizing enzymes
+	155148.1	Bacteriophage_HK620	 | 08e64f53378ab856 | d1ynha1 | 15.1 | 31 | 45 | Pentein, beta/alpha-propeller | Pentein | Succinylarginine dihydrolase-like
+	546185.2	Siphoviridae_Mycobacterium_phage_Porky	 | 2b94d8f3f1f072d6 | c2oinD_ | 7.2 | 86 | 10 |2.50 | PDB header:hydrolase | Chain: D: PDB Molecule:ns4a peptide;
+	1458841	1458841.3.Mycobacterium_phage_CRB1.18503211	 | 442150a4a8c0018e | c4qdnA_ | 69.8 | 41 | 28 |1.70 | PDB header:hydrolase | Chain: A: PDB Molecule:flagellar protein flgj [peptidoglycan hydrolase];
+	563123.2	Siphoviridae_Mycobacterium_phage_Ramsey	 | f7d9380ab9f4788d | c3jvoA_ | 93.3 | 15 | 60 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1173743	Listeria_phage_LP-030-2	 | 203d14b6355cf1ec | d1h1js_ | 95.5 | 38 | 84 | LEM/SAP HeH motif | SAP domain | SAP domain
+	1182515	Mannheimia_phage_vB_MhM_1152AP	 | a21da5fe9fc14aea | d1elra_ | 97.3 | 15 | 54 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	37554.1	Enterobacteria_phage_HK97	 | 1d905fb0fb9c10dd | c3jvoA_ | 100.0 | 96 | 87 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1029988	Erwinia_phage_phiEaH2	 | dc6848fd73728833 | c2gj7F_ | 42.2 | 41 | 5 |5.00 | PDB header:immune system/virus/viral protein | Chain: F: PDB Molecule:glycoprotein e;
+	1077152	Escherichia_phage_vB_EcoM_CBA120	 | 047b1f8b8a01c3b9 | c4cgkA_ | 95.5 | 11 | 74 |2.55 | PDB header:cell cycle | Chain: A: PDB Molecule:secreted 45 kda protein;
+	1500756	1500756.3.Pseudomonas_phage_phiPSA2.19685921	 | b6cbd2dea3198424 | c3j4bB_ | 100.0 | 62 | 93 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	1406795	1406795.3.Salmonella_phage_Maynard.18989446	 | e9c0e75cf775d27f | d1mk0a_ | 99.1 | 17 | 32 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	645664.3	Shigella_phage_SP18	 | 3bb3ef70c2234228 | c3si5X_ | 64.3 | 58 | 11 |2.20 | PDB header:cell cycle | Chain: X: PDB Molecule:protein casc5;
+	1262520	Leuconostoc_phage_phiLN6B	 | 67d5a70df35ffa55 | c5bu3A_ | 15.7 | 45 | 10 |1.90 | PDB header:lyase | Chain: A: PDB Molecule:pyri4;
+	29252.1	Enterobacteria_phage_186	 | fb9137d98ebf333e | d2ft1a1 | 91.7 | 11 | 87 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	35343.1	Bacteriophage_phi_CTX	 | c6bfb6815f251fdd | d2ft1a1 | 93.8 | 14 | 92 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	37105.3	Lactobacillus_phage_JCL1032	 | 794c7ec2d521a121 | c2ko5A_ | 12.2 | 88 | 14 |UNK | PDB header:transcription | Chain: A: PDB Molecule:ring finger protein z;
+	342564.2	P2-like_viruses_Pasteurella_phage_F108	 | edba9fea11796497 | c4j8dC_ | 92.7 | 19 | 53 |2.80 | PDB header:chaperone | Chain: C: PDB Molecule:hsc70-interacting protein;
+	1455076	1455076.4.Citrobacter_phage_CR8.18499553	 | 444967a79e515f2b | c3j7wF_ | 100.0 | 73 | 77 |3.50 | PDB header:virus | Chain: F: PDB Molecule:major capsid protein 10a;
+	326037.2	Siphoviridae_Staphylococcus_phage_phiETA3	 | d5f19d8dd3cbd0ff | d1qled_ | 6.7 | 18 | 56 | Single transmembrane helix | Bacterial aa3 type cytochrome c oxidase subunit IV | Bacterial aa3 type cytochrome c oxidase subunit IV
+	157924.1	Streptococcus_mitis_phage_SM1	 | dcaded995ef3b7d9 | d2ft1a1 | 100.0 | 16 | 99 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	673375.2	Sodalis_phage_SO-1	 | 02a1854f92bbfedb | d2ewoa1 | 48.1 | 25 | 53 | Pentein, beta/alpha-propeller | Pentein | Porphyromonas-type peptidylarginine deiminase
+	1471542	1471542.3.Mycobacterium_phage_MosMoris.19487477	 | 922e497820674e87 | c3jvoA_ | 66.0 | 28 | 52 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	879630.3	Aeromonas_phage_phiAS5	 | 6374b414514b3951 | c1yueA_ | 100.0 | 36 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1197952	Staphylococcus_phage_vB_SepiS-phiIPLA5	 | b8b9850b37d1474d | c2outA_ | 96.8 | 31 | 35 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1548918	1548918.3.Pseudomonas_phage_vB_PaeS_PAO1_Ab30.23680581	 | 5417ed3499469527 | c2outA_ | 97.8 | 35 | 49 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	10710.1	Bacteriophage_lambda	 | a24f0745a5c2cd18 | c3bqwA_ | 100.0 | 43 | 99 |2.20 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:putative capsid protein of prophage;
+	540064.2	Siphoviridae_Mycobacterium_phage_DD5	 | b5b738b0f1e3f26b | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	1195085	Cronobacter_phage_CR5	 | b0763f9f3b9d1cab | d1vjua_ | 48.8 | 21 | 22 | Coproporphyrinogen III oxidase | Coproporphyrinogen III oxidase | Coproporphyrinogen III oxidase
+	1458849	1458849.3.Salmonella_phage_vB_SalM_SJ2.18938072	 | d63c3d220fd0660f | d1mk0a_ | 99.1 | 17 | 32 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	1498212	1498212.3.Bacillus_phage_JBP901.24723174	 | 3229b9e8f34502f7 | 
+	764595.3	Bacillus_phage_W.Ph	 | 3ef15c768c08295b | c2mduA_ | 29.1 | 64 | 13 |UNK | PDB header:isomerase | Chain: A: PDB Molecule:pin1 ww domain;
+	390978.2	P2-like_viruses_Mannheimia_phage_phiMHaA1	 | 8c4a4ff830e365e5 | d1elra_ | 97.3 | 15 | 54 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	540067.2	Siphoviridae_Mycobacterium_phage_Lockley	 | 5d8dfc7c12d36516 | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	10756.2	Bacillus_phage_phi29	 | 57ce73bdd660fcd1 | c3qc7A_ | 100.0 | 99 | 57 |1.52 | PDB header:viral protein | Chain: A: PDB Molecule:head fiber protein;
+	10708.1	Bacteriophage_D3112	 | 50a7e62306226de7 | d2outa2 | 97.8 | 38 | 57 | GINS/PriA/YqbF domain | PriA/YqbF domain | YqbF N-terminal domain-like
+	59241.3	Streptococcus_phage_Dp-1	 | 43f1889ca9db6d31 | c2a8vA_ | 70.6 | 30 | 31 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	722417.3	Campylobacter_phage_CP220	 | 12f5e19409aa33f0 | c4m00A_ | 99.0 | 10 | 39 |2.05 | PDB header:cell adhesion | Chain: A: PDB Molecule:serine-rich adhesin for platelets;
+	1204535	Clostridium_phage_phiMMP04	 | 6a1c719acf29d99a | c3jvoA_ | 99.9 | 19 | 89 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	389469.2	unclassified_Lambda-like_viruses_Pseudomonas_phage_DMS3	 | f82e331d64d860b6 | c2outA_ | 97.8 | 35 | 49 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1168593	Mycobacterium_phage_Flux	 | bef80f8b330396db | d1lv3a_ | 17.6 | 63 | 10 | Glucocorticoid receptor-like (DNA-binding domain) | Glucocorticoid receptor-like (DNA-binding domain) | Hypothetical zinc finger protein YacG
+	69609.3	Enterobacteria_phage_RB27	 | 5a510b2e9eeb4c7e | c1yueA_ | 100.0 | 99 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1211644	Caulobacter_phage_CcrSwift	 | c93657d4cd8dc494 | d1lf6a2 | 33.2 | 21 | 52 | Supersandwich | Galactose mutarotase-like | Bacterial glucoamylase N-terminal domain-like
+	1536598	1536598.3.Mycobacterium_phage_BuzzLyseyear.23679769	 | 318d47226fc25127 | c3jvoA_ | 93.0 | 17 | 53 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	576790.2	T4-like_viruses_Enterobacteria_phage_JS10	 | ecd9928886d89edc | d1paza_ | 18.1 | 33 | 36 | Cupredoxin-like | Cupredoxins | Plastocyanin/azurin-like
+	330396.2	Siphoviridae_Listeria_phage_B025	 | e2fcf92c1f05d2f2 | d2di0a1 | 38.1 | 20 | 42 | RuvA C-terminal domain-like | UBA-like | CUE domain
+	1486427	1486427.3.Mycobacterium_phage_ZoeJ.19488107	 | 71ed80f550f830e5 | d1xn8a_ | 57.4 | 13 | 74 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	1262532	Mycobacterium_phage_BTCU-1	 | bf3bbd8c39ceeb2f | d2ft1a1 | 100.0 | 18 | 94 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1434323	1434323.3.Escherichia_phage_HY01.24722662	 | 30feea9deebf5d8a | c2gv5C_ | 40.7 | 39 | 25 |3.00 | PDB header:cell cycle | Chain: C: PDB Molecule:sfi1p;
+	1168280	Cronobacter_phage_phiES15	 | 1371ab4f81922e84 | c2l04A_ | 99.7 | 26 | 92 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:major tail protein v;
+	1080800	Salmonella_phage_SFP10	 | 017256ec2a63bc8f | c1c1gA_ | 96.2 | 9 | 99 |7.00 | PDB header:contractile protein | Chain: A: PDB Molecule:tropomyosin;
+	442493.2	Enterococcus_phage_phiEF24C	 | 1828873ae89fef48 | d2grga1 | 29.4 | 37 | 31 | Profilin-like | YNR034W-A-like | YNR034W-A-like
+	1262521	Leuconostoc_phage_phiLNTR3	 | 924af10ed5be751a | c4pqzA_ | 29.9 | 26 | 33 |2.30 | PDB header:transcription | Chain: A: PDB Molecule:transcriptional protein swt1;
+	682370.2	Streptococcus_phage_ALQ13.2	 | b66aae1bfa3cc64b | c3bqwA_ | 100.0 | 14 | 96 |2.20 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:putative capsid protein of prophage;
+	329864.2	Podoviridae_Salmonella_phage_SE1	 | 2f48885f4780b208 | c3fmtF_ | 58.6 | 27 | 11 |2.98 | PDB header:replication inhibitor/dna | Chain: F: PDB Molecule:protein seqa;
+	1527511	1527511.3.Mycobacterium_phage_Hades.23679888	 | ae1cebab848805ed | c4ba6A_ | 21.8 | 53 | 7 |1.42 | PDB header:carbohydrate-binding protein | Chain: A: PDB Molecule:endoglucanase cel5a;
+	255131.1	Bacteriophage_phi1026b	 | 67768713b6d5f0a2 | c2lsmA_ | 8.1 | 44 | 22 |UNK | PDB header:chaperone | Chain: A: PDB Molecule:dna-packaging protein fi;
+	1391180	Mycobacterium_phage_Nala	 | 9441f300dd7c42b0 | c3ia0c_ | 21.2 | 44 | 26 |2.50 | PDB header:structural protein | Chain: C: PDB Molecule:ethanolamine utilization protein euts;
+	1327964	Pseudomonas_phage_PAK_P5	 | 2452323efb57f8b6 | d2q7sa1 | 53.6 | 20 | 36 | Phosphorylase/hydrolase-like | Zn-dependent exopeptidases | FGase-like
+	857277.7	Enterobacteria_phage_T4T	 | 15ecf6c01540bc6b | c1yueA_ | 100.0 | 25 | 80 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	201846.3	Lactococcus_phage_P335	 | 2b08c5f815b1d5aa | c2outA_ | 94.4 | 39 | 63 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1168613	Staphylococcus_phage_TEM123	 | e8e5395ca5b764cb | c3nr7A_ | 62.1 | 20 | 21 |3.70 | PDB header:dna binding protein | Chain: A: PDB Molecule:dna-binding protein h-ns;
+	1150990	Enterobacter_phage_Enc34	 | e7b3c5dcca4851ff | c1b9xC_ | 50.6 | 30 | 34 |3.00 | PDB header:signaling protein | Chain: C: PDB Molecule:protein (phosducin);
+	399185.2	Siphoviridae_Staphylococcus_phage_PH15	 | 0bd97370b3c3b697 | c2outA_ | 96.8 | 31 | 35 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1109712	Rhodococcus_phage_REQ1	 | f38ae55dabf7a8a0 | c3jvoA_ | 97.6 | 31 | 77 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	320832.3	Bacteriophage_66	 | bba97821684d9413 | d1a5ta1 | 22.2 | 30 | 56 | post-AAA+ oligomerization domain-like | post-AAA+ oligomerization domain-like | DNA polymerase III clamp loader subunits, C-terminal domain
+	1486659	1486659.3.Bacillus_phage_Hakuna.19526084	 | b50a1e9b1e55f414 | d2icya1 | 22.5 | 31 | 20 | Single-stranded left-handed beta-helix | Trimeric LpxA-like enzymes | GlmU C-terminal domain-like
+	1357714	Caulobacter_phage_Cr30	 | 78f186897bf59e1e | c3ojaB_ | 95.1 | 10 | 45 |2.70 | PDB header:protein binding | Chain: B: PDB Molecule:anopheles plasmodium-responsive leucine-rich repeat protein
+	1264700	Edwardsiella_phage_MSW-3_DNA	 | 51a7e1c36c90246e | d2nwaa1 | 36.9 | 38 | 51 | PUA domain-like | PUA domain-like | YtmB-like
+	1327765	Mycobacterium_phage_Fishburne	 | d2b314caac878963 | c2lnaA_ | 21.3 | 37 | 26 |UNK | PDB header:hydrolase | Chain: A: PDB Molecule:afg3-like protein 2;
+	148603.5	Mycobacterium_phage_Bxb1	 | 18446296a8863059 | d1qb3a_ | 51.8 | 28 | 24 | Cell cycle regulatory proteins | Cell cycle regulatory proteins | Cell cycle regulatory proteins
+	1453367	1453367.3.Staphylococcus_phage_GRCS.18505620	 | 69303f5650f78967 | c3uepB_ | 12.4 | 27 | 35 |2.25 | PDB header:protein transport | Chain: B: PDB Molecule:yscq-c, type iii secretion protein;
+	1206545	Klebsiella_phage_0507-KN2-1_DNA	 | 211c6a3602665024 | c2jrtA_ | 21.2 | 45 | 19 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:uncharacterized protein;
+	1110702	Campylobacter_phage_CPX	 | 2c412854baeb6b0a | c4hsuC_ | 40.7 | 54 | 4 |1.99 | PDB header:oxidoreductase | Chain: C: PDB Molecule:histone h3;
+	376820.3	Bacteriophage_phi-MhaA1-PHL101	 | 9fa79ad7a34a13f4 | d1elra_ | 97.3 | 15 | 54 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	227470.1	Bacteriophage_Aeh1	 | eaab1f497e98036c | c1yueA_ | 100.0 | 36 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1190451	Campylobacter_phage_CP21	 | c5ac03f9f1ed8f3b | c5c4yB_ | 67.5 | 8 | 20 |1.77 | PDB header:transcription | Chain: B: PDB Molecule:putative transcription regulator lmo0852;
+	1235660	Staphylococcus_phage_vB_SauM_Romulus	 | 16b5aac61594b73f | c2wssT_ | 25.8 | 41 | 20 |3.20 | PDB header:hydrolase | Chain: T: PDB Molecule:atp synthase subunit b, mitochondrial;
+	1168744	Listeria_phage_vB_LmoM_AG20	 | 78e8976ec090ea80 | c2a8vA_ | 23.4 | 26 | 25 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1195084	Enterobacteria_phage_Chi	 | 6f9c325d53e43cb8 | c3lwzC_ | 24.4 | 26 | 39 |1.65 | PDB header:lyase | Chain: C: PDB Molecule:3-dehydroquinate dehydratase;
+	51369.1	Lactobacillus_casei_bacteriophage_A2	 | 09c757b856fa865b | d2ft1a1 | 100.0 | 17 | 65 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	379501.2	Siphoviridae_Staphylococcus_phage_phiMR11	 | 4612a6c59793c09b | c2a8vA_ | 97.3 | 26 | 30 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1129147	Klebsiella_phage_KP27	 | 13513b40e5f79ece | d1mk0a_ | 99.9 | 28 | 41 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	1327776	Mycobacterium_phage_Severus	 | bde5f2a7f237eadc | c4qdnA_ | 31.7 | 24 | 28 |1.70 | PDB header:hydrolase | Chain: A: PDB Molecule:flagellar protein flgj [peptidoglycan hydrolase];
+	1406785	1406785.3.Bacillus_phage_Grass.17959994	 | bcd5dbda466ede36 | c4pj1V_ | 18.4 | 21 | 53 |3.15 | PDB header:chaperone | Chain: V: PDB Molecule:10 kda heat shock protein, mitochondrial;
+	1416028	1416028.3.Escherichia_phage_bV_EcoS_AHP42.20284089	 | 649462ec634364d2 | d1ldda_ | 36.4 | 26 | 37 | DNA/RNA-binding 3-helical bundle | "Winged helix" DNA-binding domain | SCF ubiquitin ligase complex WHB domain
+	261726.2	Myoviridae_Vibrio_phage_VP882	 | 4eb21737bc57c00f | d1xuba1 | 27.7 | 20 | 69 | Diaminopimelate epimerase-like | Diaminopimelate epimerase-like | PhzC/PhzF-like
+	1446492	1446492.3.Salmonella_phage_vB_SalM_SJ3.19484734	 | 07cc2f994d0e552b | d1mk0a_ | 99.1 | 17 | 32 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	1406784	1406784.3.Bacillus_phage_Glittering.17959407	 | 14c70521cab567eb | c4oydB_ | 20.3 | 39 | 47 |1.80 | PDB header:viral protein/inhibitor | Chain: B: PDB Molecule:computationally designed inhibitor;
+	1168595	Mycobacterium_phage_Aeneas	 | 8ea6237f87aaf2ec | c4qkvB_ | 47.3 | 38 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	1054834	Enterobacteria_phage_ime09	 | 04085a2020ef7ead | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	10693.2	T4-like_viruses_Enterobacteria_phage_RB51	 | 32a0d434e187be4e | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1340818	Mycobacterium_phage_LittleCherry	 | b5caede746622db2 | d1xn8a_ | 82.1 | 24 | 73 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	55510.3	Staphylococcus_phage_Twort	 | 7cc23da6f5367753 | c4zjnA_ | 97.9 | 14 | 62 |1.98 | PDB header:transport protein | Chain: A: PDB Molecule:portal protein;
+	1391181	Mycobacterium_phage_PhatBacter	 | 7f84a2b860c1036c | c3ia0c_ | 21.2 | 44 | 26 |2.50 | PDB header:structural protein | Chain: C: PDB Molecule:ethanolamine utilization protein euts;
+	1235661	Pseudomonas_phage_UFV-P2	 | 8cec5bd8f5c6b135 | 
+	1445859	1445859.3.Shewanella_phage_Spp001.18505281	 | 02ba9e44cc9599a8 | d1xsfa1 | 25.6 | 58 | 6 | Lysozyme-like | Lysozyme-like | RPF-like
+	372457.2	Siphoviridae_Streptococcus_phage_M102	 | 631562fb7b9bb9f5 | c3jvoA_ | 99.9 | 14 | 90 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1486403	1486403.3.Mycobacterium_phage_Manad.19685946	 | 053c6579d08c826b | c2n12A_ | 59.5 | 26 | 12 |UNK | PDB header:motor protein,protein transport | Chain: A: PDB Molecule:unconventional myosin-vi;
+	1173766	Listeria_phage_LP-125	 | 76b8ba48902c19e2 | c2a8vA_ | 25.8 | 26 | 27 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1195068	Staphylococcus_phage_StauST398-1	 | cb272cbf85818753 | c3a7pB_ | 79.5 | 13 | 29 |2.80 | PDB header:protein transport | Chain: B: PDB Molecule:autophagy protein 16;
+	1175655	Pseudomonas_phage_PaMx73	 | 7b483d0625c00162 | d1yu0a1 | 59.6 | 20 | 48 | Pseudo beta-prism | Bacteriophage trimeric proteins domain | Mtd domain-like
+	1416030	1416030.3.Escherichia_phage_bV_EcoS_AHS24.20282729	 | 22a7c81ecfddff2e | d1ldda_ | 36.4 | 26 | 37 | DNA/RNA-binding 3-helical bundle | "Winged helix" DNA-binding domain | SCF ubiquitin ligase complex WHB domain
+	1391223	Escherichia_phage_vB_EcoP_PhAPEC7	 | d2c4064695b4e0e6 | 
+	1007869	Rhodococcus_phage_E3	 | dd5f71ec3fe1298d | c1ypxA_ | 43.8 | 36 | 15 |2.60 | PDB header:transferase | Chain: A: PDB Molecule:putative vitamin-b12 independent methionine synthase family
+	1445726	1445726.3.Mycobacterium_phage_MichelleMyBell.18503491	 | 8f2db01b65893809 | c2qguA_ | 31.4 | 27 | 17 |1.50 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:probable signal peptide protein;
+	1147155	Enterobacteria_phage_vB_EcoS_Rogue1	 | aa85677d9f612070 | c1u3eM_ | 99.9 | 25 | 98 |2.92 | PDB header:dna binding protein/dna | Chain: M: PDB Molecule:hnh homing endonuclease;
+	320844.3	Bacteriophage_71	 | 90a63bb23d68d869 | c2a8vA_ | 97.4 | 26 | 30 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1206560	Yersinia_phage_phiD1	 | b4d595576aed1fce | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1445727	1445727.3.Mycobacterium_phage_Oaker.18503857	 | ebb0852b1c7a2041 | c3aqbC_ | 35.0 | 39 | 10 |2.40 | PDB header:transferase | Chain: C: PDB Molecule:component a of hexaprenyl diphosphate synthase;
+	70734.2	K139-like_phages_Vibrio_phage_K139	 | a7911566138cf71c | d1elra_ | 96.0 | 19 | 57 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	1486424	1486424.3.Mycobacterium_phage_Bernal13.19488317	 | e7a592947cf032f1 | d1uk5a_ | 24.1 | 35 | 45 | Spectrin repeat-like | BAG domain | BAG domain
+	400567.2	Podoviridae_Phormidium_phage_Pf-WMP4	 | d12d0f85c9cabf65 | c1tiiC_ | 22.5 | 38 | 39 |2.25 | PDB header:enterotoxin | Chain: C: PDB Molecule:heat labile enterotoxin type iib;
+	1524910	1524910.3.Staphylococcus_phage_MCE-2014.22276276	 | f6945a155ba6e3cd | c1jqsB_ | 20.3 | 63 | 15 |NULL | PDB header:ribosome | Chain: B: PDB Molecule:elongation factor g;
+	1327758	Streptomyces_phage_Lika	 | be0369c44c15f395 | d1xn8a_ | 92.2 | 26 | 62 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	345922.2	Siphoviridae_Bacillus_phage_Fah	 | 3c38b12feb7a22cf | c3jvoA_ | 99.9 | 21 | 84 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1262523	Leuconostoc_phage_phiLNTR2	 | d185bd041354b15d | c4pqzA_ | 29.9 | 26 | 33 |2.30 | PDB header:transcription | Chain: A: PDB Molecule:transcriptional protein swt1;
+	10685.2	SPO1-like_viruses_Bacillus_phage_SPO1	 | ce2a1b7aea4217e1 | c1bb1A_ | 22.8 | 56 | 14 |1.80 | PDB header:de novo protein design | Chain: A: PDB Molecule:designed, thermostable heterotrimeric coiled
+	906668.4	Escherichia_phage_HK75	 | 4d4e245e99a3132b | c3jvoA_ | 100.0 | 96 | 87 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1108070	Pediococcus_phage_clP1	 | 14a80804df67918b | c3nr7A_ | 40.0 | 12 | 22 |3.70 | PDB header:dna binding protein | Chain: A: PDB Molecule:dna-binding protein h-ns;
+	1204533	Bacillus_phage_phiAGATE	 | aa3d4d69d2d93d5d | c1deqF_ | 16.5 | 4 | 33 |3.50 | PDB header:blood clotting | Chain: F: PDB Molecule:fibrinogen (gamma chain);
+	1486413	1486413.3.Listeria_phage_LMTA-148.20282901	 | acf382ef60ea05aa | c2a8vA_ | 21.4 | 26 | 25 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1054480	Escherichia_phage_wV7	 | d86a59d28fa493ff | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1455074	1455074.3.Enterobacter_phage_PG7.18502471	 | b92c4d0c340db17a | c1yueA_ | 100.0 | 81 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1498168	1498168.3.Enterococcus_phage_ECP3.24628148	 | 8caef9cc971df9a9 | c3j4uA_ | 97.9 | 19 | 33 |3.50 | PDB header:virus | Chain: A: PDB Molecule:major capsid protein;
+	233894.4	Aeromonas_phage_25	 | 15f19ce7af57bed1 | d1utya_ | 17.1 | 21 | 50 | BTV NS2-like ssRNA-binding domain | BTV NS2-like ssRNA-binding domain | BTV NS2-like ssRNA-binding domain
+	444860.6	Synechococcus_phage_S-SM2	 | decb085c3280b536 | c4tseA_ | 12.8 | 37 | 28 |2.06 | PDB header:ligase | Chain: A: PDB Molecule:e3 ubiquitin-protein ligase mib1;
+	1458856	1458856.3.Listeria_phage_LP-101.19735921	 | 08f29e177c83a930 | d2di0a1 | 39.3 | 20 | 42 | RuvA C-terminal domain-like | UBA-like | CUE domain
+	1221835	Acinetobacter_phage_YMC/09/02/B1251_ABA_BP	 | 72a2168b8b2a0aa4 | d2outa1 | 96.2 | 52 | 11 | LEM/SAP HeH motif | Rho N-terminal domain-like | YqbF C-terminal domain-like
+	115987.1	Bacteriophage_44RR2.8t	 | 0bb5f4ae67b6c8c7 | d1ogpa1 | 51.5 | 28 | 65 | Immunoglobulin-like beta-sandwich | E set domains | Molybdenum-containing oxidoreductases-like dimerisation domain
+	644007.2	Siphoviridae_Streptococcus_phage_PH10	 | 0c5150fc55292bf2 | c3g1jA_ | 73.1 | 43 | 23 |1.70 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:integron cassette protein;
+	990550.3	Campylobacter_phage_CP81	 | ab02e4b1757d8e16 | c3r3pB_ | 98.5 | 28 | 20 |2.20 | PDB header:hydrolase | Chain: B: PDB Molecule:mobile intron protein;
+	673839.2	Enterococcus_phage_phiFL4A	 | 8319c6237c903eb7 | d1d9ca_ | 24.9 | 33 | 56 | 4-helical cytokines | 4-helical cytokines | Interferons/interleukin-10 (IL-10)
+	1429793	1429793.3.Mycobacterium_phage_Donovan.18505690	 | 43cd5a631faa64e9 | c2bn5A_ | 17.0 | 50 | 19 |UNK | PDB header:nuclear protein | Chain: A: PDB Molecule:psi;
+	459845.2	Siphoviridae_Streptococcus_phage_858	 | 91ab910c873e7aeb | c3bqwA_ | 100.0 | 14 | 96 |2.20 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:putative capsid protein of prophage;
+	466052.2	Siphoviridae_Thermus_phage_P74-26	 | 78651266fc09a86c | c2jobA_ | 18.7 | 40 | 25 |UNK | PDB header:lipid binding protein | Chain: A: PDB Molecule:antilipopolysaccharide factor;
+	490912.2	unclassified_N4-like_viruses_Silicibacter_phage_DSS3phi2	 | 35b3edbb0fd833e5 | d1x87a_ | 46.5 | 83 | 9 | Urocanase | Urocanase | Urocanase
+	1327760	Streptomyces_phage_Zemlya	 | e2c35881a1788802 | d1xn8a_ | 92.2 | 30 | 57 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	1327762	Mycobacterium_phage_Astraea	 | 8dfb09874fa1568b | c2wshC_ | 75.3 | 20 | 18 |1.90 | PDB header:hydrolase | Chain: C: PDB Molecule:endonuclease ii;
+	941058.3	Bacillus_phage_SP10	 | 4869565115e659f0 | c4xzcB_ | 12.9 | 28 | 24 |2.60 | PDB header:rna binding protein | Chain: B: PDB Molecule:nucleoprotein;
+	40521.1	Bacteriophage_A118	 | 6c144591ad0a24ad | c2outA_ | 98.3 | 39 | 82 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	469660.2	Podoviridae_Thalassomonas_phage_BA3	 | 9be1641b79a2e1d1 | d1dmua_ | 33.0 | 30 | 18 | Restriction endonuclease-like | Restriction endonuclease-like | Restriction endonuclease BglI
+	40522.2	Siphoviridae_Listeria_phage_A500	 | 92ff10b5f92614e4 | c2outA_ | 98.2 | 43 | 82 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	1327771	Mycobacterium_phage_Job42	 | 51c435e3c5382f9e | c3jvoA_ | 87.3 | 13 | 69 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	215167.2	Siphoviridae_Staphylococcus_phage_3A	 | 4906989f7537ab47 | c3jvoA_ | 97.9 | 17 | 77 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1262512	Staphylococcus_phage_Team1	 | 7dc0cd6e66ddd96a | c1wrgA_ | 18.3 | 38 | 15 |UNK | PDB header:membrane protein | Chain: A: PDB Molecule:light-harvesting protein b-880, beta chain;
+	1283071	Vibrio_phage_JA-1	 | 877ec26069291456 | d1n3ka_ | 62.8 | 19 | 15 | DEATH domain | DEATH domain | DEATH effector domain, DED
+	341698.2	Siphoviridae_Streptococcus_phage_MM1_1998	 | 97b0272b57d2e4b7 | d2ra7a1 | 31.2 | 26 | 38 | Four-helical up-and-down bundle | FAT domain of focal adhesion kinase | FAT domain of focal adhesion kinase
+	467481.2	Siphoviridae_Azospirillum_phage_Cd	 | 94c4de8fa3ebcf18 | c3j4uJ_ | 97.7 | 21 | 98 |3.50 | PDB header:virus | Chain: J: PDB Molecule:cementing protein;
+	1327763	Mycobacterium_phage_Breezona	 | 0f2b3653654afa10 | c3jvoA_ | 93.0 | 14 | 49 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1562076	1562076.3.Pseudomonas_phage_Pf-10.24576450	 | e804a2bbc19165f8 | c1f00I_ | 99.6 | 14 | 95 |1.90 | PDB header:cell adhesion | Chain: I: PDB Molecule:intimin;
+	1486422	1486422.3.Listeria_phage_List-36.19685355	 | 61f13d917af57947 | c4cgkA_ | 29.1 | 7 | 70 |2.55 | PDB header:cell cycle | Chain: A: PDB Molecule:secreted 45 kda protein;
+	1477406	1477406.3.Dickeya_phage_RC-2014.22113371	 | 2f8cfe6bd8740716 | c2yy0D_ | 81.3 | 27 | 15 |2.40 | PDB header:transcription | Chain: D: PDB Molecule:c-myc-binding protein;
+	1391188	Bacillus_phage_CP-51	 | 90ab64b34a1127f7 | d1yvca1 | 14.3 | 25 | 39 | OB-fold | Nucleic acid-binding proteins | TRAM domain
+	1076630	Mycobacterium_phage_AnnaL29	 | 9707ef31e06c4d28 | c1z4hA_ | 96.5 | 23 | 92 |UNK | PDB header:protein binding, dna binding protein | Chain: A: PDB Molecule:tor inhibition protein;
+	1141138	Cronobacter_phage_vB_CsaM_GAP161	 | c2eec20d8ed77271 | d1mk0a_ | 99.9 | 24 | 42 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	1414747	1414747.3.Mycobacterium_phage_Validus.18479811	 | 05f1de36c68b0446 | c3jvoA_ | 70.4 | 17 | 49 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	393598.2	P2-like_viruses_Aeromonas_phage_phiO18P	 | 1a5186eed0ed2a4d | d1elra_ | 96.6 | 19 | 56 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	1548902	1548902.3.Pseudomonas_phage_vB_PaeP_PAO1_Ab05.23680638	 | 4163618235d21067 | c3j4bB_ | 100.0 | 22 | 94 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	1527771	1527771.3.Mesorhizobium_phagevB_MloP_Lo5R7ANS.22109858	 | 9e109eb4108ba9cc | c3j4bB_ | 100.0 | 33 | 94 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	1279083	Pseudomonas_phage_PPpW-4_DNA	 | b306e4450569a8b5 | c2l04A_ | 99.8 | 38 | 98 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:major tail protein v;
+	445684.6	Synechococcus_phage_Syn19	 | d0967de2d8edb7f0 | c2m7cA_ | 18.9 | 75 | 15 |UNK | PDB header:de novo protein | Chain: A: PDB Molecule:trp-cage mini-protein;
+	1340833	Mycobacterium_phage_Contagion	 | b8b792a63665ae4d | c3ia0c_ | 21.2 | 44 | 26 |2.50 | PDB header:structural protein | Chain: C: PDB Molecule:ethanolamine utilization protein euts;
+	1411095	1411095.3.Clostridium_phage_CDMH1.19488091	 | e4e1b1dcac0950ea | c2kbzA_ | 92.9 | 20 | 86 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:15 protein (bacteriophage spp1 complete
+	10719.1	Bacteriophage_phi-C31	 | 3158718ac58fd6ab | c3jvoA_ | 92.7 | 9 | 54 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	78541.1	Streptococcus_thermophilus_bacteriophage_Sfi11	 | e9b5fa3d58c887b5 | d1z0pa1 | 49.1 | 23 | 89 | Long alpha-hairpin | SPy1572-like | SPy1572-like
+	1476390	1476390.3.Pseudomonas_phage_vB_PaeS_SCH_Ab26.19686710	 | ef4c107c69b43555 | c3vx8C_ | 21.0 | 25 | 39 |3.11 | PDB header:ligase | Chain: C: PDB Molecule:autophagy-related protein 3;
+	55511.2	Siphoviridae_Staphylococcus_phage_187	 | fcaab6e605271039 | c2l04A_ | 99.8 | 24 | 55 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:major tail protein v;
+	1348912	Pseudomonas_phage_PAK_P2	 | 1e49224a6e37b393 | d2hwna1 | 51.4 | 24 | 20 | Dimerization-anchoring domain of cAMP-dependent PK regulatory subunit | Dimerization-anchoring domain of cAMP-dependent PK regulatory subunit | Dimerization-anchoring domain of cAMP-dependent PK regulatory subunit
+	1195072	Bacillus_cereus_bacteriophage_vB_BceM_Bc431v3	 | cbd2b8af3b2c365e | 
+	1089118	Mycobacterium_phage_Bruns	 | c0ac383b865bf83c | c4qkvB_ | 51.7 | 33 | 29 |3.00 | PDB header:transcription | Chain: B: PDB Molecule:polymerase i and transcript release factor;
+	1007127	Staphylococcus_phage_Sb-1	 | 66d45b0141a1d3b2 | c1wrgA_ | 18.3 | 38 | 15 |UNK | PDB header:membrane protein | Chain: A: PDB Molecule:light-harvesting protein b-880, beta chain;
+	1340708	Mycobacterium_phage_Bobi	 | 6884e38c2c5f274a | c3jvoA_ | 93.0 | 17 | 53 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	1074306	Mycobacterium_phage_Eureka	 | 7aeb8ba757aa4a5c | c3g7mA_ | 56.0 | 27 | 56 |2.91 | PDB header:hydrolase inhibitor | Chain: A: PDB Molecule:xylanase inhibitor tl-xi;
+	64186.1	Streptococcus_thermophilus_bacteriophage_Sfi21	 | 5f5e022f025b6727 | c3jvoA_ | 99.9 | 20 | 83 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	590739.2	P22-like_viruses_Salmonella_phage_c341	 | 64de39573e2afe59 | c3fmtF_ | 58.6 | 27 | 11 |2.98 | PDB header:replication inhibitor/dna | Chain: F: PDB Molecule:protein seqa;
+	376821.2	P2-like_viruses_Mannheimia_phage_phiMhaA1-BAA410	 | f08acc525622516e | d1elra_ | 97.3 | 15 | 54 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	1112008	Escherichia_phage_bV_EcoS_AKFV33	 | 2fcba5da0b1b7d3e | d1at3a_ | 95.6 | 17 | 42 | Herpes virus serine proteinase, assemblin | Herpes virus serine proteinase, assemblin | Herpes virus serine proteinase, assemblin
+	910473.3	Burkholderia_phage_KS5	 | afc4754913c17c4b | c3njqB_ | 44.2 | 27 | 13 |2.00 | PDB header:viral protein/inhibitor | Chain: B: PDB Molecule:orf 17;
+	1074829	Mycobacterium_phage_TiroTheta9	 | 6782bce831b83069 | d1lv3a_ | 17.6 | 63 | 10 | Glucocorticoid receptor-like (DNA-binding domain) | Glucocorticoid receptor-like (DNA-binding domain) | Hypothetical zinc finger protein YacG
+	1498220	1498220.3.Staphylococcus_phage_phiSa119.22276157	 | 9867b907f5f48634 | c2a8vA_ | 96.7 | 24 | 34 |2.40 | PDB header:protein/rna | Chain: A: PDB Molecule:rna binding domain of rho transcription
+	1541887	1541887.3.Salmonella_phage_Chi.22110800	 | 47903069aac2f286 | c3lwzC_ | 24.4 | 26 | 39 |1.65 | PDB header:lyase | Chain: C: PDB Molecule:3-dehydroquinate dehydratase;
+	1437839	1437839.3.Mycobacterium_phage_Echild.18505779	 | bf2b59cc93f4ca5e | c1us7B_ | 64.9 | 32 | 35 |2.3  | PDB header:chaperone | Chain: B: PDB Molecule:hsp90 co-chaperone cdc37;
+	1527580	1527580.3.Mycobacterium_phage_Inventum.23680070	 | 9bd8c16d8219b2cc | c4ba6A_ | 22.3 | 53 | 7 |1.42 | PDB header:carbohydrate-binding protein | Chain: A: PDB Molecule:endoglucanase cel5a;
+	106284.1	Bacteriophage_phi_ETA	 | 2e1a811ef0adb990 | c3j7wF_ | 100.0 | 20 | 93 |3.50 | PDB header:virus | Chain: F: PDB Molecule:major capsid protein 10a;
+	259901.1	Bacteriophage_77	 | b8937c5536140f9c | d2ft1a1 | 100.0 | 16 | 75 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1195075	Mycobacteriophage_Astro	 | fd6cc87c465fec2d | d1xn8a_ | 95.4 | 22 | 73 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	180504.1	Bacteriophage_phiE125	 | f5a40357aafd811d | c3anwA_ | 23.8 | 28 | 45 |2.65 | PDB header:replication | Chain: A: PDB Molecule:putative uncharacterized protein;
+	1555208	1555208.3.Ruegeria_phage_DSS3-P1.22109523	 | 2e77752adebee216 | d1c5ea_ | 93.6 | 34 | 51 | beta-clip | Head decoration protein D (gpD, major capsid protein D) | Head decoration protein D (gpD, major capsid protein D)
+	1136535	Burkholderia_phage_DC1	 | f78f46305fb7f949 | c2m7cA_ | 19.4 | 42 | 3 |UNK | PDB header:de novo protein | Chain: A: PDB Molecule:trp-cage mini-protein;
+	31533.3	Enterobacteria_phage_RB3	 | fa0462e8be78ebb3 | c1yueA_ | 100.0 | 97 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	1074304	Mycobacterium_phage_Liefie	 | 56b7d577bdfd8a1d | c2wsfH_ | 25.1 | 38 | 26 |3.50 | PDB header:photosynthesis | Chain: H: PDB Molecule:photosystem i reaction center subunit vi, chloroplastic;
+	937835.4	Pseudomonas_phage_PA1/KOR/2010	 | 4673ee73760474ea | d2outa2 | 97.8 | 38 | 57 | GINS/PriA/YqbF domain | PriA/YqbF domain | YqbF N-terminal domain-like
+	1536603	1536603.3.Mycobacteriophage_Estave1.23678948	 | 80f775c72f881554 | c4ba6A_ | 22.9 | 53 | 7 |1.42 | PDB header:carbohydrate-binding protein | Chain: A: PDB Molecule:endoglucanase cel5a;
+	1357825	Enterobacteria_phage_fiAA91-ss	 | cebb192673d7b652 | d1elra_ | 97.6 | 15 | 50 | alpha-alpha superhelix | TPR-like | Tetratricopeptide repeat (TPR)
+	139870.2	Lactobacillus_prophage_Lj965	 | acf3991635b4ec38 | c2kbzA_ | 98.9 | 29 | 83 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:15 protein (bacteriophage spp1 complete
+	1206559	Yersinia_phage_phi80-18	 | 7eca6fada5d213fb | c3j4bB_ | 100.0 | 19 | 88 |12.00 | PDB header:viral protein | Chain: B: PDB Molecule:tail tubular protein a;
+	584892.3	Bacillus_phage_Bcp1	 | 93f57e004e6b4328 | d1lghb_ | 12.7 | 30 | 13 | Light-harvesting complex subunits | Light-harvesting complex subunits | Light-harvesting complex subunits
+	1540096	1540096.3.Citrobacter_phage_Stevie.	 | 989c30b5085d7686 | d1wh6a_ | 14.3 | 20 | 15 | lambda repressor-like DNA-binding domains | lambda repressor-like DNA-binding domains | CUT domain
+	373407.2	Siphoviridae_Mycobacterium_phage_Halo	 | a5b57d16bee62a0d | c2wsfH_ | 27.7 | 38 | 27 |3.50 | PDB header:photosynthesis | Chain: H: PDB Molecule:photosystem i reaction center subunit vi, chloroplastic;
+	1566993	1566993.3.Arthrobacter_phage_vB_ArtM-ArV1.23680851	 | b584f0591ce59571 | d2oz4a1 | 63.6 | 43 | 17 | Immunoglobulin-like beta-sandwich | Immunoglobulin | C2 set domains
+	444861.6	Prochlorococcus_phage_Syn1	 | 123d4e2ca916f97b | d1qnaa2 | 28.8 | 26 | 36 | TBP-like | TATA-box binding protein-like | TATA-box binding protein (TBP), C-terminal domain
+	85154.1	Streptococcus_thermophilus_temperate_bacteriophage_O1205	 | 5e281867ba19ed3b | c3bqwA_ | 100.0 | 15 | 96 |2.20 | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:putative capsid protein of prophage;
+	694060.3	Staphylococcus_phage_SA1	 | fd6c0c7115f11492 | d1c5ea_ | 98.4 | 29 | 52 | beta-clip | Head decoration protein D (gpD, major capsid protein D) | Head decoration protein D (gpD, major capsid protein D)
+	1204531	Salmonella_phage_STML-198	 | f5ff8780934edcb0 | c1yueA_ | 100.0 | 70 | 98 |2.90 | PDB header:viral protein | Chain: A: PDB Molecule:head vertex protein gp24;
+	114777.1	Virus_PhiCh1	 | 9407419e0e39f854 | d1zs3a1 | 52.5 | 14 | 33 | Ferritin-like | Ferritin-like | Ferritin
+	1206110	Lactobacillus_phage_AQ113	 | 7401c1281b892254 | c2kbzA_ | 98.1 | 24 | 91 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:15 protein (bacteriophage spp1 complete
+	1391224	Escherichia_phage_vB_EcoM_PhAPEC2	 | 10133751d8032c1d | c2kkmA_ | 25.7 | 13 | 75 |UNK | PDB header:translation | Chain: A: PDB Molecule:translation machinery-associated protein 16;
+	112023.1	Streptococcus_thermophilus_bacteriophage_7201	 | 871307329eb9709b | c3jvoA_ | 99.9 | 19 | 84 |2.10 | PDB header:viral protein | Chain: A: PDB Molecule:gp6;
+	707757.5	Klebsiella_phage_KP15	 | de801c83de357e61 | d1mk0a_ | 99.9 | 25 | 42 | GIY-YIG endonuclease | GIY-YIG endonuclease | GIY-YIG endonuclease
+	444878.6	Prochlorococcus_phage_Syn33	 | f517dd9c88868a8e | c1e2vB_ | 61.3 | 57 | 9 |1.85 | PDB header:electron transport | Chain: B: PDB Molecule:cytochrome f;
+	10778.1	Bacteriophage_B103	 | cfb56986c53926f4 | c3spaA_ | 37.6 | 13 | 35 |2.50 | PDB header:transferase | Chain: A: PDB Molecule:dna-directed rna polymerase, mitochondrial;
+	1406781	1406781.3.Bacillus_phage_BigBertha.17959658	 | 91c883abf596a150 | d1wyka_ | 27.8 | 40 | 18 | Trypsin-like serine proteases | Trypsin-like serine proteases | Viral proteases
+	1327937	Mycobacterium_phage_Phaux	 | ac29d9370f8d9078 | d2ft1a1 | 100.0 | 30 | 68 | Major capsid protein gp5 | Major capsid protein gp5 | Major capsid protein gp5
+	1429767	1429767.3.Erwinia_phage_Ea9-2.18504015	 | a4e095256fea3422 | 
+	10732.3	Streptomyces_phage_R4	 | 7cc81901d9ef05fc | d1xn8a_ | 92.0 | 23 | 40 | Hypothetical protein YqbG | Hypothetical protein YqbG | Hypothetical protein YqbG
+	655098.2	Pseudomonas_phage_LIT1	 | bb04018d8d748d26 | d2qtva4 | 34.2 | 26 | 79 | Gelsolin-like | C-terminal, gelsolin-like domain of Sec23/24 | C-terminal, gelsolin-like domain of Sec23/24
+	1560342	1560342.3.Acinetobacter_phage_YMC13/03/R2096.24725491	 | fc554766ec7bdb72 | c4xxfA_ | 16.7 | 23 | 16 |1.34 | PDB header:lyase | Chain: A: PDB Molecule:fuculose-1-phosphate aldolase;
+	504553.3	Propionibacterium_phage_PAS50_endogenous_virus	 | 4f1e72deb0455b8f | c4hzvA_ | 48.8 | 22 | 19 |1.80 | PDB header:hydrolase | Chain: A: PDB Molecule:neuraminidase;
+	12402.1	Bacteriophage_EJ-1	 | 148b1ff1d77def4c | c2kbzA_ | 91.7 | 14 | 78 |UNK | PDB header:viral protein | Chain: A: PDB Molecule:15 protein (bacteriophage spp1 complete
+	12390.1	Bacteriophage_phi_LC3	 | 3667594fb9bae242 | c2qnfB_ | 82.3 | 25 | 31 |3.00 | PDB header:hydrolase/dna | Chain: B: PDB Molecule:recombination endonuclease vii;
+	1056833	Mycobacterium_phage_Wile	 | 8c5ff78e2aa109fd | d1fnoa3 | 14.0 | 80 | 13 | Ferredoxin-like | Bacterial exopeptidase dimerisation domain | Bacterial exopeptidase dimerisation domain
+	505292.2	unclassified_Lambda-like_viruses_Pseudomonas_phage_MP38	 | 30bb8bd2d625e657 | c2outA_ | 97.9 | 35 | 38 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:mu-like prophage flumu protein gp35, protein
+	637730.2	Shigella_phage_phiSboM-AG3	 | b8d628ab9ef6e208 | c1c1gA_ | 97.3 | 13 | 97 |7.00 | PDB header:contractile protein | Chain: A: PDB Molecule:tropomyosin;
+	1262517	Leuconostoc_phage_phiLN12	 | 690aaf31bba5f36e | c5bu3A_ | 15.7 | 45 | 10 |1.90 | PDB header:lyase | Chain: A: PDB Molecule:pyri4;
+	649688.2	Siphoviridae_Mycobacterium_phage_Angel	 | 4ba8f5bebc7c845e | c2wsfH_ | 24.2 | 38 | 26 |3.50 | PDB header:photosynthesis | Chain: H: PDB Molecule:photosystem i reaction center subunit vi, chloroplastic;
+	1173745	Listeria_phage_LP-026	 | 49caabdc88d23f70 | d1erna2 | 95.2 | 22 | 75 | Immunoglobulin-like beta-sandwich | Fibronectin type III | Fibronectin type III
+	1555202	1555202.3.Escherichia_phage_121Q.22111644	 | f407c79ef7d836ea | c1zg2A_ | 97.6 | 20 | 16 |UNK | PDB header:structural genomics, unknown function | Chain: A: PDB Molecule:hypothetical upf0213 protein bh0048;
+	90410.1	Streptococcus_thermophilus_bacteriophage_DT1	 | e5def6a5ec7716b3 | d1ryua_ | 27.2 | 25 | 62 | DNA/RNA-binding 3-helical bundle | ARID-like | ARID domain
+	115992.3	Vibrio_phage_nt-1_genomic_sequence	 | d96070cda6a718c3 | c2z7eB_ | 77.8 | 25 | 53 |2.30 | PDB header:biosynthetic protein | Chain: B: PDB Molecule:nifu-like protein;

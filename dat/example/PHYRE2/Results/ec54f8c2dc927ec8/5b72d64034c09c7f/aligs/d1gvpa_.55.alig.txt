@@ -1,0 +1,14 @@
+55 d1gvpa_ Probab=8.14    E-value=1.8e+02  Score=11.02  Aligned_columns=15  Identities=33%
+
+Q ss_pred             CCCCCCCCCCCCCCCEEEEEECCCCCC
+Q ss_conf             752111256755541036752688644
+Q batch____       343 PYTEGLDLDDPDHIGAYKVIVDPDSLQ  369 (427)
+Q Consensus       343 PYv~l~~~~~~d~~gay~~~~DP~sfq  369 (427)
+                      ||-++            .+.++|.||.
+T Consensus        55 pY~~G------------~Y~i~P~Sf~   69 (87)
+T d1gvpa_          55 AYAPG------------LYTVHLSSFK   69 (87)
+T ss_dssp             CCCSE------------EEEECGGGEE
+T ss_pred             CCCCC------------EEEECCCCEE
+T ss_conf             76883------------2798610057
+
+

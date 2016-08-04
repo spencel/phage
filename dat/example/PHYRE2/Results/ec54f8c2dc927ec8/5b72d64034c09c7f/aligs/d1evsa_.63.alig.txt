@@ -1,0 +1,14 @@
+63 d1evsa_ Probab=7.28    E-value=1.9e+02  Score=10.89  Aligned_columns=14  Identities=36%
+
+Q ss_pred             HHHHHHCCCCCCHH
+Q ss_conf             98888628885035
+Q batch____       183 AQDMESNGFDSPAF  196 (427)
+Q Consensus       183 aQDLeAhG~Dada~  196 (427)
+                      +||||+.|++-++.
+T Consensus        92 aqdlersgl~~~~~  105 (163)
+T d1evsa_          92 AQDLERSGLNIEDL  105 (163)
+T ss_dssp             GGGHHHHTCCHHHH
+T ss_pred             HHHHHHCCCCHHHH
+T ss_conf             22121206781444
+
+

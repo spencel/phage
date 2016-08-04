@@ -1,0 +1,38 @@
+3 c1if0A_ Probab=94.77   E-value=0.11  Score=30.59  Aligned_columns=154  Identities=17%
+
+Q ss_pred             CCCCEEEEEEEEEEEEEEEEEEECCCCHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHH
+Q ss_conf             542000679998998520000003465999988886288850357898999999987199
+Q batch____       153 VEISSAVFEVNKWNAPVKTRKLKTSLTVELAQDMESNGFDSPAFLEDLLATVMADEINKD  212 (427)
+Q Consensus       153 ~~iae~~f~idkw~v~vkSRkLKa~~TiELaQDLeAhG~Dada~l~diLat~Ia~EIN~e  212 (427)
+                      ..+++.+..++...+..+.-.-...+|-||+||-    .+.+++|.+-|+..++..+|+-
+T Consensus        40 ~~~p~~~~~f~~~~~~~~k~a~~~~iS~ell~d~----~~l~~~i~~~l~~a~~~~~d~a   95 (256)
+T c1if0A_          40 ALKPESDITFSKQTANVKTIAHWVQASRQVMDDA----PMLQSYINNRLMYGLALKEEGQ   95 (256)
+T ss_dssp             SCCCCCCEEEEECCCCCEECCEEEEEEHHHHHSS----CSHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCEEEEEEEEEEEEEEEEECCHHHHHHH----HHHHHHHHHHHHHHHHHHHHHH
+T ss_conf             7056332214578998899999976798897445----9899999999999999999898
+
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCCEEEEEEECCCHHHHH---HHHHHHHHHHHHHHHHCCCCCE
+Q ss_conf             99999875542023444466068854074068789---9999999999998752474310
+Q batch____       213 VLQSLITVSKRYKVTGVSDNGIVDLSYANAPEASR---KLYEIVCEMNSEIQKTTSYSGT  269 (427)
+Q Consensus       213 Ii~tlitvS~r~k~~~~t~~Gv~dl~~~~a~~~gr---~L~~~~~em~~~i~~tt~~~gt  269 (427)
+                      +|.        .--.+-.+.|+.......+.....   ..+....++.+.+ ....+..+
+T Consensus        96 ~l~--------G~g~~~~~~gi~~~~~~~~~~~~~~~~~~~d~i~~~~~~l-~~~~~~~~  146 (256)
+T c1if0A_          96 LLN--------GDGTGDNLEGLNKVATAYDTSLNATGDTRADIIAHAIYQV-TESEFSAS  146 (256)
+T ss_dssp             HSS--------CCCSTTSCCCTTTTCCBCCTTSCCTTCCTTHHHHHHHHHH-HHTSSCCC
+T ss_pred             HHC--------CCCCCCCCCCCCCCCCCCCCEECCCCCCCHHHHHHHHHHH-HHCCCCCC
+T ss_conf             860--------3578777554112444431000256764588999999876-42588655
+
+
+Q ss_pred             EEEECHHHHHHHH----HCCCCCCCCCCCCCCCEEEEEEECCCEEEEEECCCCCCEEEEE
+Q ss_conf             8997135777765----2562346787643321012267538649998056887589999
+Q batch____       270 YVVASSRAAALLA----GSGWLKHRPEDDEWLPSTAYGYLLNGLPVFCDVNSPLDYVTVG  325 (427)
+Q Consensus       270 fvv~S~~Va~~La----~sG~l~~~~~~d~~~~~~a~G~l~~g~~Vy~D~ya~~dY~~vG  325 (427)
+                      -+++++.....|.    ..|-.-+.+..+...+.+.      |++|++....+..-+++|
+T Consensus       147 ~~vm~~~~~~~l~~~~d~~G~~~~~~~~~~~~~~l~------G~pv~~s~~~~~~~~i~g  200 (256)
+T c1if0A_         147 GIVLNPRDWHNIALLKDNEGRYIFGGPQAFTSNIMW------GLPVVPTKAQAAGTFTVG  200 (256)
+T ss_dssp             CEEECTTHHHHHHTCCBTTBCCSSCCTTCCCCSCST------TSCCEECTTSCTTEEEEE
+T ss_pred             EEEECHHHHHHHHHHCCCCCCCCCCCCCCCCCCCEE------EEEEEECCCCCCCCEEEE
+T ss_conf             999928988899751056887466665556675031------037885188887718999
+
+

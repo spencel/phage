@@ -1,0 +1,26 @@
+58 c3ckiB_ Probab=8.06    E-value=1.4e+02  Score=11.72  Aligned_columns=44  Identities=25%
+
+Q ss_pred             CCCEEEEEEECCCCCCCEEEEE--EECCCCCCCCCCCCCCCCEEEEEECCCCCCCEEEEE
+Q ss_conf             8758999983157873100015--642752111256755541036752688644133455
+Q batch____       318 PLDYVTVGVKENYGGKEVVGSI--FYAPYTEGLDLDDPDHIGAYKVIVDPDSLQPSISLM  375 (427)
+Q Consensus       318 ~~dY~~vG~K~~~G~~~~~~~l--fyaPYv~l~~~~~~d~~gay~~~~DP~sfqP~~g~~  375 (427)
+                      ...|++.|..   .+....-++  |-.|+..+                   |-.-+.||+
+T Consensus        76 ~~~YLi~g~~---~~g~l~v~~C~~v~~W~~l-------------------t~~qrrgl~  113 (121)
+T c3ckiB_          76 KYQYLLTGRV---YDGKMYTGLCNFVERWDQL-------------------TLSQRKGLN  113 (121)
+T ss_dssp             CCCEEEEEEE---CSSCEECCTTSCCEETTTC-------------------CHHHHHHHH
+T ss_pred             CCEEEEEEEE---ECCEEEEECCCCEEEHHHC-------------------CHHHHHHHH
+T ss_conf             8189999996---7898999616864883668-------------------989999878
+
+
+Q ss_pred             EEECCCCC
+Q ss_conf             43101138
+Q batch____       376 IRYALSAN  383 (427)
+Q Consensus       376 tRYaLs~N  383 (427)
+                      .+|.+.+|
+T Consensus       114 ~~y~~~C~  121 (121)
+T c3ckiB_         114 YRYHLGCN  121 (121)
+T ss_dssp             TTTTCTTC
+T ss_pred             HHHHCCCC
+T ss_conf             77521789
+
+

@@ -1,0 +1,38 @@
+25 c4an5F_ Probab=12.98   E-value=51  Score=14.32  Aligned_columns=141  Identities=18%
+
+Q ss_pred             EEEEEEEEEECCCCHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+Q ss_conf             985200000034659999888862888503578989999999871999999987554202
+Q batch____       166 NAPVKTRKLKTSLTVELAQDMESNGFDSPAFLEDLLATVMADEINKDVLQSLITVSKRYK  225 (427)
+Q Consensus       166 ~v~vkSRkLKa~~TiELaQDLeAhG~Dada~l~diLat~Ia~EIN~eIi~tlitvS~r~k  225 (427)
+                      .+.++-+..|+=-...|.+.|-  |-|.-..|.+.++.+=.+.-.+-+|.+|.-+   +.
+T Consensus        29 ~~a~~~~r~kaw~~~Dls~~ls--G~dpm~~Ia~~va~yW~r~~q~~lia~l~Gv---fa   83 (233)
+T c4an5F_          29 DKAVLILRGNAWSSHDLAATLS--GSDPMQAIGSRVAAYWAREMQKIVFAELAGV---FS   83 (233)
+T ss_dssp             EEECCCCEEEEECCBHHHHHHC--SHHHHHHHHHHHHHHHHHHHHHSSSSCCSSC---CC
+T ss_pred             HHHHHHHHCCCCCHHHHHHHHC--CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH---HH
+T ss_conf             0665334104434446888861--9718999999989888898999999999987---41
+
+
+Q ss_pred             CCCCCCCEEEEEEECCCHHHHHHHHHHHHHHHHHHHHHCCCCCEEEEECHHHHHHHHHCC
+Q ss_conf             344446606885407406878999999999999987524743108997135777765256
+Q batch____       226 VTGVSDNGIVDLSYANAPEASRKLYEIVCEMNSEIQKTTSYSGTYVVASSRAAALLAGSG  285 (427)
+Q Consensus       226 ~~~~t~~Gv~dl~~~~a~~~gr~L~~~~~em~~~i~~tt~~~gtfvv~S~~Va~~La~sG  285 (427)
+                      .+.+-++.+ |++...+...+..-|.-+..-...  ....+.+  ++.-+.|.+-|+--.
+T Consensus        84 ~~~~~~~~~-dis~~~~~~~s~~~~~dA~~~~GD--~~~~l~a--i~vHS~v~~~l~kq~  138 (233)
+T c4an5F_          84 NDDMKDNKL-DISGTADGIYSAETFVDASYKLGD--HESLLTA--IGMHSATMASAVKQD  138 (233)
+T ss_dssp             CCGGGTTCS-SCCCCSSSCCCTTHHHHHHHHHHH--TTCCCSC--BCCBHHHHHHHHTCE
+T ss_pred             CCCCCCCEE-EEECCCCCCCCHHHHHHHHHHHCC--CCCCCCE--EEEEHHHHHHHHHCC
+T ss_conf             345422034-430377664168889999997331--1100108--899089998899689
+
+
+Q ss_pred             CCCCCCCCCCCCCEEEEEEECCCEEEEEECCCCCC
+Q ss_conf             23467876433210122675386499980568875
+Q batch____       286 WLKHRPEDDEWLPSTAYGYLLNGLPVFCDVNSPLD  320 (427)
+Q Consensus       286 ~l~~~~~~d~~~~~~a~G~l~~g~~Vy~D~ya~~d  320 (427)
+                      .+++-+..++.++.-.+    +|++|.+|--.|.+
+T Consensus       139 Lie~i~~s~g~~~i~ty----~G~~VivDD~mPv~  169 (233)
+T c4an5F_         139 LIEFVKDSQSGIRFPTY----MNKRVIVDDSMPVE  169 (233)
+T ss_dssp             ETTTEESSSCTTSCCCS----CCSSSCBCCBTTSC
+T ss_pred             CCCCCCCCCCCCEEEEE----CCCEEEEECCCCCC
+T ss_conf             95212344688501223----67178986586100
+
+

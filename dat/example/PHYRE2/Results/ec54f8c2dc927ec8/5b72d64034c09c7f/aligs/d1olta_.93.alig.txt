@@ -1,0 +1,26 @@
+93 d1olta_ Probab=5.47    E-value=2.5e+02  Score=10.16  Aligned_columns=86  Identities=10%
+
+Q ss_pred             EEEEEEEEEEEECCCCHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHH----HHHHHHHH
+Q ss_conf             899852000000346599998888628885035789899999998719----99999987
+Q batch____       164 KWNAPVKTRKLKTSLTVELAQDMESNGFDSPAFLEDLLATVMADEINK----DVLQSLIT  219 (427)
+Q Consensus       164 kw~v~vkSRkLKa~~TiELaQDLeAhG~Dada~l~diLat~Ia~EIN~----eIi~tlit  219 (427)
+                      .|.+++.--.--...+.|.++-|++.|++--..=..-++.++...|||    +-+...+.
+T Consensus       127 ~~~~e~t~e~~p~~l~~e~l~~l~~~Gv~risiGvqS~~~~~l~~lgR~~~~~~~~~~i~  186 (434)
+T d1olta_         127 NADAEISIEVDPREIELDVLDHLRAEGFNRLSMGVQDFNKEVQRLVNREQDEEFIFALLN  186 (434)
+T ss_dssp             EEEEEEEEEECSSSCCTHHHHHHHHTTCCEEEEEEECCCHHHHHHHTCCCCHHHHHHHHH
+T ss_pred             CCCEEEEEECCCCCCCHHHHHHHHHCCCCEEECCCCCCCHHHHHHHCCCCCHHHHHHHHH
+T ss_conf             873499986067779999999999669973612664589899997289989899999999
+
+
+Q ss_pred             HHHHHCCCCCCCCEEEEEEECCCHHHHHHH
+Q ss_conf             554202344446606885407406878999
+Q batch____       220 VSKRYKVTGVSDNGIVDLSYANAPEASRKL  249 (427)
+Q Consensus       220 vS~r~k~~~~t~~Gv~dl~~~~a~~~gr~L  249 (427)
+                      ..++.+...+..+-++++-.+|...+-++|
+T Consensus       187 ~l~~~g~~~i~~dlI~GlPgeT~e~~~~tl  216 (434)
+T d1olta_         187 HAREIGFTSTNIDLIYGLPKQTPESFAFTL  216 (434)
+T ss_dssp             HHHHTTCCSCEEEEEESCTTCCHHHHHHHH
+T ss_pred             HHHHCCCCEEEEEEEECCCCCCHHHHHHHH
+T ss_conf             998549955999898758878989999999
+
+

@@ -1,0 +1,1 @@
+In this version, the alias and dbxref attributes have all been clumped together in two arrays.

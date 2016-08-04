@@ -1,0 +1,14 @@
+37 d1ck1a1 Probab=10.04   E-value=1.5e+02  Score=11.48  Aligned_columns=23  Identities=30%
+
+Q ss_pred             EEEEEECCCC--------CCCCHHCCCCCCC
+Q ss_conf             4465421677--------7421000444455
+Q batch____        52 LYGVKYLTPD--------NEFSFQTGATYGG   74 (427)
+Q Consensus        52 ifglRy~~~~--------~~~a~~s~aty~g   74 (427)
+                      |||+.|-++-        |.....++-+|||
+T Consensus        84 IyG~~Y~~~C~~~~~~~~g~~~~kt~CmYGG  114 (121)
+T d1ck1a1          84 VYGSNYYVNCYFSSKDNVGKVTSGKTCMYGG  114 (121)
+T ss_dssp             EEECCBCTTCCSSTTCCTTCCCSSEEEEECC
+T ss_pred             EEECCCCCCCCCCCCCCCCCCCCCCCEEECC
+T ss_conf             8503234554336544334455676203533
+
+

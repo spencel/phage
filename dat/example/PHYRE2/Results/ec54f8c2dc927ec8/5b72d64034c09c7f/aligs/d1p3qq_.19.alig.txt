@@ -1,0 +1,14 @@
+19 d1p3qq_ Probab=15.88   E-value=47  Score=14.58  Aligned_columns=43  Identities=16%
+
+Q ss_pred             HHHHHHHH-CCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCC
+Q ss_conf             99988886-28885035789899999998719999999875542023444466
+Q batch____       181 ELAQDMES-NGFDSPAFLEDLLATVMADEINKDVLQSLITVSKRYKVTGVSDN  232 (427)
+Q Consensus       181 ELaQDLeA-hG~Dada~l~diLat~Ia~EIN~eIi~tlitvS~r~k~~~~t~~  232 (427)
+                      ||+|-||. ...+.-..|     +.+--+++.|||. =+|.++||   |...+
+T Consensus         2 ~L~~~le~~Eh~~~l~tL-----q~MFPdld~elIe-DVcIAkky---G~cVD   45 (45)
+T d1p3qq_           2 SLIKKIEENERKDTLNTL-----QNXFPDXDPSLIE-DVCIAAAS---GPCVD   45 (45)
+T ss_dssp             TTHHHHHHHHHHHHHHHH-----HHHSTTSCHHHHH-HHHHHSCC---CGGGC
+T ss_pred             HHHHHHHHHHHHHHHHHH-----HHHCCCCCHHHHH-HHHHHHHH---CCCCC
+T ss_conf             699999999999999999-----7307776899999-88746553---56679
+
+

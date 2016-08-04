@@ -1,0 +1,26 @@
+7 c3p8qF_ Probab=41.49   E-value=5.1  Score=20.45  Aligned_columns=58  Identities=16%
+
+Q ss_pred             CCCCEEEEEEEEEEEEEEEEEEECCCCHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHH
+Q ss_conf             542000679998998520000003465999988886288850357898999999987199
+Q batch____       153 VEISSAVFEVNKWNAPVKTRKLKTSLTVELAQDMESNGFDSPAFLEDLLATVMADEINKD  212 (427)
+Q Consensus       153 ~~iae~~f~idkw~v~vkSRkLKa~~TiELaQDLeAhG~Dada~l~diLat~Ia~EIN~e  212 (427)
+                      ..+++.+.+++..++..+.-.-...+|-||++|  +  .+.+++|.+-|+.-++..+|+.
+T Consensus        41 ~~~p~~~~~f~~v~~~~~kia~~~~iS~ell~d--s--~~l~~~i~~~l~~aia~~~d~a   96 (248)
+T c3p8qF_          41 ALKPESDITFSKQTANVKTIAHWVQASRQVMDD--A--PMLQSYINNRLMYGLALKEEGQ   96 (248)
+T ss_dssp             EECCEEECCEECCEEECCHHHHSSSTHHHHHHH--T--TTHHHHHHHHHHHHHSCCSSTT
+T ss_pred             CCCCCCCCEEEEEEEEEEEEEEEEECCHHHHHH--H--HHHHHHHHHHHHHHHHHHHHHH
+T ss_conf             725634221457898767687432258899988--9--9999999999999999999999
+
+
+Q ss_pred             HH
+Q ss_conf             99
+Q batch____       213 VL  214 (427)
+Q Consensus       213 Ii  214 (427)
+                      |+
+T Consensus        97 il   98 (248)
+T c3p8qF_          97 LL   98 (248)
+T ss_dssp             CC
+T ss_pred             HH
+T ss_conf             98
+
+

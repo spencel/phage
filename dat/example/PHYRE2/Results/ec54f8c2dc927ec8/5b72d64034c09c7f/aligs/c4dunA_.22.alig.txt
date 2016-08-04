@@ -1,0 +1,14 @@
+22 c4dunA_ Probab=13.72   E-value=1.1e+02  Score=12.21  Aligned_columns=41  Identities=15%
+
+Q ss_pred             HHHHHHCCHHHHEEEECCCCCCCEEEEEEEECCCCCCCCHHCCCC
+Q ss_conf             253330100211033110588110144654216777421000444
+Q batch____        27 LTRATTKLIYSDIIAEQRTNQPVAALYGVKYLTPDNEFSFQTGAT   71 (427)
+Q Consensus        27 ltRa~~nLI~~Div~VQPts~Ptg~ifglRy~~~~~~~a~~s~at   71 (427)
+                      |.+.+..+=+++-+=|.|....    |.|||-||++|..|--|++
+T Consensus        34 mq~iA~e~~~~et~Fv~~~~~~----~~~r~Ftp~~E~~~cGH~t   74 (259)
+T c4dunA_          34 MQKIAEENNLPETAFVVKGKGN----YELRWFTPKAEIDLCGHAT   74 (259)
+T ss_dssp             HHHHHHHHCSSEEEEEEEETTE----EEEEEECSSCEESCCHHHH
+T ss_pred             HHHHHHHCCCCEEEEEECCCCE----EEEEEECCCCCHHHCCHHH
+T ss_conf             9998987299769999317870----7999985767220078489
+
+

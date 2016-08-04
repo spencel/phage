@@ -1,0 +1,14 @@
+51 c4je3B_ Probab=8.30    E-value=1.3e+02  Score=11.87  Aligned_columns=30  Identities=23%
+
+Q ss_pred             EECHHHHHHHHHCCCCCCCCCCCCCCCEEEEEEECCC
+Q ss_conf             9713577776525623467876433210122675386
+Q batch____       272 VASSRAAALLAGSGWLKHRPEDDEWLPSTAYGYLLNG  308 (427)
+Q Consensus       272 v~S~~Va~~La~sG~l~~~~~~d~~~~~~a~G~l~~g  308 (427)
+                      +|...+.-.-.|+|||.   +-++-..    |+++||
+T Consensus        43 L~~~g~iD~~~mP~WlT---GE~G~s~----g~V~~G   72 (77)
+T c4je3B_          43 LCDKNLINIDKVPGWLA---GENGSFS----GTIMNG   72 (77)
+T ss_dssp             HHHTTSSCGGGCCTTTT---TTTTTCC----EEEETT
+T ss_pred             HHHCCCCCHHHCCCHHC---CCCCCEE----EEEECC
+T ss_conf             98504888878880111---7666306----698538
+
+

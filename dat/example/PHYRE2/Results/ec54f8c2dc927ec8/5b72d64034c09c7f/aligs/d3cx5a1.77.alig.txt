@@ -1,0 +1,14 @@
+77 d3cx5a1 Probab=6.32    E-value=2.2e+02  Score=10.47  Aligned_columns=29  Identities=31%
+
+Q ss_pred             EECCCEEEEEECCCCCCEEEEEEECCCCC
+Q ss_conf             75386499980568875899998315787
+Q batch____       304 YLLNGLPVFCDVNSPLDYVTVGVKENYGG  332 (427)
+Q Consensus       304 ~l~~g~~Vy~D~ya~~dY~~vG~K~~~G~  332 (427)
+                      .|.||++|+.-+....+.+.++...+.|.
+T Consensus         5 ~L~NGi~v~~~~~~~~~~v~i~l~~~~G~   33 (213)
+T d3cx5a1           5 QLSNGIVVATEHNPSAHTASVGVVFGSGA   33 (213)
+T ss_dssp             EEESSSEEEEEECTTCSSEEEEEEESCCG
+T ss_pred             ECCCCCEEEEEECCCCCEEEEEEEECCCC
+T ss_conf             87888299999889998799999986843
+
+

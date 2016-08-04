@@ -1,0 +1,38 @@
+17 c4di7A_ Probab=15.93   E-value=99  Score=12.57  Aligned_columns=125  Identities=12%
+
+Q ss_pred             EEEEEEEEEEEECCCCHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             899852000000346599998888628885035789899999998719999999875542
+Q batch____       164 KWNAPVKTRKLKTSLTVELAQDMESNGFDSPAFLEDLLATVMADEINKDVLQSLITVSKR  223 (427)
+Q Consensus       164 kw~v~vkSRkLKa~~TiELaQDLeAhG~Dada~l~diLat~Ia~EIN~eIi~tlitvS~r  223 (427)
+                      +..+.++.+....+-.-|+.++|++.|-+..-.-.|+-..+-.++.=.++.+.+-.+.-=
+T Consensus       258 ~~~~l~~r~~~~~~~~~~~~~~l~~~~~~v~~~~~Dv~d~~~~~~~~~~~~~~~g~i~~v  317 (477)
+T c4di7A_         258 EHLVLVSRRGPEAPGAAELRAELAERGTETTLAACDITDRDAVAALLESLKAEGRTVRTV  317 (477)
+T ss_dssp             SBEEEEESSGGGSTTHHHHHHHHHHTTCBCCEEECCTTCHHHHHHHHHHHHHHTCCCCEE
+T ss_pred             CEEEEECCCCCCHHHHHHHHHHHHHCCCEEEEEECCCCCHHHHHHHHHHHHHHCCCEEEE
+T ss_conf             599995899899689999999874149539999678999999999999999865980699
+
+
+Q ss_pred             HCCCCCCCCEEEEEEECCCHHHHHHHHHHHHHHHHHHHHHCCCCCEEEEECHHHHHHHHH
+Q ss_conf             023444466068854074068789999999999999875247431089971357777652
+Q batch____       224 YKVTGVSDNGIVDLSYANAPEASRKLYEIVCEMNSEIQKTTSYSGTYVVASSRAAALLAG  283 (427)
+Q Consensus       224 ~k~~~~t~~Gv~dl~~~~a~~~gr~L~~~~~em~~~i~~tt~~~gtfvv~S~~Va~~La~  283 (427)
+                      .+--|+...+.+.-.  +...+-+.+-.++...-+..+-...-..-|+|+-+-+++++-.
+T Consensus       318 ~h~ag~~~~~~~~~~--~~~~~~~~~~~k~~g~~~l~~~~~~~~~~~~v~~sS~~~~~g~  375 (477)
+T c4di7A_         318 VHTAATIELHTLDAT--TLDDFDRVLAAKVTGAQILDELLDDEELDDFVLYSSTAGMWGS  375 (477)
+T ss_dssp             EECCCCCCCCCTTTC--CHHHHHHHHHHHHHHHHHHHHHSCCSSCCEEEEEEEHHHHBCC
+T ss_pred             EECCCCCCCCCHHCC--CHHHHHHHHHHHHHHHHHHHHHHHCCCCCEEEEECCHHHCCCC
+T ss_conf             988866787732138--9999999996773999999998501799879995475660688
+
+
+Q ss_pred             CCCCCCC
+Q ss_conf             5623467
+Q batch____       284 SGWLKHR  290 (427)
+Q Consensus       284 sG~l~~~  290 (427)
+                      +|+-.|+
+T Consensus       376 ~g~~~Ya  382 (477)
+T c4di7A_         376 GAHAAYV  382 (477)
+T ss_dssp             TTCHHHH
+T ss_pred             CCCHHHH
+T ss_conf             8725789
+
+

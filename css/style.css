@@ -1,0 +1,12 @@
+body{
+	background-color: hsl(26, 100%, 99%);
+}
+table{
+	white-space: nowrap;
+}
+td{
+	background-color: hsl(26, 100%, 98%);
+}
+.p{
+	cursor: pointer;
+}

@@ -1,0 +1,14 @@
+11 d1dqta_ Probab=25.04   E-value=63  Score=13.78  Aligned_columns=28  Identities=21%
+
+Q ss_pred             EEEEEECCCCCCCCCCCCC----CCCEEEEEECC
+Q ss_conf             0015642752111256755----54103675268
+Q batch____       336 VGSIFYAPYTEGLDLDDPD----HIGAYKVIVDP  365 (427)
+Q Consensus       336 ~~~lfyaPYv~l~~~~~~d----~~gay~~~~DP  365 (427)
+                      |+|+||| .|+. |++.|.    +-|+...|.||
+T Consensus        86 DsG~Y~C-~V~~-~~p~p~~~~~g~gT~l~V~~~  117 (117)
+T d1dqta_          86 DTGLYLC-KVEL-MYPPPYFVGMGNGTQIYVIDP  117 (117)
+T ss_dssp             GCEEEEE-EEEE-EESSSCEEEECSCEEEECCCC
+T ss_pred             HCEEEEE-EEEE-CCCCCEEEEECCCEEEEEECC
+T ss_conf             1556999-9976-069972566179559999769
+
+

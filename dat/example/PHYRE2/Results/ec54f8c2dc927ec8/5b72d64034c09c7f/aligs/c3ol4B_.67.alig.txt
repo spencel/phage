@@ -1,0 +1,14 @@
+67 c3ol4B_ Probab=6.96    E-value=2e+02  Score=10.67  Aligned_columns=11  Identities=55%
+
+Q ss_pred             HHHHHHHHCCC
+Q ss_conf             57777652562
+Q batch____       276 RAAALLAGSGW  286 (427)
+Q Consensus       276 ~Va~~La~sG~  286 (427)
+                      ||.+.|++.||
+T Consensus        81 RV~a~LaA~GW   91 (95)
+T c3ol4B_          81 QVAARLASVGW   91 (95)
+T ss_dssp             HHHHHHHTTTC
+T ss_pred             HHHHHHHCCCC
+T ss_conf             99999961798
+
+

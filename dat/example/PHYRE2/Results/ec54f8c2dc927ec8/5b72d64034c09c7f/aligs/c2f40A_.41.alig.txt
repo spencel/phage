@@ -1,0 +1,14 @@
+41 c2f40A_ Probab=9.73    E-value=1.2e+02  Score=12.11  Aligned_columns=15  Identities=20%
+
+Q ss_pred             EEEEEECCCCCCEEE
+Q ss_conf             499980568875899
+Q batch____       309 LPVFCDVNSPLDYVT  323 (427)
+Q Consensus       309 ~~Vy~D~ya~~dY~~  323 (427)
+                      ||||+++|+..-+++
+T Consensus        29 yRvFlN~YaK~~~vV   43 (74)
+T c2f40A_          29 YRVFINPYAKVAEVV   43 (74)
+T ss_dssp             CCCCCCTTTTCCEEE
+T ss_pred             EEEEECCCCCCEEEE
+T ss_conf             325433410005999
+
+

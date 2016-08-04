@@ -1,0 +1,14 @@
+46 d1p5ca_ Probab=9.26    E-value=1.6e+02  Score=11.30  Aligned_columns=24  Identities=21%
+
+Q ss_pred             CEEEEEECCCCCCEEEEEEECCCCCCC
+Q ss_conf             649998056887589999831578731
+Q batch____       308 GLPVFCDVNSPLDYVTVGVKENYGGKE  334 (427)
+Q Consensus       308 g~~Vy~D~ya~~dY~~vG~K~~~G~~~  334 (427)
+                      |+++|.|   +.-|-|+||-|.+...+
+T Consensus         2 rl~~Y~D---~~G~~TIGyGh~i~~~~   25 (166)
+T d1p5ca_           2 RLKIYKD---TEGYYTIGIGHLLTKSP   25 (166)
+T ss_dssp             EEEEEEC---TTSCEEEETTEEEESSS
+T ss_pred             CCEEEEC---CCCCCEEEECCCCCCCC
+T ss_conf             1047677---89830021343457542
+
+

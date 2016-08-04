@@ -1,0 +1,14 @@
+12 c3jzfA_ Probab=21.40   E-value=64  Score=13.72  Aligned_columns=44  Identities=18%
+
+Q ss_pred             CCCCCCCEEEEEEEECCCCCCCEEECCCC---------------CCEEECHHHHHHHHCC
+Q ss_conf             68864413345543101138821322766---------------5323155678766184
+Q batch____       364 DPDSLQPSISLMIRYALSANPYTVAKDEK---------------EARIIDATDMDKMAGQ  408 (427)
+Q Consensus       364 DP~sfqP~~g~~tRYaLs~NP~~~~~~~~---------------~~~~i~~~d~~~~a~~  408 (427)
+                      ||.+|.|..|...+|...-.|.. +.|..               ++.+..|.||.....+
+T Consensus       274 ~p~~~~p~~G~~~~~~~p~~~~v-r~d~~v~~g~~v~~~~d~~lg~vi~~g~~~~~A~~~  332 (380)
+T c3jzfA_         274 DPNTFLPSPGKITRFHAPGGFGV-RWESHIYAGYTVPPYYDSMIGKLICYGENRDVAIAR  332 (380)
+T ss_dssp             CTTTCCBCCEECSEEECCCSTTE-EEEECCCTTCEECTTSCSEEEEEEEEESSHHHHHHH
+T ss_pred             CCCCCCCCCCEEEEEECCCCCEE-EEEEEECCCCCCCCCCCCCEEEEEEECCCHHHHHHH
+T ss_conf             85556788743778864898536-898211378740656574248999974998999999
+
+

@@ -1,0 +1,38 @@
+33 c4l4xA_ Probab=10.45   E-value=1.4e+02  Score=11.57  Aligned_columns=125  Identities=12%
+
+Q ss_pred             EEEEEEEEEEEECCCCHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             899852000000346599998888628885035789899999998719999999875542
+Q batch____       164 KWNAPVKTRKLKTSLTVELAQDMESNGFDSPAFLEDLLATVMADEINKDVLQSLITVSKR  223 (427)
+Q Consensus       164 kw~v~vkSRkLKa~~TiELaQDLeAhG~Dada~l~diLat~Ia~EIN~eIi~tlitvS~r  223 (427)
+                      +..+.+..|.+..+---|+.+.|++.|-...-.-.|+=..+-.+++=.++-+..--+.-=
+T Consensus       285 ~~l~l~~R~~~~~~~~~~~~~~l~~~g~~v~~~~~Dv~d~~~~~~~~~~~~~~~~~i~gv  344 (503)
+T c4l4xA_         285 EHLVLVSRRGPEAPGAAELRAELAERGTETTLAACDITDRDAVAALLESLKAEGRTVRTV  344 (503)
+T ss_dssp             CEEEEEESSGGGSTTHHHHHHHHHHTTCEEEEEECCTTCHHHHHHHHHHHHHHTCCEEEE
+T ss_pred             CEEEEECCCCCCHHHHHHHHHHHHCCCCEEEEEECCCCCHHHHHHHHHHHHHHCCCCEEE
+T ss_conf             499997899888178999999862058349999678999999999999999876981599
+
+
+Q ss_pred             HCCCCCCCCEEEEEEECCCHHHHHHHHHHHHHHHHHHHHHCCCCCEEEEECHHHHHHHHH
+Q ss_conf             023444466068854074068789999999999999875247431089971357777652
+Q batch____       224 YKVTGVSDNGIVDLSYANAPEASRKLYEIVCEMNSEIQKTTSYSGTYVVASSRAAALLAG  283 (427)
+Q Consensus       224 ~k~~~~t~~Gv~dl~~~~a~~~gr~L~~~~~em~~~i~~tt~~~gtfvv~S~~Va~~La~  283 (427)
+                      .+--|+...+.+.--  +...+-+.|=.++...-+..+-+..-...|+|+-+-+++++-.
+T Consensus       345 ~h~Ag~~~~~~~~~~--~~~~~~~~~~~k~~g~~~L~~~~~~~~~~~~v~~SS~a~~~g~  402 (503)
+T c4l4xA_         345 VHTAATIELHTLDAT--TLDDFDRVLAAKVTGAQILDELLDDEELDDFVLYSSTAGMWGS  402 (503)
+T ss_dssp             EECCCCCCCCCTTTC--CHHHHHHHHHHHHHHHHHHHHHSCCSSCCEEEEEEESBTTBCC
+T ss_pred             EECCCCCCCCCHHHC--CHHHHHHHHHHHHHHHHHHHHHHCCCCCCEEEEECCHHHCCCC
+T ss_conf             986887886324419--9999999996773999999998302898699992563650688
+
+
+Q ss_pred             CCCCCCC
+Q ss_conf             5623467
+Q batch____       284 SGWLKHR  290 (427)
+Q Consensus       284 sG~l~~~  290 (427)
+                      +|+..|.
+T Consensus       403 ~g~~~Ya  409 (503)
+T c4l4xA_         403 GAHAAYV  409 (503)
+T ss_dssp             TTCHHHH
+T ss_pred             CCCHHHH
+T ss_conf             8726789
+
+

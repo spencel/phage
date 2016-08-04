@@ -1,0 +1,14 @@
+75 d1w96a1 Probab=6.51    E-value=2.1e+02  Score=10.53  Aligned_columns=21  Identities=19%
+
+Q ss_pred             CCCC-CCCEEEEEEEECCCCCC
+Q ss_conf             6886-44133455431011388
+Q batch____       364 DPDS-LQPSISLMIRYALSANP  384 (427)
+Q Consensus       364 DP~s-fqP~~g~~tRYaLs~NP  384 (427)
+                      ||.. |+|.-|.+++|-.-.-|
+T Consensus        13 dp~~~F~P~~G~i~~~~~p~~~   34 (112)
+T d1w96a1          13 DPNDGFKPSGGTLHELNFRSSS   34 (112)
+T ss_dssp             CCCCSSCCCSSSEEEECCSSCS
+T ss_pred             CCCCCCCCCCCEEEEEEECCCC
+T ss_conf             7877888798068999855899
+
+

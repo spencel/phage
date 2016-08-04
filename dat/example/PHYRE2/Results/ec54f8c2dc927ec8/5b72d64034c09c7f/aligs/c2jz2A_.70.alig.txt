@@ -1,0 +1,14 @@
+70 c2jz2A_ Probab=6.76    E-value=90  Score=12.84  Aligned_columns=18  Identities=28%
+
+Q ss_pred             CCCCCCEEECHHHHHHHH
+Q ss_conf             276653231556787661
+Q batch____       389 KDEKEARIIDATDMDKMA  406 (427)
+Q Consensus       389 ~~~~~~~~i~~~d~~~~a  406 (427)
+                      .|.+.+.+..|.+|||+.
+T Consensus        28 tdgkaaVLFEGGnWdKlv   45 (66)
+T c2jz2A_          28 SDGKAAVLFENGNWDKLV   45 (66)
+T ss_dssp             ETTEEEEEEESSSCEEEE
+T ss_pred             ECCEEEEEEECCCCEEEE
+T ss_conf             088089998088513689
+
+

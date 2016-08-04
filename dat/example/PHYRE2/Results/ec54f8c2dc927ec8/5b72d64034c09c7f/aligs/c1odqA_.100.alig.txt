@@ -1,0 +1,14 @@
+100 c1odqA_ Probab=5.17    E-value=2.6e+02  Score=10.04  Aligned_columns=11  Identities=27%
+
+Q ss_pred             CCHHHHHHHHH
+Q ss_conf             65999988886
+Q batch____       178 LTVELAQDMES  188 (427)
+Q Consensus       178 ~TiELaQDLeA  188 (427)
+                      ||-||.|-|.|
+T Consensus         1 ysdelrqrlaa   11 (26)
+T c1odqA_           1 YSDELRQRLAA   11 (26)
+T ss_pred             CCHHHHHHHHH
+T ss_conf             91799999999
+
+
+Done!
