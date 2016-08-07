@@ -4,9 +4,13 @@ import sys
 
 from lib.gbkParser import *
 
-#getMajorCapsid("K:/phage/dat/caudo_with_major-capsid", True)
-getMajorCapsid_ConvertToFasta("D:/PHANTOME/Viruses-caudo_with_major-capsid", True)
+command = ""
+while command != "exit":
+	print("test")
+	command = input("Commands:\nexit\nhelp\n")
+	#getMajorCapsid("K:/phage/dat/caudo_with_major-capsid", True)
+	getMajorCapsid_ConvertToFasta("D:/PHANTOME/Viruses-caudo_with_major-capsid", True)
 
-#allGbkToJson(path="K:/PHANTOME/Viruses-caudo_with_major-capsid", debugOn=True)
+	#allGbkToJson(path="K:/PHANTOME/Viruses-caudo_with_major-capsid", debugOn=True)
 
-#gbkReport.getAllAlias(path="K:/PHANTOME/Viruses-caudo_with_major-capsid")
+	#gbkReport.getAllAlias(path="K:/PHANTOME/Viruses-caudo_with_major-capsid")
