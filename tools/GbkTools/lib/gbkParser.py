@@ -219,7 +219,7 @@ def gbkToPy(path, fileName, debugOn):
 					iLine += 1
 				d["source"]["source"] = "\"%s\"" % (d["source"]["source"])
 				while line != "" and line[:21] == "                     ":
-#                     /mol_type="genomic DNA"
+                     #/mol_type="genomic DNA"
 					if line[21:31] == "/mol_type=":
 						d["source"]["mol_type"] = line[31:].strip("\n")
 						line = f.readline()
@@ -228,7 +228,7 @@ def gbkToPy(path, fileName, debugOn):
 							d["source"]["mol_type"] = "%s %s"%(d["source"]["mol_type"], line[21:].strip("\n"))
 							line = f.readline()
 							iLine += 1
-#                     /genome_md5="a07cc063bbe344fc9c87a19456ef8354"
+                     #/genome_md5="a07cc063bbe344fc9c87a19456ef8354"
 					elif line[21:33] == "/genome_md5=":
 						d["source"]["genome_md5"] = line[33:].strip("\n")
 						line = f.readline()
@@ -237,7 +237,7 @@ def gbkToPy(path, fileName, debugOn):
 							d["source"]["genome_md5"] = "%s%s"%(d["source"]["genome_md5"], line[21:].strip("\n"))
 							line = f.readline()
 							iLine += 1
-#                     /project="redwards_1247"
+                     #/project="redwards_1247"
 					elif line[21:30] == "/project=":
 						d["source"]["project"] = line[30:].strip("\n")
 						line = f.readline()
@@ -246,7 +246,7 @@ def gbkToPy(path, fileName, debugOn):
 							d["source"]["project"] = "%s %s"%(d["source"]["project"], line[21:].strip("\n"))
 							line = f.readline()
 							iLine += 1
-#                     /genome_id="1247.119"
+                     #/genome_id="1247.119"
 					elif line[21:32] == "/genome_id=":
 						d["source"]["genome_id"] = line[32:].strip("\n")
 						line = f.readline()
@@ -255,7 +255,7 @@ def gbkToPy(path, fileName, debugOn):
 							d["source"]["genome_id"] = "%s %s"%(d["source"]["genome_id"], line[21:].strip("\n"))
 							line = f.readline()
 							iLine += 1
-#                     /organism="Oenococcus phage phi9805, complete genome."
+                     #/organism="Oenococcus phage phi9805, complete genome."
 					elif line[21:31] == "/organism=":
 						d["source"]["organism"] = line[31:].strip("\n")
 						line = f.readline()
@@ -264,7 +264,7 @@ def gbkToPy(path, fileName, debugOn):
 							d["source"]["organism"] = "%s %s"%(d["source"]["organism"], line[21:].strip("\n"))
 							line = f.readline()
 							iLine += 1
-#                     /dbxref="taxon: 1247"
+                     #/dbxref="taxon: 1247"
 					elif line[21:36] == "/dbxref=\"taxon:":
 						d["source"]["dbxref-taxon"] = line[36:].strip("\n")
 						line = f.readline()
@@ -410,9 +410,9 @@ def gbkToPy(path, fileName, debugOn):
 						print(fileName + " Line " + str(iLine) + " Error: " + line.strip("\n"))
 						line = f.readline()
 						iLine += 1
-#     RNA             1
-#                     /Note="tRNA-Leu"
-#                     /Dbxref="FIG_ID:fig|1247.119.rna.1"
+            #     RNA             1
+            #/Note="tRNA-Leu"
+            #/Dbxref="FIG_ID:fig|1247.119.rna.1"
 			elif line[:21] == "     RNA             ":
 				iRna = len(d["RNA"])
 				d["RNA"].append({})
@@ -425,7 +425,7 @@ def gbkToPy(path, fileName, debugOn):
 					iLine += 1
 				d["RNA"][iRna]["RNA"] = "\"%s\"" % (d["RNA"][iRna]["RNA"])
 				while line != "" and line[:21] == "                     ":
-#                     /Note="tRNA-Leu"
+                     #/Note="tRNA-Leu"
 					if line[21:27] == "/Note=":
 						d["RNA"][iRna]["Note"] = line[27:].strip("\n")
 						line = f.readline()
@@ -481,10 +481,10 @@ def gbkToPy(path, fileName, debugOn):
 						print(fileName + " Line " + str(iLine) + " Error: " + line.strip("\n"))
 						line = f.readline()
 						iLine += 1
-#ORIGIN      
-#        1 gcggacgtgg cggaattggc agacgcgcag gattaaggat cctgtggtag aaataccgta
-#       61 tgggttcgac tcccatcgcc cgcattttag ctctatatcg acaaagattg atatagagct
-#...
+			#ORIGIN      
+			#        1 gcggacgtgg cggaattggc agacgcgcag gattaaggat cctgtggtag aaataccgta
+			#       61 tgggttcgac tcccatcgcc cgcattttag ctctatatcg acaaagattg atatagagct
+			#...
 			elif line[:12] == "ORIGIN      ":
 				line = f.readline()
 				iLine += 1
