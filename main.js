@@ -34,9 +34,9 @@ var objPhage = {
 		var phageId = cursorOnPhageWithId.split('-')[1];
 		var phageIndeces = arPhages[phageId][2];
 		console.log(arPhages[phageId]);
-		strHtml = "<table>";
+		strHtml = "<table><tr><td>Rank</td><td>Template/Model</td><td>Confidence</td><td>Sequence ID</td><td>Qstart</td><td>Qend</td><td>Resolution</td><td colspan='3'>Template Info</td></tr>";
 		for (iRow = 0; iRow < phageIndeces.length; iRow++) {
-			strHtml = strHtml + "<tr>";
+			strHtml = strHtml + "<tr>"; 
 			for (iCol = 1; iCol < extSumInf[phageIndeces[iRow]].length; iCol++) { //skip first column because it's relational
 				strHtml = strHtml + "<td>" + extSumInf[phageIndeces[iRow]][iCol] + "</td>";
 			}
