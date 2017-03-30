@@ -4,6 +4,10 @@ import sys
 
 from lib.gbkParser import *
 
+allGbkToJson( "../../dat/gbk/", debugOn=True )
+
+# WTF is this stuff below, Spencer?
+'''
 command = ""
 while command != "exit":
 <<<<<<< HEAD
@@ -28,3 +32,4 @@ while command != "exit":
 	except ValueError:
 		print("Error: " + ValueError)
 >>>>>>> origin/routine
+'''

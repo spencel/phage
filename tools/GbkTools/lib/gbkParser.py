@@ -1,6 +1,7 @@
 import io
 import os
 import sys
+import json
 
 class gbkReport:
 	meta = {}
@@ -157,7 +158,7 @@ def gbkToPy(path, fileName, debugOn):
 					value = "%s %s"%(value, line[12:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["LOCUS"] = "\"%s\"" % (value)
+				d["LOCUS"] = "%s" % (value)
 			# DEFINITION #
 			elif line[:12] == "DEFINITION  ":
 				d["DEFINITION"] = line[12:].strip("\n")
@@ -167,7 +168,7 @@ def gbkToPy(path, fileName, debugOn):
 					d["DEFINITION"] = "%s %s"%(d["DEFINITION"], line[12:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["DEFINITION"] = "\"%s\"" % (d["DEFINITION"])
+				d["DEFINITION"] = "%s" % (d["DEFINITION"])
 			# ACCESSION #
 			elif line[:12] == "ACCESSION   ":
 				d["ACCESSION"] = line[12:].strip("\n")
@@ -177,7 +178,7 @@ def gbkToPy(path, fileName, debugOn):
 					d["ACCESSION"] = "%s %s"%(d["ACCESSION"], line[12:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["ACCESSION"] = "\"%s\"" % (d["ACCESSION"])
+				d["ACCESSION"] = "%s" % (d["ACCESSION"])
 			# SOURCE #
 			elif line[:12] == "SOURCE      ":
 				d["SOURCE"] = line[12:].strip("\n")
@@ -187,7 +188,7 @@ def gbkToPy(path, fileName, debugOn):
 					d["SOURCE"] = "%s %s"%(d["SOURCE"], line[12:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["SOURCE"] = "\"%s\"" % (d["SOURCE"])
+				d["SOURCE"] = "%s" % (d["SOURCE"])
 			# ORGANISM #
 			elif line[:12] == "  ORGANISM  ":
 				d["ORGANISM"] = line[12:].strip("\n")
@@ -197,7 +198,7 @@ def gbkToPy(path, fileName, debugOn):
 					d["ORGANISM"] = "%s %s"%(d["ORGANISM"], line[12:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["ORGANISM"] = "\"%s\"" % (d["ORGANISM"])
+				d["ORGANISM"] = "%s" % (d["ORGANISM"])
 			# FEATURES #
 			elif line[:21] == "FEATURES             ":
 				d["FEATURES"] = line[21:].strip("\n")
@@ -207,7 +208,7 @@ def gbkToPy(path, fileName, debugOn):
 					d["FEATURES"] = "%s %s"%(d["FEATURES"], line[21:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["FEATURES"] = "\"%s\"" % (d["FEATURES"])
+				d["FEATURES"] = "%s" % (d["FEATURES"])
 			# Source #
 			elif line[:21] == "     source          ":
 				d["source"]["source"] = (line[21:].strip("\n"))
@@ -217,11 +218,11 @@ def gbkToPy(path, fileName, debugOn):
 					d["source"]["source"] = "%s %s"%(d["source"]["source"], line[21:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["source"]["source"] = "\"%s\"" % (d["source"]["source"])
+				d["source"]["source"] = "%s" % (d["source"]["source"])
 				while line != "" and line[:21] == "                     ":
                      #/mol_type="genomic DNA"
 					if line[21:31] == "/mol_type=":
-						d["source"]["mol_type"] = line[31:].strip("\n")
+						d["source"]["mol_type"] = line[31:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
@@ -230,7 +231,7 @@ def gbkToPy(path, fileName, debugOn):
 							iLine += 1
                      #/genome_md5="a07cc063bbe344fc9c87a19456ef8354"
 					elif line[21:33] == "/genome_md5=":
-						d["source"]["genome_md5"] = line[33:].strip("\n")
+						d["source"]["genome_md5"] = line[33:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
@@ -239,7 +240,7 @@ def gbkToPy(path, fileName, debugOn):
 							iLine += 1
                      #/project="redwards_1247"
 					elif line[21:30] == "/project=":
-						d["source"]["project"] = line[30:].strip("\n")
+						d["source"]["project"] = line[30:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
@@ -248,7 +249,7 @@ def gbkToPy(path, fileName, debugOn):
 							iLine += 1
                      #/genome_id="1247.119"
 					elif line[21:32] == "/genome_id=":
-						d["source"]["genome_id"] = line[32:].strip("\n")
+						d["source"]["genome_id"] = line[32:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
@@ -257,7 +258,7 @@ def gbkToPy(path, fileName, debugOn):
 							iLine += 1
                      #/organism="Oenococcus phage phi9805, complete genome."
 					elif line[21:31] == "/organism=":
-						d["source"]["organism"] = line[31:].strip("\n")
+						d["source"]["organism"] = line[31:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
@@ -266,14 +267,14 @@ def gbkToPy(path, fileName, debugOn):
 							iLine += 1
                      #/dbxref="taxon: 1247"
 					elif line[21:36] == "/dbxref=\"taxon:":
-						d["source"]["dbxref-taxon"] = line[36:].strip("\n")
+						d["source"]["dbxref-taxon"] = line[36:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
 							d["source"]["dbxref-taxon"] = "%s %s"%(d["source"]["dbxref-taxon"], line[21:].strip("\n"))
 							line = f.readline()
 							iLine += 1
-						d["source"]["dbxref-taxon"] = "\"%s" % (d["source"]["dbxref-taxon"].strip(" "))
+						d["source"]["dbxref-taxon"] = "%s" % (d["source"]["dbxref-taxon"].strip(" "))
 					#Error Handling for Child Tokens
 					elif debugOn == True:
 						print(fileName + " Line " + str(iLine) + " Error: " + line.strip("\n"))
@@ -292,11 +293,11 @@ def gbkToPy(path, fileName, debugOn):
 					value = "%s %s"%(value, line[21:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["CDS"][iCds]["CDS"] = "\"%s\"" % value
+				d["CDS"][iCds]["CDS"] = "%s" % value
 				while line != "" and line[:21] == "                     ":
 					# Locus #
 					if line[21:28] == "/locus=":
-						value = line[28:].strip("\n")
+						value = line[28:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
@@ -315,9 +316,9 @@ def gbkToPy(path, fileName, debugOn):
 							line = f.readline()
 							iLine += 1
 						if k not in d["CDS"][iCds]:
-							d["CDS"][iCds][k] = [value.strip(" ")]
+							d["CDS"][iCds][k] = [value.strip(" ").strip("\"")]
 						else:
-							d["CDS"][iCds][k].append(value.strip(" "))
+							d["CDS"][iCds][k].append(value.strip(" ").strip("\""))
 					# gene_symbol #
 					elif line[21:34] == "/gene_symbol=":
 						k = "gene_symbol"
@@ -329,9 +330,9 @@ def gbkToPy(path, fileName, debugOn):
 							line = f.readline()
 							iLine += 1
 						if k not in d["CDS"][iCds]:
-							d["CDS"][iCds][k] = [value.strip(" ")]
+							d["CDS"][iCds][k] = [value.strip(" ").strip("\"")]
 						else:
-							d["CDS"][iCds][k].append(value.strip(" "))
+							d["CDS"][iCds][k].append(value.strip(" ").strip("\""))
 					# locus_tag #
 					elif line[21:32] == "/locus_tag=":
 						k = "locus_tag"
@@ -343,52 +344,52 @@ def gbkToPy(path, fileName, debugOn):
 							line = f.readline()
 							iLine += 1
 						if k not in d["CDS"][iCds]:
-							d["CDS"][iCds][k] = [value.strip(" ")]
+							d["CDS"][iCds][k] = [value.strip(" ").strip("\"")]
 						else:
-							d["CDS"][iCds][k].append(value.strip(" "))
+							d["CDS"][iCds][k].append(value.strip(" ").strip("\""))
 					# Color #
 					elif line[21:28] == "/color=":
-						d["CDS"][iCds]["color"] = line[28:].strip("\n")
+						d["CDS"][iCds]["color"] = line[28:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
-							d["CDS"][iCds]["color"] = "%s %s"%(d["CDS"][iCds]["color"], line[21:].strip("\n"))
+							d["CDS"][iCds]["color"] = "%s %s"%(d["CDS"][iCds]["color"], line[21:].strip("\n").strip("\""))
 							line = f.readline()
 							iLine += 1
 					# Translation #
 					elif line[21:34] == "/translation=":
-						d["CDS"][iCds]["translation"] = line[34:].strip("\n")
+						d["CDS"][iCds]["translation"] = line[34:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
-							d["CDS"][iCds]["translation"] = "%s%s"%(d["CDS"][iCds]["translation"], line[21:].strip("\n"))
+							d["CDS"][iCds]["translation"] = "%s%s"%(d["CDS"][iCds]["translation"], line[21:].strip("\n").strip("\""))
 							line = f.readline()
 							iLine += 1
 					# Product #
 					elif line[21:30] == "/product=":
-						d["CDS"][iCds]["product"] = line[30:].strip("\n")
+						d["CDS"][iCds]["product"] = line[30:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
-							d["CDS"][iCds]["product"] = "%s %s"%(d["CDS"][iCds]["product"], line[21:].strip("\n"))
+							d["CDS"][iCds]["product"] = "%s %s"%(d["CDS"][iCds]["product"], line[21:].strip("\n").strip("\""))
 							line = f.readline()
 							iLine += 1
 					# Ec_number #
 					elif line[21:32] == "/ec_number=":
-						d["CDS"][iCds]["ec_number"] = line[32:].strip("\n")
+						d["CDS"][iCds]["ec_number"] = line[32:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
-							d["CDS"][iCds]["ec_number"] = "%s %s"%(d["CDS"][iCds]["ec_number"], line[21:].strip("\n"))
+							d["CDS"][iCds]["ec_number"] = "%s %s"%(d["CDS"][iCds]["ec_number"], line[21:].strip("\n").strip("\""))
 							line = f.readline()
 							iLine += 1
 					# Note #
 					elif line[21:27] == "/Note=":
-						d["CDS"][iCds]["Note"] = line[27:].strip("\n")
+						d["CDS"][iCds]["Note"] = line[27:].strip("\n").strip("\"")
 						line = f.readline()
 						iLine += 1
 						while line != "" and line[:21] == "                     " and line[21:22] != "/":
-							d["CDS"][iCds]["Note"] = "%s %s"%(d["CDS"][iCds]["Note"], line[21:].strip("\n"))
+							d["CDS"][iCds]["Note"] = "%s %s"%(d["CDS"][iCds]["Note"], line[21:].strip("\n").strip("\""))
 							line = f.readline()
 							iLine += 1
 					# Dbxref #
@@ -402,9 +403,9 @@ def gbkToPy(path, fileName, debugOn):
 							line = f.readline()
 							iLine += 1
 						if k not in d["CDS"][iCds]:
-							d["CDS"][iCds][k] = [value.strip(" ")]
+							d["CDS"][iCds][k] = [value.strip(" ").strip("\"")]
 						else:
-							d["CDS"][iCds][k].append(value.strip(" "))
+							d["CDS"][iCds][k].append(value.strip(" ").strip("\""))
 					# Error Handling for Child Tokens
 					elif debugOn == True:
 						print(fileName + " Line " + str(iLine) + " Error: " + line.strip("\n"))
@@ -423,7 +424,7 @@ def gbkToPy(path, fileName, debugOn):
 					d["RNA"][iRna]["RNA"] = "%s %s"%(d["RNA"][iRna]["RNA"], line[21:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["RNA"][iRna]["RNA"] = "\"%s\"" % (d["RNA"][iRna]["RNA"])
+				d["RNA"][iRna]["RNA"] = "%s" % (d["RNA"][iRna]["RNA"])
 				while line != "" and line[:21] == "                     ":
                      #/Note="tRNA-Leu"
 					if line[21:27] == "/Note=":
@@ -445,9 +446,9 @@ def gbkToPy(path, fileName, debugOn):
 							line = f.readline()
 							iLine += 1
 						if k not in d["RNA"][iRna]:
-							d["RNA"][iRna][k] = [value.strip(" ")]
+							d["RNA"][iRna][k] = [value.strip(" ").strip("\"")]
 						else:
-							d["RNA"][iRna][k].append(value.strip(" "))
+							d["RNA"][iRna][k].append(value.strip(" ").strip("\""))
 					# color #
 					elif line[21:28] == "/color=":
 						k = "color"
@@ -459,9 +460,9 @@ def gbkToPy(path, fileName, debugOn):
 							line = f.readline()
 							iLine += 1
 						if k not in d["RNA"][iRna]:
-							d["RNA"][iRna][k] = [value.strip(" ")]
+							d["RNA"][iRna][k] = [value.strip(" ").strip("\"")]
 						else:
-							d["RNA"][iRna][k].append(value.strip(" "))
+							d["RNA"][iRna][k].append(value.strip(" ").strip("\""))
 					# Dbxref #
 					elif line[21:29] == "/Dbxref=":
 						k = "Dbxref"
@@ -473,9 +474,9 @@ def gbkToPy(path, fileName, debugOn):
 							line = f.readline()
 							iLine += 1
 						if k not in d["CDS"][iRna]:
-							d["CDS"][iRna][k] = [value.strip(" ")]
+							d["CDS"][iRna][k] = [value.strip(" ").strip("\"")]
 						else:
-							d["CDS"][iRna][k].append(value.strip(" "))
+							d["CDS"][iRna][k].append(value.strip(" ").strip("\""))
 					#Error Handling for Child Tokens
 					elif debugOn == True:
 						print(fileName + " Line " + str(iLine) + " Error: " + line.strip("\n"))
@@ -492,7 +493,7 @@ def gbkToPy(path, fileName, debugOn):
 					d["ORIGIN"] = "%s%s"%(d["ORIGIN"], line[10:].strip("\n"))
 					line = f.readline()
 					iLine += 1
-				d["ORIGIN"] = "\"%s\"" % (d["ORIGIN"].replace(" ",""))
+				d["ORIGIN"] = "%s" % (d["ORIGIN"].replace(" ",""))
 			elif line[:2] == "//": # EOF token
 				line = f.readline()
 			#Error Handling for Root Tokens
@@ -521,24 +522,46 @@ def allGbkToPy(path, debugOn): # Doesn't do anything at the moment
 			x = iFileName / len(fileNames) * 100
 			print("%s %" % (x))
 
-def allGbkToJson(path, debugOn):
+def allGbkToJson( path, debugOn ):
+
 	fileNames = os.listdir(path)
+
 	i = 0
 	while i < len(fileNames):
+
 		if fileNames[i].endswith("gbk") == False:
+
 			fileNames.pop(i)
+
 		else:
+
 			i += 1
 
 	fileNameList = []
 
-	for iFileName, fileName in enumerate(fileNames):
-		d = gbkToPy(path, fileName, True)
+	for iFileName, fileName in enumerate( fileNames ):
+
+		pyData = gbkToPy( path, fileName, True )
+
+		#print( pyData )
+
+		jsonData = json.dumps( pyData, ensure_ascii=False, indent=4 )
+
+		#print( jsonData )
+
+		with open( path + fileName + ".json", 'w', encoding="utf-8" ) as f:
+
+			f.write( jsonData )
+
+		
+
+		''' Old
 		rootIdentifier = fileName.rstrip(".gbk").replace(".","_")
 		if rootIdentifier[0] in "0123456789":
 			rootIdentifier = "_%s" % rootIdentifier
 		jsFileName = "%sjs" % (fileName.rstrip("gbk"))
 		pyToJsonFile(d=d,rootIdentifier=rootIdentifier,path=path,fileName=jsFileName)
+		'''
 		# Progress #
 		if iFileName % 100 == 0 and debugOn == True:
 			print("%f" % (iFileName / len(fileNames) * 100))
