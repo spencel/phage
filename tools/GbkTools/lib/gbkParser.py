@@ -522,7 +522,7 @@ def allGbkToPy(path, debugOn): # Doesn't do anything at the moment
 			x = iFileName / len(fileNames) * 100
 			print("%s %" % (x))
 
-def allGbkToJson( path, debugOn ):
+def allGbkToJson( path, outputPath, debugOn ):
 
 	fileNames = os.listdir(path)
 
@@ -549,7 +549,7 @@ def allGbkToJson( path, debugOn ):
 
 		#print( jsonData )
 
-		with open( path + fileName + ".json", 'w', encoding="utf-8" ) as f:
+		with open( outputPath + fileName + ".json", 'w', encoding="utf-8" ) as f:
 
 			f.write( jsonData )
 

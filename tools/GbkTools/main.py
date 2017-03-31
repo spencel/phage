@@ -4,7 +4,7 @@ import sys
 
 from lib.gbkParser import *
 
-allGbkToJson( "../../dat/gbk/", debugOn=True )
+allGbkToJson( "../../dat/gbk/", "../../dat/json/", debugOn=True )
 
 # WTF is this stuff below, Spencer?
 '''

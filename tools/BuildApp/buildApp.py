@@ -1,8 +1,12 @@
 import io
 import os
 
+pathToPhyre2Results = "../../dat/phyre2/"
+summaryInfoFileName = "../../dat/phyre2/summaryInfo.txt"
+summaryInfoExtendedFileName = "../../dat/phyre2/summaryInfoExtended.txt"
+
 # Parse summaryInfo.txt #
-f = open("dat/summaryInfo.txt",'r', encoding="utf-8")
+f = open(summaryInfoFileName,'r', encoding="utf-8")
 lisData = []
 i = 0
 for l in f: #Loop through lines in the file
@@ -10,21 +14,22 @@ for l in f: #Loop through lines in the file
     uBound = len(lisData[i])
     for j in range(0, uBound): #Strip characters from list items
         lisData[i][j] = lisData[i][j].strip(" \t\n")
-    lisData[i][0] = lisData[i][0].replace('\t',' ').replace('_',' ')
-    #print(lisData[i][0])
-    #print(lisData[i])
+    lisData[i][0] = lisData[i][0].replace('\t',' ').replace('_',' ') # Replace tabs and then underscores with space for genome id
+    lisData[i][1] = lisData[i][1].replace('\t',' ').replace('_',' ') # Replace tabs and then underscores with space for bp range
+    lisData[i][2] = lisData[i][2].replace('\t',' ').replace('_',' ') # Replace tabs and then underscores with space for species name
     i+= 1
 f.close()
 del i
+print(lisData)
 
 diJobId = {}
 uBound = len(lisData)
 for i in range(1 , uBound): #skips first row, which is column names
-    diJobId[lisData[i][1]] = i - 1 #accounts for column names and output data won't have them
+    diJobId[lisData[i][3]] = i - 1 #accounts for column names and output data won't have them
 del uBound
 
 # Parse extendedSummaryInfo.txt #
-f = open("dat/extendedSummaryInfo.txt",'r', encoding="utf-8")
+f = open(summaryInfoExtendedFileName,'r', encoding="utf-8")
 liExtSumInf = []
 i = 0
 for l in f: #Loop through lines in the file
@@ -41,9 +46,12 @@ for x in liExtSumInf: #Gets rid of column names and rows that are just repeats o
         liExtSumInf.pop(i)
     i += 1
 del i
+
 for x in liExtSumInf: #Gets rid of phage names because they're already in another array
-    x[1] = diJobId[x[1]]
-    x.pop(0)
+    x[1] = diJobId[x[3]]
+    x.pop(0) # gets rid of genome id
+    x.pop(1) # gets rid of virus name
+    x.pop(1) # gets rid of job id
 for i in range(0, len(liExtSumInf)):
     for j in range(0, len(liExtSumInf[i])):
         try:
@@ -70,6 +78,7 @@ def getPaths(strCurPath):
     isPhageFolder = os.path.exists(strCurPath + "/summary.html")
     if isPhageFolder:
         aPath = strCurPath.split("/")
+        #print(diJobId)
         index = diJobId[aPath[len(aPath)-1]]
         strArPath[index] = strCurPath
     else:
@@ -77,7 +86,7 @@ def getPaths(strCurPath):
         for strDir in strLiDir:            
             if os.path.isdir(strCurPath + "/" + strDir):
                 getPaths(strCurPath + "/" + strDir)
-getPaths("K:/PHYRE2/Results/ec54f8c2dc927ec8") #starts a recursive function
+getPaths(pathToPhyre2Results) #starts a recursive function
 strData = "var strArPhageDirPaths=[\"" + strArPath[0] + "\""
 uBound = len(strArPath)
 for i in range(1, uBound):
@@ -90,17 +99,19 @@ f.close()
 del strData
 
 # Generate arPhages.js #
+print(lisData)
 phages = []
 uBound = len(lisData)
 for i in range(1, uBound):
     phages.append([lisData[i][0]])
     phages[i-1].append(lisData[i][1])
+    phages[i-1].append(lisData[i][2])
     phages[i-1].append([])
 #print(phages)
 uBound = len(liExtSumInf)
 for i in range(0, uBound):
     if liExtSumInf[i][0] != "# Job Description":
-        phages[liExtSumInf[i][0]][2].append(i)
+        phages[liExtSumInf[i][0]][3].append(i)
 strData = "// Description, Job ID, Index relation to extSumInf\n"
 strData = strData + "var arPhages=" + str(phages) + ";"
 f = open("dat/arPhages.js",'w', encoding="utf-8")
@@ -119,7 +130,7 @@ for strFileOrFolder in strLiFilesAndFolders:
 strHtml = strHtml + "<script type=\"text/javascript\" src=\"lib/jquery-3.0.0.min.js\"></script>"
 strHtml = strHtml + "<script type=\"text/javascript\" src=\"main.js\"></script>"
 strHtml = strHtml + "<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">"
-strHtml = strHtml + "</script><style></style></head><body>"
+strHtml = strHtml + "</script><style></style></head><body onload='main();'>"
 strHtml = strHtml + "<input id=\"searchA\" autocomplete=\"on\" placeholder=\"Search...\" type=\"search\"></input>"
 strHtml = strHtml + "</body></html>"
 #print(strHtml)
