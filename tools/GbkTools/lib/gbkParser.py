@@ -543,17 +543,11 @@ def allGbkToJson( path, outputPath, debugOn ):
 
 		pyData = gbkToPy( path, fileName, True )
 
-		#print( pyData )
-
 		jsonData = json.dumps( pyData, ensure_ascii=False, indent=4 )
-
-		#print( jsonData )
 
 		with open( outputPath + fileName + ".json", 'w', encoding="utf-8" ) as f:
 
-			f.write( jsonData )
-
-		
+			f.write( jsonData )		
 
 		''' Old
 		rootIdentifier = fileName.rstrip(".gbk").replace(".","_")

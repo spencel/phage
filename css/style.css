@@ -1,11 +1,24 @@
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
 body{
-	background-color: hsl(26, 100%, 99%);
+	color: hsl(0, 0%, 25%);
+	background-color: hsl(0, 0%, 95%);
+}
+input#searchA{
+
 }
 table{
 	white-space: nowrap;
 }
 td{
-	background-color: hsl(26, 100%, 98%);
+	border: 1px solid hsl(0, 0%, 80%);
+}
+td.center{
+	text-align: center;
 }
 .p{
 	cursor: pointer;

@@ -1,9 +1,12 @@
 import io
 import os
+import json
 
-pathToPhyre2Results = "../../dat/phyre2/"
-summaryInfoFileName = "../../dat/phyre2/summaryInfo.txt"
-summaryInfoExtendedFileName = "../../dat/phyre2/summaryInfoExtended.txt"
+datDirectory = "../../dat/"
+pathToPhyre2Results = datDirectory + "phyre2"
+summaryInfoFileName = datDirectory + "phyre2/2016.08.03/summaryInfo.txt"
+summaryInfoExtendedFileName = datDirectory + "phyre2/2016.08.03/summaryInfoExtended.txt"
+gbkDirectory = datDirectory + "json/"
 
 # Parse summaryInfo.txt #
 f = open(summaryInfoFileName,'r', encoding="utf-8")
@@ -17,10 +20,12 @@ for l in f: #Loop through lines in the file
     lisData[i][0] = lisData[i][0].replace('\t',' ').replace('_',' ') # Replace tabs and then underscores with space for genome id
     lisData[i][1] = lisData[i][1].replace('\t',' ').replace('_',' ') # Replace tabs and then underscores with space for bp range
     lisData[i][2] = lisData[i][2].replace('\t',' ').replace('_',' ') # Replace tabs and then underscores with space for species name
-    i+= 1
+
+    i += 1    
+
 f.close()
 del i
-print(lisData)
+#print(lisData)
 
 diJobId = {}
 uBound = len(lisData)
@@ -63,7 +68,7 @@ for i in range(0, len(liExtSumInf)):
                 pass                
     
 # Generate extSumInf.js #
-f =open("dat/extSumInf.js",'w', encoding="utf-8")
+f =open( datDirectory + "extSumInf.js",'w', encoding="utf-8")
 f.write("var extSumInf = [\n")
 for i in liExtSumInf:
     f.write(str(i) + ",\n")
@@ -73,33 +78,34 @@ f.close()
 
 # Generate strArPhageDirPaths.js #
 strArPath = [""] * (len(lisData) - 1)
-def getPaths(strCurPath):
+def getPaths( strCurPath ):
     print("1: " + strCurPath)
     isPhageFolder = os.path.exists(strCurPath + "/summary.html")
     if isPhageFolder:
         aPath = strCurPath.split("/")
         #print(diJobId)
         index = diJobId[aPath[len(aPath)-1]]
-        strArPath[index] = strCurPath
+        strArPath[index] = strCurPath[ 6 : ]
     else:
         strLiDir = os.listdir(strCurPath)
         for strDir in strLiDir:            
             if os.path.isdir(strCurPath + "/" + strDir):
                 getPaths(strCurPath + "/" + strDir)
-getPaths(pathToPhyre2Results) #starts a recursive function
+getPaths( pathToPhyre2Results ) #starts a recursive function
 strData = "var strArPhageDirPaths=[\"" + strArPath[0] + "\""
 uBound = len(strArPath)
 for i in range(1, uBound):
-    strData = strData + ",\"" + strArPath[i] + "\""
+    strData = strData + ",\"" + strArPath[ i ] + "\""
 del uBound
 strData = strData + "];"
-f =open("dat/strArPhageDirPaths.js",'w', encoding="utf-8")
+f =open( datDirectory + "strArPhageDirPaths.js",'w', encoding="utf-8")
 f.write(strData)
 f.close()
 del strData
 
+
 # Generate arPhages.js #
-print(lisData)
+#print(lisData)
 phages = []
 uBound = len(lisData)
 for i in range(1, uBound):
@@ -107,6 +113,50 @@ for i in range(1, uBound):
     phages[i-1].append(lisData[i][1])
     phages[i-1].append(lisData[i][2])
     phages[i-1].append([])
+    phages[i-1].append("")
+    phages[i-1].append("")
+    phages[i-1].append("")
+    # Get the protein id based on the species id and base pair range of the protein
+    ## Skip the column titles row
+    with open( gbkDirectory + lisData[ i ][ 0 ] + ".gbk.json", 'r', encoding="utf-8" ) as f:
+        #print( f.read() )
+        jsonString = f.read()
+        #print( jsonString )
+        jsonData = json.loads( jsonString, encoding="utf-8" ) 
+        #print( jsonData )
+        #print( lisData[ i ][ 1 ][ 3: ] )
+        bpRange = lisData[ i ][ 1 ][ 3: ]
+
+        for CDS in jsonData[ "CDS" ]:
+
+            
+            if bpRange in CDS[ "CDS" ]:
+                #print( bpRange + " " + CDS[ "CDS" ] )
+                #print( CDS[ "Dbxref" ] )
+                #print( phages[i-1].append() )
+                found = False
+
+                for dbxref in CDS[ "Dbxref" ]:
+
+                    if "NCBI_genpept:" in dbxref:
+                        #print( dbxref[ len( "NCBI_genpept:protein_id|" ) : ] )
+                        phages[ i-1 ][ 4 ] = dbxref 
+                        found = True
+
+                    if "NCBI_gi:" in dbxref:
+                        #print( dbxref[ len( "NCBI_genpept:protein_id|" ) : ] )
+                        phages[ i-1 ][ 5 ] = dbxref 
+                        found = True
+
+                    if "FIG_ID:" in dbxref:
+                        #print( dbxref[ len( "NCBI_genpept:protein_id|" ) : ] )
+                        phages[ i-1 ][ 6 ] = dbxref 
+                        found = True
+
+                if found == False:
+
+                    print( "WARNING: Protein ID not found: " + lisData[i][0] + "; " + lisData[i][1] + "; " + lisData[i][2] )
+
 #print(phages)
 uBound = len(liExtSumInf)
 for i in range(0, uBound):
@@ -114,16 +164,17 @@ for i in range(0, uBound):
         phages[liExtSumInf[i][0]][3].append(i)
 strData = "// Description, Job ID, Index relation to extSumInf\n"
 strData = strData + "var arPhages=" + str(phages) + ";"
-f = open("dat/arPhages.js",'w', encoding="utf-8")
+f = open( datDirectory + "arPhages.js",'w', encoding="utf-8" )
 f.write(strData)
 f.close()
 del strData
+
 
 # Generate index.html #
 strHtml = "<!DOCTYPE html><html><head><meta charset=\"utf-8\"/><title>Phage Project GUI</title>"
 # Generate script tags
 # Generate database script tags
-strLiFilesAndFolders = os.listdir("dat/")
+strLiFilesAndFolders = os.listdir( datDirectory )
 for strFileOrFolder in strLiFilesAndFolders:
     if strFileOrFolder.endswith(".js"):
         strHtml = strHtml + "<script type=\"text/javascript\" src=\"dat/" + strFileOrFolder + "\"></script>"
@@ -134,6 +185,6 @@ strHtml = strHtml + "</script><style></style></head><body onload='main();'>"
 strHtml = strHtml + "<input id=\"searchA\" autocomplete=\"on\" placeholder=\"Search...\" type=\"search\"></input>"
 strHtml = strHtml + "</body></html>"
 #print(strHtml)
-f = open("index.html",'w', encoding="utf-8")
+f = open("../../index.html",'w', encoding="utf-8")
 f.write(strHtml)
 f.close()
